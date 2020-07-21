@@ -1,1 +1,1 @@
-# mit_data_science
+# mit_ds_retail
