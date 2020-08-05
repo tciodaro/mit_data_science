@@ -4,8 +4,10 @@ from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.http import HttpResponse
+
 from forecast.serializers import *
 from forecast.models import *
+
 import pandas as pd
 from datetime import datetime
 import pickle
@@ -22,13 +24,12 @@ class MeasurementsViewSet(viewsets.ModelViewSet):
     """
     # queryset =
     serializer_class = MeasurementsSerializer
-
     queryset = Measurements.objects.all()
 
     def get_queryset(self):
         """
         Optionally restricts the returned purchases to a given user,
-        by filtering against a `username` query parameter in the URL.
+        by filtering against a `countrycode` query parameter in the URL.
         """
         countrycode = self.request.query_params.get('countrycode', None)
         queryset = Measurements.objects.all()
@@ -36,6 +37,7 @@ class MeasurementsViewSet(viewsets.ModelViewSet):
             if Countries.objects.filter(code=countrycode).exists():
                 country = Countries.objects.get(code=countrycode)
                 queryset = queryset.filter(country=country.id)
+
         return queryset
 
 
@@ -45,6 +47,7 @@ class CountriesViewSet(viewsets.ModelViewSet):
     """
     queryset = Countries.objects.all()
     serializer_class = CountriesSerializer
+
 
 
 class ForecastModelsViewSet(viewsets.ModelViewSet):
@@ -90,9 +93,9 @@ class UpdateModels(APIView):
       if len(measurement_list):
           Measurements.objects.bulk_create(measurement_list)
 
+
   def get(self, request):
     """
-    Return the refurbishments
     """
     try:
         # run training pipeline
@@ -102,11 +105,9 @@ class UpdateModels(APIView):
             nb = nbformat.read(f, as_version=4)
         ep = ExecutePreprocessor(timeout=600, kernel_name='python3')
         ep.preprocess(nb, {'metadata': {'path': PROJECT_FOLDER}})
-        # Update measurements
-        self._update_measurements()
         # Saved model and results
         model_score_file = PROJECT_FOLDER + '/Data/Modeling/model_scores.parquet'
-        model_file = PROJECT_FOLDER + '/Data/Modeling/trained_models.jbl'
+        # model_file = PROJECT_FOLDER + '/Data/Modeling/trained_models.jbl'
         # load dataframe
         df_results = pd.read_parquet(model_score_file)
         print(df_results)
@@ -136,10 +137,14 @@ class UpdateModels(APIView):
         if len(object_list):
             ForecastModels.objects.bulk_create(object_list)
 
+        # Update measurements
+        self._update_measurements()
+
         # Serialize the list of Forecast Models
-        serial_data = ForecastModelsSerializer(ForecastModels.objects.all(),
+        serial_data = ForecastModelsSerializer(ForecastModels.objects.filter(status=True),
                                                many=True,
                                                context={'request': request})
+
         return Response(serial_data.data, status=status.HTTP_200_OK)
 
     except Exception as err:
@@ -181,6 +186,7 @@ class ForecastCountry(APIView):
         # load dataframe
         df_results = pd.read_parquet(model_score_file)
         model_last_date = df_results[df_results.countrycode==countrycode].date_end.dt.date.values[0]
+        # model_last_date = forecastmodel.train_last_date
 
         # Evaluate Model
         n_periods = (date_max - model_last_date).days
@@ -198,9 +204,11 @@ class ForecastCountry(APIView):
             obj.estimated_cases=estimate
             obj.save()
 
-        serial_data = ForecastsSerializer(Forecasts.objects.filter(forecast_model=forecastmodel),
-                                               many=True,
-                                               context={'request': request})
+        forecast_objs = [obj for obj in Forecasts.objects.filter(forecast_model=forecastmodel)
+                         if obj.date >= forecastmodel.train_last_date]
+        serial_data = ForecastsSerializer(forecast_objs,
+                                           many=True,
+                                           context={'request': request})
 
         return Response(serial_data.data, status=status.HTTP_200_OK)
 

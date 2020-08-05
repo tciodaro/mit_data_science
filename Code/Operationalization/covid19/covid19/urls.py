@@ -24,6 +24,7 @@ router = routers.DefaultRouter()
 router.register(r'countries', views.CountriesViewSet)
 router.register(r'measurements', views.MeasurementsViewSet)
 router.register(r'forecast_models', views.ForecastModelsViewSet)
+# router.register(r'update_models', views.UpdateModels.as_view())
 
 urlpatterns = [
     path('', include(router.urls)),

@@ -1,3 +1,6 @@
+
+
+
 from django.db import models
 
 # Create your models here.
@@ -5,11 +8,8 @@ from django.db import models
 class Countries(models.Model):
     id=models.AutoField(primary_key=True)
     code =  models.CharField(max_length=5,blank=False, null=False)
-
-
     class Meta:
         unique_together = ('code',)
-
 
 
 class Measurements(models.Model):
@@ -21,24 +21,22 @@ class Measurements(models.Model):
 
     country = models.ForeignKey(Countries, to_field='id', on_delete=models.CASCADE)
 
-
     class Meta:
         unique_together = ('date', 'country')
-
 
 
 class ForecastModels(models.Model):
     id=models.AutoField(primary_key=True)
     name = models.CharField(default='fbprophet', max_length=50, null=False)
     train_last_date = models.DateField(null=False)
-    test_score = models.FloatField(null=False, default=0.0)
-    country = models.ForeignKey(Countries, to_field='id',on_delete=models.CASCADE, related_name='countries')
+    test_score = models.FloatField(null=False, default=0)
+    test_accuracy = models.FloatField(null=False, default=0)
     status = models.BooleanField(null=False, default=True)
 
+    country = models.ForeignKey(Countries, to_field='id', on_delete=models.CASCADE, related_name='countries')
 
     class Meta:
         unique_together = ('name', 'train_last_date', 'country')
-
 
 
 class Forecasts(models.Model):

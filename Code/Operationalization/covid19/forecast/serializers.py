@@ -15,7 +15,7 @@ class CountriesSerializer(serializers.HyperlinkedModelSerializer):
 class MeasurementsSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Measurements
-        fields = ['date','cases','recovered', 'deaths', 'country']
+        fields = ['date','cases','recovered', 'country']
 
 
 class ForecastModelsSerializer(serializers.HyperlinkedModelSerializer):
