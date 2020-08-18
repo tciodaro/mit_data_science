@@ -2,53 +2,65 @@
 
 ## Entendimento de negócio
 
-O IMDb é um portal online para avaliação de filmes por espectadores do mundo todo. A avaliação é através da nota e "estrelas" que um filme tem. O projeto consiste em utilizar os comentários dos filmes para estimar o sentimento dos espectadores.
+Retail Co. é uma empresa de lojas de departamentos, com 45 lojas localizadas em diferentes localidades. Cada loja possui uma quantidade de departamentos, onde produtos de diversos tipos são vendidos. Frequentemente, a empresa investe em propagandas e promoções (Markdown), que geralmente são feitas antes de feriados importantes, como super bowl, dia do trabalho...
 
-A construção da base de dados considerou somente os sentimentos classificados como *Positivo*(**pos**) ou *Negativo*(**neg**) de acordo com a nota/estrela dada pelo espectador. 
-
-Deseja-se utilizar a informação dos comentários escritos nas avaliações para prever o sentimento do avaliador pelo filme (**pos** ou **neg**). A mesma solução desenvolvida poderia, por exemplo, ser utilizada para estimar o sentimento dos usuários de Twitter em relação aos filmes em cartaz, direcionamento campanhas de marketing e afins.
 
 
 ## Escopo
 
-O problema de análise de sentimento pode ser abordado como um problema de classificação. Como as bases já estão avaliadas previamente, trata-se de um problema para algoritmos de treinamento supervisionado. A quantidade de possíveis valores para as classes indica que é um problema de classificação binária.
+A empresa gostaria de investir numa solução baseada em dados para auxiliar os consultores da empresa em suas decisões de planejamento de vendas e logística. Para isso, a empresa fez uma coleta de histórico semanal de suas vendas, em conjunto com um grupo de variáveis que são consideradas interessantes para o entendimento do volume de vendas.
 
-* **Problema**: classificação binária
-* **Algoritmo**: treinamento supervisionado
-* **Base de dados**: arquivo csv com comentários de texto livre
-* **Variável alvo**: Sentimento positivo ou negativo
+* A solução deve observar o histórico de dados e fazer a previsão das próximas semanas.
+* Os dados serão coletadas através de arquivos CSV de um servidor FTP.
+* O resultado da previsão será exportado como arquivo CSV.
+* O resultado pode ser consumido em relatórios estáticos.
+
+## Pessoal
+* Quem está no projeto:
+	* Consultoria:
+		* Project lead (Thiago)
+		* PO (Thiago)
+		* Data scientist(s) (Oliveira, Machado)
+		* Account manager (Oliveira)
+	* Retail Co:
+		* Data administrator
+		* Business contact
 
 ## Métricas
-* Objetivo qualitativo: estimar o sentimento de comentários sobre filmes.
-* Figura de mérito: f1-score.
-* Benchmarking: melhor que o aleatório de 50%.
-* Métrica deve ser medida sobre um conjunto de teste de 20% dos dados para cada classe.
+* Objetivo qualitativo: otimizar o planejamento da planta de produção.
+* Figura de mérito: erro absoluto percentual médio (MAPE)
+* Benchmarking: processo atual trabalha com um MAPE de aproximadamente 50%.
+* Métrica deve ser medida sobre todo o histórico de teste, que possui o mesmo comprimento que o horizonte de previsão da ferramenta (20 semanas).
 
 
 ## Planejamento
-* Sprint 1: entendimento de negócio e preparação dos dados.
-* Sprint 2: Análise de dados e construção de features.
-* Sprint 3: Modelagem dos classificadores e avaliação dos resultados
-* Sprint 4: Relatório dos resultados do modelo
+O projeto deve ser realizado em 2 meses. Está prevista uma sessão de design thinking para o entendimento e a passagem de conhecimento entre os especialistas do negócio e a equipe de cientistas de dados (representada pelo PO).
+* Semana 1: entendimento de negócio, sessões de transferencia de conhecimento e planejamento desenho da solução.
+* Semana 2-6: ciclos de desenvolvimento da solução inicial (sprints).
+* Semana 7: geração de relatórios e documentação.
+* Semana 8: apresentação dos resultados finais e transferência de conhecimento.
 
 ## Arquitetura
 
 * Dados:
-  * Os dados são entregues através de 1 arquivo CSV
-  * Relatório de dados disponível [aqui](../DataReport/Report.md "Relatório de dados")
+  * Os dados são entregues através de 3 arquivos CSV, lidos de uma conexão FTP. Os dados coletados são processados para saneamento e avaliação da sua qualidade.
+  * A série histórica possui aproximadamente 2 anos.
+  * São coletadas 10 variáveis exógenas.
 
 * Modelos:
-  * Classificador binário para estimar a probabilidade do comentário ter sentimento positivo.
-  * Será utilizado um modelo linear de Regressão Logística.
-  * Serão utilizados três modelos não-lineares: RandomForest, SVM e o kNN.
-  * Os hiper-parâmetros dos modelos serão ajustados segundo uma busca exaustiva em grid-search.
-  * A base de dados será dividida em treino (80%) e teste (20%), mantendo a proporção de classes nos dois conjuntos de dados.
-  * Os modelos serão avaliados considerando o conjunto de teste.
-  * Os modelos e as análises sobre os dados podem ser estudadas [aqui](../Model/Report.md "Relatório de modelagem")
-  
-  
-* Entregáveis:
-  * Apresentação com os resultados mais relevantes.
-  * Base de dados de teste com a probabilidade de sentimento positivo dos comentários, em arquivo Excel.
+  * Será desenvolvido um modelo de auto ML para a previsão das séries temporais.
+  * Os modelos serão desenvolvidos utilizando o Azure ML.
+  * O treinamento dos modelos aproveitará a tecnologia Spark via utilização do ambiente Databricks.
+
+* Relatórios:
+  * Os relatórios serão feitos após o processamento do treinamento dos modelos.
+  * Os relatórios são disponibilizados como exportações HTML dos notebooks utilizados.
 
 
+
+## Comunicação
+* Equipe de desenvolvimento com reuniões diárias em modelo Scrum.
+* Reuniões de status executivos a cada 3 semanas.
+* Pontos de contato:
+  * Retail Co.: Soares
+  * Consultoria: Thiago
