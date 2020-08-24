@@ -51,12 +51,17 @@ app.layout = html.Div(children=[
     
 ])
 
+
+
 @app.callback(
     Output(component_id='selected_store', component_property='children'),
-    [Input(component_id='store_selection', component_property='value')]
+    [Input(component_id='store_selection', component_property='value'),
+     Input(component_id='date_range', component_property='min_date_allowed')]
 )
-def update_selected_store(input_value):
-    return 'Selected Store: {}'.format(input_value)
+def update_selected_store(input_store, input_date):
+    s = input_store.__str__() + ' ' + input_date
+#     s = 'Selected Store: {}'.format(input_value) + ' date start: ' + 
+    return s
 
 
 

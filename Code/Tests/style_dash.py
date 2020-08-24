@@ -20,10 +20,10 @@ df_forecast = data.groupby('Date').forecast.sum()
 # STYLE
 default_colors = {
     'text': '#000000',
-    'bg_plot': '#ffffff',
-    'bg_paper': '#eeeeee',
+    'bg_plot': '#1122ff',
+    'bg_paper': '#9999ff',
     'font_size': '20',
-    'font_family': 'cursive'
+    'font_family': 'arial'
 }
 
 # CREATE APP

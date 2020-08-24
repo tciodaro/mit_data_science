@@ -37,23 +37,35 @@ app.layout = html.Div(children=[
             placeholder='Escolha uma loja',
 #             disabled=True,
         ),
+        dcc.Dropdown(
+            id='dept_selection',
+            options = [{'label': val, 'value': val} for val in data.Dept.sort_values().unique()],
+            value=data.Dept.sort_values().unique()[0],
+            multi=True,
+            placeholder='Escolha um departamento',
+#             disabled=True,
+        ),
         html.Br(),
         dcc.Graph(id='time_series')
     ]),
     
-    html.Div(id='selected_store')
+    html.Div(id='selected_store'),
+    html.Div(id='selected_dept'),
     
 ])
 
 @app.callback(
     Output(component_id='time_series', component_property='figure'),
-    [Input(component_id='store_selection', component_property='value')]
+    [Input(component_id='store_selection', component_property='value'),
+     Input(component_id='dept_selection', component_property='value')]
 )
-def update_time_series(selected_stores):
+def update_time_series(selected_stores, selected_depts):
     if isinstance(selected_stores, str):
         selected_stores = [selected_stores]
+    if isinstance(selected_depts, str):
+        selected_depts = [selected_depts]
     
-    filtered_df = (data[data.Store.isin(selected_stores)]
+    filtered_df = (data[data.Store.isin(selected_stores) & data.Dept.isin(selected_depts)]
                    .groupby('Date')[['Weekly_Sales','forecast']]
                    .sum())
 

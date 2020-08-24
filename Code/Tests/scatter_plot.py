@@ -40,7 +40,9 @@ def make_scatter(id_fig, x, y, xtitle, ytitle):
 
 # CREATE APP
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__)
+
+
 
 # CREATE LAYOUT
 app.layout = html.Div(children=[
@@ -52,7 +54,7 @@ app.layout = html.Div(children=[
            '''),
     
     # New Div for both plots
-    html.Div([
+    html.Div(children=[
         html.Div([
             html.H3('Gráfico de Resíduos'),
             make_scatter('residuos', data.Weekly_Sales, data.Weekly_Sales-data.forecast,
@@ -68,6 +70,11 @@ app.layout = html.Div(children=[
     
 ])
 
+
+
+app.css.append_css({
+    'external_url': 'https://codepen.io/chriddyp/pen/bWLwgP.css'
+})
 
 # RUN SERVER
 if __name__ == '__main__':
