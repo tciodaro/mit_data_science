@@ -2,27 +2,43 @@
 
 ## Entendimento de negócio
 
-O IMDb é um portal online para avaliação de filmes por espectadores do mundo todo. A avaliação é através da nota e "estrelas" que um filme tem. O projeto consiste em utilizar os comentários dos filmes para estimar o sentimento dos espectadores.
+O naufrágio do RMS Titanic é um dos naufrágios mais famosos da história. Em 15 de abril de 1912, durante sua viagem inaugural, o Titanic afundou após colidir com um iceberg, matando 1502 de 2224 passageiros e tripulantes com uma taxa de sobrevivência de aproximadamente 32%. Essa tragédia sensacional chocou a comunidade internacional e levou a melhores regulamentações de segurança para os navios.
 
-A construção da base de dados considerou somente os sentimentos classificados como *Positivo*(**pos**) ou *Negativo*(**neg**) de acordo com a nota/estrela dada pelo espectador. 
-
-Deseja-se utilizar a informação dos comentários escritos nas avaliações para prever o sentimento do avaliador pelo filme (**pos** ou **neg**). A mesma solução desenvolvida poderia, por exemplo, ser utilizada para estimar o sentimento dos usuários de Twitter em relação aos filmes em cartaz, direcionamento campanhas de marketing e afins.
+Uma das razões pelas quais o naufrágio levou a tal perda de vidas foi que não havia botes salva-vidas suficientes para os passageiros e a tripulação. Embora houvesse algum elemento de sorte envolvido na sobrevivência do naufrágio, alguns grupos de pessoas eram mais propensos a sobreviver do que outros, como mulheres, crianças e a classe alta.
 
 
 ## Escopo
 
-O problema de análise de sentimento pode ser abordado como um problema de classificação. Como as bases já estão avaliadas previamente, trata-se de um problema para algoritmos de treinamento supervisionado. A quantidade de possíveis valores para as classes indica que é um problema de classificação binária.
+Para esse projeto, é preciso fazer uma análise e prever se um passageiro sobreviveu ao naufrágio do Titanic ou não.
+Para cada um no conjunto de testes, você precisa informar um número para o IdPassageiro e o modelo deve prever um valor 0 ou 1 para a variável Sobreviveu, sendo 0 - Não e 1 - Sim. 
+Precisamos também para realizar esse projeto, prever as idades faltantes no dataset, uma vez que é uma variável importantissíma para a predição correta da sobrevivência. 
 
-* **Problema**: classificação binária
+Com isso, teremos 2 problemas: Um de regressão para predizer as idades dos passageiros faltantes e outro de Classificação, para determinar quem sobreviveu ou não ao naufrágio:
+
+
+* **Problema 1**: Regressão
 * **Algoritmo**: treinamento supervisionado
-* **Base de dados**: arquivo csv com comentários de texto livre
-* **Variável alvo**: Sentimento positivo ou negativo
+* **Base de dados**: arquivos csv originarios do Kaggle's Titanic: Machine Learning from Disaster (https://www.kaggle.com/c/titanic/data)
+* **Variável alvo**: Idade (Age)
 
 ## Métricas
-* Objetivo qualitativo: estimar o sentimento de comentários sobre filmes.
-* Figura de mérito: f1-score.
-* Benchmarking: melhor que o aleatório de 50%.
-* Métrica deve ser medida sobre um conjunto de teste de 20% dos dados para cada classe.
+* Objetivo qualitativo: Prever a idade dos passageiros a bordo
+* Figura de mérito: MSRE
+* Benchmarking: 70%.
+* Métrica deve ser medida sobre um conjunto dos dados.
+
+
+
+* **Problema 2**: classificação binária
+* **Algoritmo**: treinamento supervisionado
+* **Base de dados**: arquivos csv originarios do Kaggle's Titanic: Machine Learning from Disaster (https://www.kaggle.com/c/titanic/data)
+* **Variável alvo**: Sobreviveu (Survived)
+
+## Métricas
+* Objetivo qualitativo: Prever se um passageiro sobreviveu ou não ao naufrágio.
+* Figura de mérito: Porcentagem de passageiros que você prevê corretamente. (Accuracy)
+* Benchmarking: melhor que 80%.
+* Métrica deve ser medida sobre um conjunto de teste de 30% dos dados.
 
 
 ## Planejamento
@@ -34,21 +50,27 @@ O problema de análise de sentimento pode ser abordado como um problema de class
 ## Arquitetura
 
 * Dados:
-  * Os dados são entregues através de 1 arquivo CSV
+  * Os dados são entregues através de 2 arquivos CSV
   * Relatório de dados disponível [aqui](../DataReport/Report.md "Relatório de dados")
 
 * Modelos:
-  * Classificador binário para estimar a probabilidade do comentário ter sentimento positivo.
+  * Classificador binário para estimar a probabilidade da pessoa ter sobrvivido ou não ao desastre.
   * Será utilizado um modelo linear de Regressão Logística.
-  * Serão utilizados três modelos não-lineares: RandomForest, SVM e o kNN.
+  * Serão utilizados dois modelos de Bagging/Boosting: Adaboost e Gradboost.
   * Os hiper-parâmetros dos modelos serão ajustados segundo uma busca exaustiva em grid-search.
-  * A base de dados será dividida em treino (80%) e teste (20%), mantendo a proporção de classes nos dois conjuntos de dados.
+  * A base de dados será dividida em treino (70%) e teste (30%), mantendo a proporção de classes nos dois conjuntos de dados.
   * Os modelos serão avaliados considerando o conjunto de teste.
   * Os modelos e as análises sobre os dados podem ser estudadas [aqui](../Model/Report.md "Relatório de modelagem")
   
   
 * Entregáveis:
-  * Apresentação com os resultados mais relevantes.
-  * Base de dados de teste com a probabilidade de sentimento positivo dos comentários, em arquivo Excel.
+  * Base de dados de teste com a previsão da sobrevivência de cada passageiro, em arquivo Excel.
 
 
+
+## Comunicação
+* Equipe de desenvolvimento com reuniões diárias em modelo Scrum.
+* Reuniões de status executivos a cada 3 semanas.
+* Pontos de contato:
+  * Retail Co.: Soares
+  * Consultoria: Thiago

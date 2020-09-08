@@ -5,33 +5,46 @@ Documento para registrar as análises e a modelagem desenvolvida.
 
 ## Análise de Dados
 
-Os dados com os comentários das avaliações foram processados para a criação de novas features.
-O processamento consiste em contar a quantidade de vezes que cada palavra é escrita nos comentários. Essa contagem é feita por avaliação.
+Os dados foram processados e as colunas traduzidas para melhor entendimento do processo. 
+Foi feito o tratamento das colunas com valores nulos ,tais quais:
 
-Alguns processos de normalização foram utilizados, como o Tf-Idf (Term Frequency, Inverse Document Frequency). A contagem de cada palavra é normalizada pela quantidade de documentos que essa palavra aparece. Palavras que aparecem em todos as avaliações teriam um Idf alto, logo diminuindo o valor da feature para essa palavra.
+* A coluna Cabine foi removida por conter mais de mil valores nulos e não ter muita relevância para predição de sobrevivência
+* O valor faltante da coluna PortoEmbarque foi preenchido com a Moda.
+* Os valores faltantes das colunas Tarifa e Idade foram preenchidos com suas respectivas médias.
 
-### Contagem de palavras
+Observando a descrição das variáveis númericas podemos concluir que:
 
-Foram observadas palavras com contagens superiores a 8.000. Pode-se ver que a distribuição da contagem de palavras segue uma distribuição exponecial.
+* Pelo menos 75% dos passageiros não viajaram com os ***PaisFilhos***
+* Pelo menos 50% dos passageiros não viajaram com os ***IrmaosCasal***
+* A ***Idade*** da pessoa mais velha no barco é muito distante dos 75% restantes.
+* O valor da ***Tarifa*** mais alta difere muito dos 75% restantes.
+* ***Sobreviveu*** é uma variável categórica com valores de 0 e 1.
 
-A palavra mais comum é *basis*. Embora seja mais comum, ela parece não ter poder de classificação, uma vez que a sua contagem por classe parece ser próxima.
+Observando a descrição das variáveis categóricas podemos concluir que:
 
-Já outros termos menos frequentes, como *movie starts* parece ser mais frequente em comentários de sentimento positivo.
+* A coluna ***Nome*** possui apenas um registro repetido.
+* A coluna ***Sexo*** possui dois valores possíveis sendo *Homem* o que mais frequente.
+* A coluna ***Bilhete*** tem uma taxa alta de ocorrências duplicadas.
+* A coluna ***Cabine*** possui muitos valores faltantes.
+* ***PortoEmbarque*** possui três valores possíveis sendo *S* o que mais frequente.
 
-### Normalização por TfIdf
 
-Os resultados da normalização mostraram que a distribuição das features de cada palavra tem uma calda menos longa que o distribuição da contagem das palavras.
+Foi possível concluir também que:
+* As mulheres e crianças tem mais propensão a sobreviver que os homens.
+* Quanto maior a classe, maior a chance de sobrevivência, pois a maioria dos mortos na tragédia eram da Terceira Classe
 
-O valor médio das features normalizadas por TfIdf diferen quando calculado para os comentários de cada classe. Pode-se observar que algumas palavras que não eram frequentes, como *tries* possui uma diferença considerável no seu valor médio quando calculado para as classes.
 
-### Árvore de Decisão
+Com base nas análises, foram criadas algumas features para predição do modelo ficar mais coesa, tais como:
 
-De forma preliminar, foi feita a análise de uma árvore de decisão de profundidade 10. Sem o compromisso com a generalização do classificador, obteve-se um valor de f1-score igual a 86%.
-
-Para essa classificação, podemos observar a curva de importância das features. Pode-se ver que a palavra mais importante para o classificador foi o termo *tries*, seguido de *happens* e *cinematic*.
-
+|    **Variável**    	|                          **Definição**                          	|             **Chave**             	|
+|:------------------:	|:---------------------------------------------------------------:	|:---------------------------------:	|
+| Titulo             	| Pronome de tratamento retirado da variável Nome                 	|  Adulto, Casada, Menino, Solteira 	|
+| TamanhoGrupo       	| Numéro de pessoas que possuem o mesmo sobrenome                 	|                                   	|
+| SobrevivenciaGrupo 	| Quantidade de Mulheres e Crianças que possuem o mesmo sobrenome 	|                                   	|
+| ExpectativaDeVida  	| Expectativa de sobrevivência                                    	|  0 = Mulheres/Crianças, 1 = Homem 	|
 
 ## Próximos passos
 
-Após a análise preliminar, devemos seguir com o treinamento dos modelos de classificação, utilizando validação cruzada como forma de estimar os hiper-parâmetros do modelo que conseguem a melhor generalização possível.
+Após a análise preliminar, devemos seguir com o treinamento dos modelos de classificação, utilizando validação cruzada como forma de estimar os hiper-parâmetros do modelo e verificar qual tem melhor acurácia.
 
+Foi usado um pipeline de modelos onde os três com maior score foram o GradientBoosting, AdaBoosting e Regressão Logística, sendo o primeiro o escolhido para submissão do nosso modelo final.

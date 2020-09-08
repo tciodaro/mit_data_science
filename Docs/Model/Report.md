@@ -5,33 +5,38 @@ Documento para registrar as análises e a modelagem desenvolvida.
 
 ## Análise de Dados
 
-Os dados com os comentários das avaliações foram processados para a criação de novas features.
-O processamento consiste em contar a quantidade de vezes que cada palavra é escrita nos comentários. Essa contagem é feita por avaliação.
+Foi feito o tratamento das colunas com valores nulos  e criação de novas variáveis fechando nas variáveis para o modelo:
 
-Alguns processos de normalização foram utilizados, como o Tf-Idf (Term Frequency, Inverse Document Frequency). A contagem de cada palavra é normalizada pela quantidade de documentos que essa palavra aparece. Palavras que aparecem em todos as avaliações teriam um Idf alto, logo diminuindo o valor da feature para essa palavra.
+classifier_variables = ['dropoff_latitude', 'dropoff_longitude',
+       'passenger_count', 'pickup_latitude', 'pickup_longitude', 'hour_of_day',
+       'day_of_week', 'day_of_year', 'year', 'eucl_distance', 'manh_distance']
+	   
+target = ['fare_amount']
 
-### Contagem de palavras
+A variável alvo é utilizada na análise da base de dados e na construção de novas features para o modelo.
 
-Foram observadas palavras com contagens superiores a 8.000. Pode-se ver que a distribuição da contagem de palavras segue uma distribuição exponecial.
+	   
+## Engineering features
 
-A palavra mais comum é *basis*. Embora seja mais comum, ela parece não ter poder de classificação, uma vez que a sua contagem por classe parece ser próxima.
+Achamos que os dois fatores que mais importam na tarifa do táxi é a duração da corrida e a distância
 
-Já outros termos menos frequentes, como *movie starts* parece ser mais frequente em comentários de sentimento positivo.
+### Duração
 
-### Normalização por TfIdf
+A duração da viagem não é dada e não podemos calcular porque a hora de chegada não é dada. Isso faz sentido porque a intenção do modelo é prever a tarifa **antes** da viagem acontecer
 
-Os resultados da normalização mostraram que a distribuição das features de cada palavra tem uma calda menos longa que o distribuição da contagem das palavras.
+Algo que influencia a duração da viagem é a condição do tráfego. Podemos deduzir usando `pickup_datetime`.
 
-O valor médio das features normalizadas por TfIdf diferen quando calculado para os comentários de cada classe. Pode-se observar que algumas palavras que não eram frequentes, como *tries* possui uma diferença considerável no seu valor médio quando calculado para as classes.
+* *hora do dia*: tráfego será menor durante a noite
+* *dia da semana*: tráfego será menor nos finais de semana
+* *dia do ano*: referiados e férias, por exemplo
+* *ano*: pode ser influenciado por mudanças nas regras de transporte ou inflação
 
-### Árvore de Decisão
+As variávéis eucl_distance e manh_distancia foram criada a partir das formulas:
+ 
+Distância Euclideana: √((x1 – x2)² + (y1 – y2)²).
 
-De forma preliminar, foi feita a análise de uma árvore de decisão de profundidade 10. Sem o compromisso com a generalização do classificador, obteve-se um valor de f1-score igual a 86%.
-
-Para essa classificação, podemos observar a curva de importância das features. Pode-se ver que a palavra mais importante para o classificador foi o termo *tries*, seguido de *happens* e *cinematic*.
+Distância Manhattan: |x1 – x2| + |y1 – y2|.
 
 
-## Próximos passos
-
-Após a análise preliminar, devemos seguir com o treinamento dos modelos de classificação, utilizando validação cruzada como forma de estimar os hiper-parâmetros do modelo que conseguem a melhor generalização possível.
-
+A escolha do modelo ficou a cargo do GradientBoost que obteve um RMSE de 2.5, um nota boa para esse projeto.
+Será incorporado o INDEX a variável idTaxi e a criação da feature estimated_fare com o valor da previsão da tarifa para exportação dos resultados para visualzição via API Rest.
