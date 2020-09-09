@@ -9,15 +9,17 @@ Esse relatório das bases de dados do projeto.
 
 | Nome Dataset | Origem   | Destino  | Script |
 | ---:| ---: | ---: | ---: | -----: |
-| Comentários| Comentários e sentimentos | Processado para qualidade de dados | [data_prep.ipynb](../../Code/DataPrep/data_prep.ipynb) | 
+| Fotos de raças de cachorro | Dogs API | Arquivo parquet | [data_prep.ipynb](../../Code/DataPrep/data_prep.ipynb) | 
 
 
-* Base de Comentários
-Possui somente duas colunas: 'class' e 'text'. A coluna com a classe, ou o sentimento do comentário, possui os valores *Neg* e *Pos*. Cada classe possui 1000 comentários de textos.
+* Base de Fotos
 
-Os textos dos comentários são strings de 92 a 14.958 caracteres. Em média, cada comentário tem comprimento de 3.894 caracteres.
+Possui as fotos com os pixels linearizados de forma que cada coluna rpresenta um pixel.
+Atualmente as fotos são dimensionalizadas no tamanho 64x64.
 
-Não foram encontrados valores nulos na base de dados.
+A última columa é a raça real do cachorro.
+Devido a natureza da geração dos dados não há dados nulos.
+
 
 
 

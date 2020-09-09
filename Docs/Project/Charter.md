@@ -2,25 +2,21 @@
 
 ## Entendimento de negócio
 
-O IMDb é um portal online para avaliação de filmes por espectadores do mundo todo. A avaliação é através da nota e "estrelas" que um filme tem. O projeto consiste em utilizar os comentários dos filmes para estimar o sentimento dos espectadores.
-
-A construção da base de dados considerou somente os sentimentos classificados como *Positivo*(**pos**) ou *Negativo*(**neg**) de acordo com a nota/estrela dada pelo espectador. 
-
-Deseja-se utilizar a informação dos comentários escritos nas avaliações para prever o sentimento do avaliador pelo filme (**pos** ou **neg**). A mesma solução desenvolvida poderia, por exemplo, ser utilizada para estimar o sentimento dos usuários de Twitter em relação aos filmes em cartaz, direcionamento campanhas de marketing e afins.
+O objetivo é criar uma aplicação onde os usuários possam identificar a raça de seu cachorro enviando uma foto.
 
 
 ## Escopo
 
-O problema de análise de sentimento pode ser abordado como um problema de classificação. Como as bases já estão avaliadas previamente, trata-se de um problema para algoritmos de treinamento supervisionado. A quantidade de possíveis valores para as classes indica que é um problema de classificação binária.
+O problema de calassificação pode ser abordado como um problema de classificação. Como as bases já estão avaliadas previamente, trata-se de um problema para algoritmos de treinamento supervisionado. A quantidade de possíveis valores para as classes indica que é um problema de classificação não binária.
 
-* **Problema**: classificação binária
+* **Problema**: classificação
 * **Algoritmo**: treinamento supervisionado
-* **Base de dados**: arquivo csv com comentários de texto livre
-* **Variável alvo**: Sentimento positivo ou negativo
+* **Base de dados**: APi com base de imagens
+* **Variável alvo**: Raça do cachorro
 
 ## Métricas
-* Objetivo qualitativo: estimar o sentimento de comentários sobre filmes.
-* Figura de mérito: f1-score.
+* Objetivo qualitativo: estimar a raça do cachorro.
+* Figura de mérito: acurácia.
 * Benchmarking: melhor que o aleatório de 50%.
 * Métrica deve ser medida sobre um conjunto de teste de 20% dos dados para cada classe.
 
@@ -38,9 +34,8 @@ O problema de análise de sentimento pode ser abordado como um problema de class
   * Relatório de dados disponível [aqui](../DataReport/Report.md "Relatório de dados")
 
 * Modelos:
-  * Classificador binário para estimar a probabilidade do comentário ter sentimento positivo.
-  * Será utilizado um modelo linear de Regressão Logística.
-  * Serão utilizados três modelos não-lineares: RandomForest, SVM e o kNN.
+  * Classificador para estimar a probabilidade de cada raça.
+  * Será utilizado o modelo não-linear: RandomForest.
   * Os hiper-parâmetros dos modelos serão ajustados segundo uma busca exaustiva em grid-search.
   * A base de dados será dividida em treino (80%) e teste (20%), mantendo a proporção de classes nos dois conjuntos de dados.
   * Os modelos serão avaliados considerando o conjunto de teste.
