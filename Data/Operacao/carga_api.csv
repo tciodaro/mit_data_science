@@ -1,0 +1,586 @@
+832907|2020-08-01 19:15:29|Normalizar Aerogeradores ICZ-10 e ICZ-11 após desligamento intempestivo do dia 31  07  2020|prop
+832992|2020-08-03 10:08:13|Intervenção no Sistema Digital, fim realizar a integração e testes nos Níveis 2 e 3 do Painel de Interface para permitir a futuraenergização da LT 04S7 PEN  NSC.|prop
+833125|2020-08-03 17:00:38|Substituição dos rolamentos de duas pás do WTG22 do Parque Eólico Renascença II.|prop
+833242|2020-08-04 11:24:24|CHESF efetuar termovisão terminal 12J7  PRD(32J7-5  PRD).|prop
+833294|2020-08-04 14:37:26|REORGANIZAÇÃO DE INFRAESTRUTURA DE REDE E TELEFONIA NA SALA DOS SERVIDORES DA USINA CHAVANTES.|prop
+833322|2020-08-04 15:35:44|REALIZAÇÃO DE TRABALHOS DE MEDIÇÃO DE DESCARGA LÍQUIDA E SÓLIDA A JUSANTE DA USINA.|prop
+833342|2020-08-04 16:22:40|Equipes DORBP  JPW  ESC: Efetuar integração do MPCCSR da EL09W3 e ativos associados, painel 9UA2D, disjuntor 19W3, TCs 99W3-1 e 99W3-2 e TP 89W3.|prop
+833370|2020-08-04 17:43:12|REFORMA GERAL DA COMPORTA DE SEGMENTO N.º 1 DO VERTEDOURO DE SUPERFÍCIE. E CUBÍCULO.|prop
+833506|2020-08-05 14:19:11|Bloqueio da proteção diferencial da barra 230kV da SE CSO, para permitir manobras de transferência dos circuitos da barra BP-1 para a barra BP-2 programadas para atender ao SGI 31513-20. O bloqueio será necessário das 09:15 as 10:00hs (sgi 31554-20) e novamente das 16:15 as 17:00Hs por este SGI|prop
+833490|2020-08-05 13:15:02|Alteração na lógica do SEP - CONTROLE DE CARREGAMENTO NA TRANSFORMAÇÃO 230  69  13,8 KV DA SE SIDERÓPOLIS para atender configuração provisória CFL-SRS 1 e desligamento do TF 4, conforme SGI 26.799-20.|prop
+833628|2020-08-06 09:42:42|Realizar a troca dos PEERs de conexão VPN que entrará na nova estrutura de rede do COS (estrutura de alta disponibilidade).|prop
+833649|2020-08-06 11:04:12|CHESF   DETA  REALIZAR TESTES SIMULADOS DE INTERTRAVAMENTOS NA LT 04S3-FZD  CPE.|prop
+833650|2020-08-06 11:06:06|TRANSFERENCIA DE APROXIMADAMENTE 23MW DO REGIONAL FTZ PARA O REGIONAL PCD.|prop
+833662|2020-08-06 11:58:50|SE JATAI . Painel QPC1-COMServiços: Verificação dos Logs de Comunicação da D400 Principal no painel QPC1-COM, que atualmente está fora de serviço. -Restabelecer a comunicação em modo serial com a D400 e caso necessário recarregar o programa da D400 principal  -Restabelecer a arquitetura com as D400s (Principal e Retaguarda) em operação|prop
+833704|2020-08-06 14:54:18|Deligamento intempestivo causado pelo rompimento da base da para-raio Fase   B   C09C9|prop
+833763|2020-08-06 17:37:03|Indisponibilidade do pórtico de 140T.- Utilização do pórtico para limpeza dos guiamentos dos stop logs da UG-01.- Utilização do pórtico para fechamento da UG-01.|prop
+833778|2020-08-06 18:18:23|Atualização da base de dados do sistema de supervisão, backup e limpeza referente  a manutenção periodica de  6 anos na RMM|prop
+833845|2020-08-07 10:15:49|Manutenção para realizar o comissionamento do novo Retificador e Banco de Baterias que substituirão os atualmente existentes nas posições 200R2 e 900A2.Serviços correlatos: 1. Atualização da base do SAGE   2. Pré-teste 7UA9   3. Comissionamento da nova unidade retificadora QR2 e do Banco de Baterias 2 com o painel 7UA9.|prop
+833848|2020-08-07 10:21:30|TESTES DE ESTADO ABERTO, INCONSISTENTE E FECHADO DE SECCIONADORAS E DISJUNTORES DO SETOR DE 500KV NO SAGE ATRAVÉS DE SIMULAÇÃO NAS ENTRADAS DIGITAIS DAS UACS 24, 25, 26 E 27  ALTERAR BASE DE DADOS DO SAGE|prop
+834131|2020-08-10 10:59:51|INSTALAÇÃO DE MONITORAÇÃO NOS PAINÉIS CIC-A,CIC-B E CIC-C PARA INVESTIGAR OCORRÊNCIA DE ALARMES INTERMITENENTES SUDDEN LOSS OF BIPOLE.|prop
+834173|2020-08-10 13:05:07|Manutenção anual preventiva no Sistema de Supervisão e Controle da SE Santa Rosa.|prop
+834241|2020-08-10 15:57:57|Verificar falha de comunicação dos relés de proteção principal e alternado da LT 138 kV BAB  BOT C-1 em BOT.|prop
+834348|2020-08-11 09:14:03|Instalação dos seguintes equipamentos:Banco de Reatores 1 (Disjuntor 19E11)Filtro Harmônico 1 (Disjuntor 19Q11)Banco de Capacitores 1 (19H11)Banco de Reatores 2 (Disjuntor 19E12)Filtro Harmônico 2 (Disjuntor 19Q12)Banco de Capacitores 2 (19H12)Banco de Reatores 3 (Disjuntor 19E21)Filtro Harmônico 3 (Disjuntor 19Q21)Banco de Capacitores 3 (19H21)Banco de Reatores 4 (Disjuntor 19E22)Filtro Harmônico 4 (Disjuntor 19Q22)Banco de Capacitores 4 (19H22)|prop
+834362|2020-08-11 09:47:06|Relizar ensaios de manobras de disjuntores na SE IPU 50Hz para testes de funcionamento do novo sistema SCADA.|prop
+834374|2020-08-11 10:17:58|Manutenção preventiva mensal do GMG da SE Oriximiná.|prop
+834623|2020-08-12 10:46:13|ATUALIZAR BASE DE DADOS DO SAGE - SICCP DA SE ALTAMIRA|prop
+834625|2020-08-12 10:50:33|ATUALIZAR BASE DE DADOS DO SAGE - SICCP DA SE TRANSAMAZÔNICA|prop
+834716|2020-08-12 16:14:39|LIBERAÇÃO DA LT 02V4 MTT-CDL PARA RETIRADA MANUTENÇÃO DO 12V4 DA SE CDL|prop
+834806|2020-08-13 09:05:29|Execução de manutenção corretiva para solução de problemas observados no link MPLS da localidade do Rio de Janeiro. A manutenção não ocasionará indisponibilidade no serviço de dados, voz e vídeo da localidade.  A duração estimada para a conclusão da atividade será de 03 (três) horas, iniciando às 08:00 horas, sendo concluída as 11:00 horas.|prop
+834817|2020-08-13 09:27:16|Manutenção nos equipamentos de comunicação,afim de evitar falha de comunicação com ONS.|prop
+834887|2020-08-13 13:25:05|Realizar alteração na configuração do FOX principal e alternado, referente aos ativos da LMTE.|prop
+834977|2020-08-13 17:45:55|Acessante TJMM  Cymi, e contratadas, com o acompanhamento da CHESF realizarão a substituição da proteção diferencial de barras 230 kV para possibilitar a Integração dos novos bays 04N2  04N3 às BARRAS 04B1  04B2 da SE IGAPORÃ III - IGT.|prop
+835020|2020-08-14 08:18:40|Verificar e sanar falha na partida do Gae Principal   2 - Ensaios operacionais.|prop
+835099|2020-08-14 11:52:52|Substituição de placa transponder do sistema ótico IPG modelo TXP STM XF, serviço a ser executado na repetidora 06 - Pedra Petra - MT|prop
+835200|2020-08-14 16:03:55|Instalação da infraestrutura do sistema de supervisório SAGE para ampliação etapa do autotransformador TR2.|prop
+835217|2020-08-14 16:40:39|Inspeção,no circuito 16W2 apresentou RUÍDO ANORMAL.|prop
+835303|2020-08-15 15:47:27|às 14h28min houve abertura dos disjuntores de 12KV de Mangueira III comprometendo mais de 10% da geração do Conjunto Eólico Marmeleiro 2, a equipe de campo se deslocou até o local para inspeção na LT.|prop
+835333|2020-08-16 10:25:26|Verificar e sanar falha de comunicação com a remota da SE João Monlevade 2.|prop
+835429|2020-08-17 11:39:38|Teste de integração do novo sistema de supervisão local para comissionamento do Vão 4P. Download eventual nos gateways e  ou Remota D200 durante testes.|prop
+835568|2020-08-17 20:12:36|MANUTENÇÃO CORRETIVA NO SISTEMA DE SUPERVISÃO E CONTROLE DA SE SIDROLÂNDIA 2.|prop
+835574|2020-08-17 21:08:15|MIGRAÇÃO DOS CANAIS DE VOZ HOTLINE (1 e 2) COM O COSR-SE,  DA SEDE ANTIGA PARA NOVA SEDE DA CELEO REDES.|prop
+835606|2020-08-18 10:07:01|INSTALAÇÃO DA ALIMENTAÇÃO REDUNDANTE (FONTE SEGURA), PARA O DATA CENTER DA USINA.|prop
+835624|2020-08-18 10:53:31|ADEQUAÇÕES NA BASE DE DADOS DAS UAC 5 ( VÃO UG01) E UAC 7 (VÃO UG03).|prop
+835649|2020-08-18 11:38:41|Reinstalação de módulos de comunicação (TS) nos painéis IHM 1 e 2 para permitir redundância no sistema de supervisão SAGE (local  COT)   2  Testes de falha em PCs gateways para verificação da redundância do sistema.|prop
+835782|2020-08-18 19:30:32|Teste de subida de pontos do bay de ILS-II para o SAGE e COT  Configuração da Base de Dados da UTR  em JAL  Implementação da nova base na UTR STD.|prop
+835783|2020-08-18 19:49:13|MANUTENÇÃO PROGRAMADA CORRETIVA DA ALGAR TELECOM NO CANAL DE COMUNICAÇÃO QUE ATENDE O COSR-S.|prop
+835833|2020-08-19 09:58:25|RESET FISICO DO RADIO SRAL. RÁDIO PDH - SRAL XD - SIEMENS - ALARME DE   R CHANNEL ALARM ON   (INTEROPERABILIDADE ENTRE RÁDIOS SRAL) NO RÁDIO FRBH-02, E CONSEQUENTE FALHA DE GERENCIAMENTO E SUPERVISÃO DOS RÁDIOS FRAL-01 E FRAL-02 (CAMPO ALEGRA) E ERII-01 (IPAMERÍ).|prop
+835839|2020-08-19 10:20:41|EXECUTAR ATUALIZAÇÃO DE BASE DE DADOS DO SAGE DA SE-BACABEIRA (MA) PARA PERMITIR O RECEBIMENTO DE DADOS DE MEDIDAS ANALÓGICAS E DIGITAIS E COMANDO NO CENTRO DE OPERAÇÃO DE BACKUP EM BRASÍLIA.|prop
+835867|2020-08-19 11:33:45|ATUALIZAR BASE DE DADOS DO SDSC  SAGE PARA COT LAGES|prop
+835899|2020-08-19 12:21:18|SUBSTITUIR ALIMENTAÇÃO DOS PAINÉIS TELECOM DE 125VCC PARA OS BANCOS E RETIFICADORES 48VCC.|prop
+835917|2020-08-19 13:39:21|MANUTENÇÃO GERAL NOS EQUIPAMENTOS DA UFV PARACATU NA SE PARACATU E SE PARACATU 4.|prop
+835921|2020-08-19 13:47:23|Perdas momentâneas de supervisão por tempo de reset. Inclusão e ensaio da base de dados referentes ao BC-1 138kV.|prop
+835926|2020-08-19 13:58:43|Perdas momentâneas de supervisão por tempo de reset. Verificar falha na UCC2, atualizar base de dados do SASE, incluindo pontos a serem ativados com o retrofit da proteção do circuito LT SSA-SCX 525kV.|prop
+835995|2020-08-19 16:44:52|Atualização da base de dados do SSC SAGE do COT - CELG GT para o novo SPCS do Trafo 6 (230  138 kV) da SE Anhanguera e para corrigir anomalia nos comutadores de TAP da SE Itapaci.|prop
+836007|2020-08-19 17:14:52|Liberação da LT 02N5 PFE  SPF.|prop
+836027|2020-08-19 18:13:02|LIMPEZA DO MURO LATERAL DA CALHA DO VERTEDOURO PARA MAPEAMENTO DE FISSURAS.|prop
+836167|2020-08-20 14:49:10|Realizar substituição  cabo condutores  danificados entre as estruturas 13  0 e 13  01 da LT 138 KV entre SE João Câmara III a SE Asa Branca|prop
+836229|2020-08-20 17:35:42|Atualização das bases do SAGE no COT na SE Miracema.|prop
+836264|2020-08-21 05:54:48|Falha de dados da SE Polo Guamaré para o ONS.|prop
+836276|2020-08-21 08:48:45|aplicações trifásicas, com 3000 A durante 0,3 s na linha, cada aplicação. |prop
+836315|2020-08-21 10:30:59|Realizar manutenção preventiva anual no Sistema de Supervisão e Controle da Subestação de SE Maçambará.|prop
+836323|2020-08-21 10:41:22|Realizar manutenção preventiva anual no Sistema de Supervisão e Controle da Subestação de SE Uruguaiana.|prop
+836362|2020-08-21 12:11:39|Verificar e sanar falha de comunicação da remota da UHE Sá Carvalho.|prop
+836388|2020-08-21 14:15:39|Realizar teste de energização e comissionamento do parque eólico São Januário SJA-04, circuito C3 e C4. Aerogeradores: 01, 02, 03, 04, 05, 06 e 07.|prop
+836448|2020-08-21 16:44:47|INSERIR NA PROTEÇÃO DE  BARRAS 1  2 O BAY DA  LINHA PNMR-LI7-01 DA ACESSANTE OMEGA ENERGIA.|prop
+836528|2020-08-22 08:38:54|indisponibilidade dos Aerogeradores 14 ao 21 da LD 03, para realização da manobra de fechamento do disjuntor da Switchgear do WTG21, devido o mesmo está com nível baixo de gás SF6,|prop
+836667|2020-08-24 11:19:33|Alteração da configuração da rede de comunicação que atende o COG.|prop
+836705|2020-08-24 14:07:25|Transferência do Centro de Operação COE Visus, para CROP Chesf, para operação remota da SE GPX, EL 04P2 PND  GPX, LT e RMTs associadas. Integração da proteção da barra, integração do 04T2 e integração da 04P2  PND. equipe irá efetuar testes de N2: Comando de seccionadoras e disjuntores.|prop
+836696|2020-08-24 13:20:44|RESET FISICO DO RADIO SRAL. RÁDIO PDH - SRAL XD - SIEMENS - ALARME DE   R CHANNEL ALARM ON   (INTEROPERABILIDADE ENTRE RÁDIOS SRAL) NO RÁDIO FRBH-02, E CONSEQUENTE FALHA DE GERENCIAMENTO E SUPERVISÃO DOS RÁDIOS FRAL-01 E FRAL-02 (CAMPO ALEGRA) E ERII-01 (IPAMERÍ).|prop
+836711|2020-08-24 14:19:48|ADEQUAÇÃO E TESTES DE CIRCUITOS NA PROTEÇÃO DIFERENCIAL DE BARRAS PARA IMPLANTAÇÃO DO NOVO AT03|prop
+836735|2020-08-24 14:53:14|GERAÇÃO DA BASE DE DADOS DO CTRM-FURNAS E DO COS-FURNAS PARA ACERTOS DA BASE DE DADOS DO SISTEMA SOL|prop
+836768|2020-08-24 15:55:30|TRANSFERÊNCIA DA SE AML DE MTT  02V3 PARA PTU  02J7 PARA INSPEÇÃO TERMOGRÁFICA NA LT 02J7 TRECHO SUBTERRÂNEO. TEMPO DE RETORNO IMEDIATO.|prop
+836815|2020-08-24 19:51:01|RESTRIÇÃO DE GERAÇÃO NA UHE PARA POSSIBILITAR A TRANSPOSIÇÃO DE PLANTAS AQUÁTICAS ESTACIONADAS NOS RETENTORES DE CORPOS FLUTUANTES (LOG BOOM) PELA COMPORTA DE SEGMENTO N.º 4 DO VERTEDOURO DE SUPERFÍCIE, DEVIDO AO GRANDE VOLUME ACUMULADO.|prop
+836830|2020-08-24 20:45:58|Energização dos bay 12C1 e 12S4 SE AUD (CHESF) e LDAT 02C4 AUD  ACA e 02S4 AUD  MRC com transferência definitiva da SED MRC, SED BXD, SED ACA, SED CRZ e SE BXU da SE SBD para a SE AUD|prop
+836915|2020-08-25 11:11:33|Atualização da base de dados dos servidores Sage de Araraquara e CD1 com correção dos sinais de posição dos disjuntores de carga do serviço auxiliar de Araraquara. -Atualização da base de dados dos servidores Sage CPV com alteração no tempo de time-out para comunicação com Series V para analisar se as falhas de comunicação irão cessar.|prop
+836935|2020-08-25 11:59:30|MANUTENÇÃO CORRETIVA NO RETIFICADOR 1 DO SERVIÇO AUXILIAR DA EOL MALHADINHA I NA SE IBIAPINA II.|prop
+836962|2020-08-25 14:27:40|Substituição da TRM41 do relé de proteção UPD1-CX e QPC1-7DX|prop
+837035|2020-08-25 16:34:07|Atualizar a base de dados do Sage SUL, DORSO, em face da entrada de novos empreendimentos de engenharia (Obras Chesf).|prop
+837079|2020-08-25 21:12:24|MANUTENÇÃO CORRETIVA DO SISTEMA DE SUPERVISÃO E CONTROLE DA VCTE NA SE VILA DO CONDE.SUBSTITUIÇÃO DA UNIDADE DE CONTROLE UCD3X DO REATOR DE LINHA VCRE7-03 DA SE VC.|prop
+837230|2020-08-26 15:17:51|DORBP - INTEGRACAO TJMM  EQUATOR 05B1 IGT Acessantes JMM  Cymi, EQUATORIAL e contratadas, com o acompanhamento da CHESF,  realizarão a integração das LT  04N2  04N3 e LT 05L6  05L7, respectivamente, à topologia da proteção diferencial do barramento 05B1 da SE IGT.|prop
+837308|2020-08-27 09:24:34|Lavagem em carga dos isoladores da subestação 230kV do conjunto eólico Aracati II.|prop
+837396|2020-08-27 12:17:18|Integração da rede de dados referente ao CAG da SE Arinos 2 com o ONS Sudeste.|prop
+837426|2020-08-27 14:42:43|Manutenção programada pela operadora Claro  Embratel. Essa atividade poderá ocasionar indisponibilidade nos canais de voz (HOT LINE) entre o ONS e o COT Energisa.|prop
+837535|2020-08-27 19:21:07|Verificar falha de comunicação entre UTR e UPP  UPA|prop
+837631|2020-08-28 11:05:24|PARADA DO CLP DO AUTOMATISMO DO SERVIÇO AUXILIAR, PARA POSSIBILITAR A GRAVAÇÃO DO SOFTWARE NA MEMÓRIA EPROM EM VIRTUDE DA ADEQUAÇÃO DOS PONTOS ANALÓGICOS PARA O COG   2- ATUALIZAÇÃO DO SOFTWARE DO AUTOMATISMO E TESTES DE SINALIZAÇÃO E COMANDO DA UG-2 COM O COG.|prop
+837694|2020-08-28 14:12:33|Teste de contingência nos circuitos de telecomunicações entre o COSR-SE e a XRTE.|prop
+837864|2020-08-30 08:17:44|Abertura dos disjuntores 19G1-2 e 19G1-3 para correção no ponto quente na fase B do circuito 3 de BURITI. Restrição operativa de 19,5MW.|prop
+837866|2020-08-30 08:28:58|Abertura dos disjuntores 19G1-2 e 19G1-3 de Buruti para correção no ponto quente na fase B do circuito 3 de BURITI. Restrição operativa de 20MW.|prop
+837879|2020-08-30 20:52:22|Realização de testes remotos simulados na UCD-1.|prop
+837902|2020-08-31 09:42:32|Equipe DORBP: Efetuar MC na falha de abertura dos disjuntores 12P1  12P2  12P3  12P4 e abertura do 12P6 na ocorrência do dia 11  06  2020.|prop
+832971|2020-08-03 09:36:55|Substituição de equipamento da rede de comunicação via fibra, para garantir a integridade e estabilidade da rede. Os serviços serão realizados pela empresa Internexa, nos links ópticos que atendem a comunicação do SVC-SBO, na central em Curitiba.|prop
+833012|2020-08-03 10:59:50|Configuração de rota alternativa para redundância dos canais essenciais (dados, voz  hotline) da LT SM2-LUZ via canal Taesa (SM2-SM1-SAM)|prop
+833093|2020-08-03 15:48:13|Corrigir discrepância da medição de MW maquina 01G2  USQ entre medição local e medição SAGE(CROP  ONS).|prop
+833197|2020-08-04 10:09:16|MANUTENÇÃO CORETIVA COM A MIGRAÇÃO DO MUX MAIN DIREÇÃO GURUPI PARA SISTEMA SAR  MPLS, DEVIDO A ALTA INTERMITÊNCIA DE ALARMES DOS CANAIS 1,2 E 3 DA TELEPROTEÇÃO PRIMÁRIA DA LTSMGU 1.|prop
+833198|2020-08-04 10:19:08|Limpeza das grades de proteção da Tomada Dágua da PCH Passo do Meio.|prop
+833332|2020-08-04 15:57:34|MANUTENÇÃO PREVENTIVA NOS EQUIPAMENTOS DE ACIONAMENTO DA COMPORTA 4 DO VERTEDOURO.|prop
+833347|2020-08-04 16:36:03|Equipes DORBP  DORBT  JPW  ESC: Solicitar a primeira energização do EL 09W3   disjuntores 19W3   e TCs 99W3-1, 99W3-2, TPs 89W3.|prop
+833363|2020-08-04 17:19:23|TESTE DE CARGA DO GMG DE 345KV E GMG DE 500KV, SENDO OPERADOS PELO AUTOMATISMO.|prop
+833366|2020-08-04 17:30:40|VERIFICAR E SANAR A CAUSA DA FALHA DE COMUNICAÇÃO DE DADOS DO BAY DO CETR NA SE-PÉCEM II.|prop
+833434|2020-08-05 10:47:38|Atualização do drive de comunicação do relé 02T1P da EOL Morro dos Ventos 69kV.|prop
+833499|2020-08-05 13:52:04|Verificações e testes nos alarmes dos reles de proteção com a Remota STD.|prop
+833502|2020-08-05 14:16:01|Bloqueio da proteção diferencial da barra 230kV da SE CSO, para permitir manobras de transferência dos circuitos da barra BP-1 para a barra BP-2 programadas para atender ao SGI 31513-20. O bloqueio será necessário das 09:15 as 10:00hs esta SGI  e novamente das 16:15 as 17:00Hs ( SGI 31558-20).|prop
+833512|2020-08-05 14:37:48|FALHA NA SUPERVISÃO DO BAY DE CONEXÃO NA SE PECÉM II, SENDO OCASIONADO POR DEFEITO NO LINK DE COMUNICAÇÃO POR FIBRA ÓPTICA.|prop
+833532|2020-08-05 15:24:17|Implantação da função Unidade de Medida Fasorial (PMU) conforme autorização SGPMR 018658  2015.|prop
+833534|2020-08-05 15:29:42|Equipe DORBP realizar intervenção em atendimento ao Plano de Manutenção Preventiva dos Servidores SAGE da SE BMC do ano de 2020.|prop
+833580|2020-08-05 17:34:31|Correção de ponto quente na seccionadora 33L1-4 (146ºC) e DJ 19G2 (84ºC)|prop
+833593|2020-08-05 18:55:00|CHESF realizar Retrofit PLCs GE   TSD Conclusão dos retrofits dos PLCs GE e retirada de Pendências: 1. Necessário acesso aos painéis dos Trafos 05T1  05T2, CS 01K1 e Serviço Auxiliar   2. PLCs Trafos 05T1  05T2: Durante a substituição dos PLCs dos Trafos 05T1 e 05T2 haverá perda de supervisão das medidas de temperatura de oleo e enrolamento do Trafo bem como os comandos em N1,N2 e N3 para os ventiladores. O tempo desta indisponibilidade será de até 6 horas, Podendo ocorrer mais de uma vez   3. PLC Serviço Auxiliar: Serão realizados testes de sinalização e telecomando PLC  SAGE para retirada de pendências, os testes serão Previamente nivelados com a operação da instalação   4. PLC CS 01K1: Haverá perda de Supervisão do Compensador Síncrono por um prazo de até 1 hora, podendo ocorrer mais de uma vez   5. Haverá atualização do SAGE N2, causando indisponibilidade no SAGE N2 e N3 por um período de até 1 hora. 6. Todas as indisponibilidades serão previamente niveladas com a operação.|prop
+833611|2020-08-06 07:12:31|Verificar e sanar o motivo do desligamento intempestivo do circuito 09C4  BNT. sob atuações de sobrecorrente temporizada e sobrecorrente temportizada a terra|prop
+833640|2020-08-06 10:32:21|Testes de comunicação  monitoramento da rede, para identificação de causas de alarmes de Falha GOOSE.|prop
+833644|2020-08-06 10:48:36|Verificar abertura do DJ19T01 do lado de 34,5kV do Transformador 04T01 do Complexo Eólico Lagoa do Barro.|prop
+833788|2020-08-06 18:42:31|Realizar testes e modulação nos controles de Cosphi (Fator de Potência), Potência Reativa e Tensão nos aerogeradores do parque eólico Vila Acre II (aerogeradores 09, 08, 07, 06, 05, 04, 03, 02 e 01) pertencentes ao Conjunto Eólico Amazonas.|prop
+833833|2020-08-07 09:53:08|TRANSFERÊNCIA DAS CARGAS DE CMU DE CMD PARA CTG AFIM DE PERMITIR LIBERAÇÃO DA LT 02L6  CPC PARA  MANUTENÇÃO NA SE CMU|prop
+833913|2020-08-07 13:47:48|Descarregar os ajustes do sistema de supervisão e controle referente a teleproteção LT Emborcação - São Gotardo 2 500 kV.|prop
+833924|2020-08-07 14:48:42|Atualização da base de dados do SSC SAGE da SE Palmeiras.|prop
+833925|2020-08-07 14:49:20|Correção de BUG visual no SCADA dos parques eólicos de Santo Antonio de Pádua, São Cristóvão e São Jorge.|prop
+833932|2020-08-07 15:09:21|Acessante JMM  Cymi, e contratadas, com o acompanhamento da CHESF, realizar os testes de Integração do novo painel e proteção diferencial de barras 230 kV aos bays da CHESF para possibilitar a Integração dos novos bays 04N2  04N3 às 04B1  04B2 da SE IGT.|prop
+834038|2020-08-08 11:28:47|Verificações e testes no telecomando de Ligar  Desligar do DJ 35452-106.|prop
+834130|2020-08-10 11:05:29|MANUTENÇÃO CORRETIVA NO PAINEL CCLP (CLP MASTER A  B) EM VIRTUDE DE RUÍDO ANORMAL PROVENIENTE DE UM DOS MÓDULOS ELETRÔNICOS PERTENCENTES AO ECE765KV.|prop
+834138|2020-08-10 11:18:41|ATUALIZAÇÃO DA BASE DE DADOS DO SAGE PARA: CORREÇÃO DE PONTOS DE DISTRIBUIÇÃO DE MEDIDAS ANALÓGICAS PARA O CTRR E INFORMAÇÕES RELATIVAS A TROCA DO DISJUNTOR DE AMARRE 138 kV (DJ606) E DA SECCIONADORA SC605|prop
+834208|2020-08-10 14:36:12|Reparo no sinal de supervisão da seccionadora 2700 de 230kV da UTR Escrava da Usina Subterrânea.					|prop
+834251|2020-08-10 16:15:54|Instalação de novas réguas para leitura de nível no barramento do reservatório de Antônio Dias, próximo ao vertedouro. |prop
+834296|2020-08-10 18:03:54|Implantação da BD 462 do SAGE.|prop
+834311|2020-08-10 20:16:22|Indisponibilidade dos controles de Potência Ativa e Reativa do complexo eólico Riachão, devido à falha no sistema Scada WindAccess.|prop
+834559|2020-08-11 18:28:38|MANUTENÇÃO CORRETIVA NA BASE DE DADOS DO SAGE E NAS LÓGICAS DAS UCDs VISANDO ENTRADA EM OPERAÇÃO DO AT05 NA SE VITÓRIA|prop
+834580|2020-08-12 08:43:41|Realizar manutenção preventiva no Inversor da subestação Santa Maria 3.|prop
+834654|2020-08-12 12:08:46|Realização de testes em modo ilha da UTE Novo Paraiso.|prop
+834723|2020-08-12 16:24:11|Corrigir falha na sinalização do 35352-7 na IHM, devido não estar mudando de estado de fechado para aberto|prop
+834740|2020-08-12 17:07:44|Reconfiguração física e lógica do sistema de supervisão e controle da subestação da UHE Dona Francisca.|prop
+834762|2020-08-12 18:32:54|Verificações e testes em pontos de supervisão inválidos para o COT|prop
+834839|2020-08-13 10:45:37|GERAÇÃO DA BASE DE DADOS DO CTRS-FURNAS E DO COS-FURNAS PARA ACERTOS DA BASE DE DADOS DO SISTEMA SOL|prop
+834858|2020-08-13 11:23:04|Retirada de ponto quente em chave monopolar(Sec-A02) de saída do circuito A2 e A1.|prop
+834862|2020-08-13 11:32:25|Substituir relé de supervisão e controle de temperatura (Simotemp) do ATR RESERVA.|prop
+834879|2020-08-13 12:27:09|Atualização da base de dados do SAGE da Amazonas Energia Distribuidora, com a entrada do novo transformador n.04 de 69  13,8kV da Subestação São José.|prop
+834908|2020-08-13 14:48:16|Manutenção preventiva anual da SE Ribeiro Gonçalves, nos Sistemas de Supervisão e Controle (SSC), Telecomunicação, Conversores CV1 e CV2 e nos sistemas de Teleproteção Principal e Alternada das LTs 500 kV Colinas  Ribeiro Gonçalves C1 e Ribeiro Gonçalves  São João do Piauí C1   2) Instalação da segunda fonte de alimentação dos firewalls FW 01 e 02 da SE Ribeiro Gonçalves.|prop
+834929|2020-08-13 15:24:27|Substituição do transformador pad mounted 09T07-C2 da usina eólica Icaraizinho.|prop
+834939|2020-08-13 15:49:21|RETIRADA DE PONTOS QUENTES NAS SECCIONADORAS DOS BAYS DA SE DELTA 3 E SE DELTA 6 DO CONJUNTO EÓLICO PAULINO NEVES.|prop
+835039|2020-08-14 09:45:00|Manutenção na rede de comunicação da  ENGIE para incremento de segurança cibernética.|prop
+835040|2020-08-14 09:46:10|Desligamento da LD Uberlândia 7 - US Miranda 138kV, por solicitação da CEMIG DISTRIBUIÇÃO, para intervenções no terminal da SE Uberlândia 7 e na estrutura 19 da LD.|prop
+835043|2020-08-14 09:52:41|Manutenção corretiva, através de mergulho, no sistema de adução (Grades) da UG1.|prop
+835189|2020-08-14 15:53:34|Atualização das regras do firewall operativo CEMIG para atendimento a futura comunicação com as localidades de SE Aracaú e Parque eólico Volta do Rio.|prop
+835216|2020-08-14 16:35:28|Serviços inspeção, no circuito 19W2. Circuito com ruido anormal.|prop
+835325|2020-08-15 23:33:35|Houve desligamento automático da usina Monte Cristo II, por baixa tensão no barramento de 13,8 kV, equipe de manutenção está fazendo inspeção para detectar o problema.|prop
+835405|2020-08-17 10:17:32|INTERVENÇÃO COM LIBERAÇÃO DA LINHA 03F2 TFD - TEF.|prop
+835529|2020-08-17 16:53:03|Execução dos procedimentos operacionais para implantação de novos ativos de rede no datacenter do Rio de Janeiro. A execução do procedimento acima, poderá ocasionar instabilidade nos serviços do datacenter do Rio de Janeiro  .  A duração estimada para a conclusão da atividade será de  duas horas, iniciando à 01:00 hora, sendo concluída às 3:00 horas.|prop
+835570|2020-08-17 20:42:19|MIGRAÇÃO DOS CANAIS DE VOZ HOTLINE (1 e 2) COM O COSR-S,  DA SEDE ANTIGA PARA NOVA SEDE DA CELEO REDES.|prop
+835641|2020-08-18 11:21:44|Verificar e sanar a perda de supervisão do SAGE da casa de força leito do rio.SCL-LR - UG33 a UG50.TRUG4850, LIS2PV1-1 e LIS2PV1-2.|prop
+835648|2020-08-18 11:39:44|ATIVAÇÃO  MIGRAÇÃO DA REDUNDÂNCIA DA REDE SAGE VIA ENLACE SATÉLITE - OPERADORA VIVO - CONTRATO: 4500088962.|prop
+835657|2020-08-18 12:44:14|Descida da caixa de emenda do OPGW (ROPA), para inspeção.|prop
+835679|2020-08-18 14:23:43|Manutenção preventiva no sistema de supervisão e controle da SE Pirapora 2 (LTMC).|prop
+835707|2020-08-18 15:48:17|Realizar teste de energização e comissionamento do parque eólico São Januário SJA-01, circuito C1 e C2. Aerogeradores: 01, 02, 03, 04, 05, 06 ,07. e 08|prop
+835711|2020-08-18 16:05:35|Manutenção SE IPT.|prop
+835721|2020-08-18 16:39:16|NORMALIZAÇÃO DO SISTEMA DE COMUNICAÇÃO DO SAGE 1 E 2  DA SE PORTO FRANCO: - REALIZAR SUBSTITUIÇÃO DE MÓDULOS DE COMUNICAÇÃO NO ROTEADOR CISCO RESPONSÁVEL PELA COMUNICAÇÃO DOS SAGE 1 E 2 EM PORTO FRANCO.|prop
+835819|2020-08-19 09:24:07|Retirada de pontos quentes nos equipamentos do conjunto eólico Licínio de Almeida.|prop
+835828|2020-08-19 09:52:51|MIGRAÇÃO DOS CANAIS DE VOZ HOTLINE (1 e 2) COM O COSR-NCO,  DA SEDE ANTIGA PARA NOVA SEDE DA CELEO REDES.|prop
+835947|2020-08-19 14:42:30|Perdas momentâneas de supervisão por tempo de reset. Atualização das UACs, com substituição de placas e atualização do sistema operacional.|prop
+835951|2020-08-19 14:49:04|Equipe DORBP  JPW  ESC: Parametrização e atualização de lógica dos relés F1L e F2L, trafo terra 09A1, painel 9UA4L.|prop
+836130|2020-08-20 11:49:17|EFETUAR ALTERACOES NO SAGE ANTENDENDO SOLICITACOES DA DOLB.O|prop
+836141|2020-08-20 13:16:09|MC na remota FOXBoro que apresenta alarmes de defeito.|prop
+836224|2020-08-20 17:27:45|Calibração dos medidores de energia líquida (principal e retaguarda) da SE VG, que impacta em indisponibilidade de dados da usina com o ONS. Medidores: MTVZGRUSCU-01P e MTVZGRUSCU-01R|prop
+836228|2020-08-20 17:34:48|EQUIPES DA EDB    EFASEC SOB A SUPERVISÃO DO DETA  DORSP ATUALIZAR A BASE DO SAGE    UTR COM OS NOVOS PONTOS ASOCIADOS AO NOVO EVENTO REFERENTE AO RETROFIT DO MPCCS DA LT 04S7 E REALIZAR TESTES DE N2  N3 DOS PONTOS DE ESTADO, SUPERVISÃO, MEDIÇÃO E COMANDO ASSOCIADOS A ESTE EVENTO.|prop
+836261|2020-08-21 03:08:45|Verificar e sanar o motivo do desligamento intempestivo dos circuitos 09C2  BNT e 09C5  BNT.|prop
+836263|2020-08-21 05:46:36|Ocorreu abertura intempestiva do DJ 52C3 referente ao circuito Pulpito 1. no momento as condições climáticas são desfavoráveis, nevou durante a madrugada.|prop
+836268|2020-08-21 07:42:22|inclusão de novos pontos de supervisão   - acerto de Base de Dados.|prop
+836351|2020-08-21 11:37:34|Complexo Brisa Potiguar necessidade de recompor cabo do circuito 2 de ASA BRANCA II que esta rompido.|prop
+836367|2020-08-21 12:37:42|SERÃO DESCARREGADOS OS PARÂMETROS NO RELÉ UPD1 DO TRAFO 7AT02 PARA DESCONGELAR A LEITURA DOS VALORES DE POTÊNCIA DO TRAFO. durante a execução do serviço na PD1 haverá perda de supervisão com a CELEO e o ONS por aproximadamente 15 minutos.|prop
+836469|2020-08-21 17:42:18|Liberação da LD 69 kV 02F2 CIU- AGS para correção de ponto quente na SE AGS|prop
+836655|2020-08-24 10:40:26|INTERVENÇÃO COM LIBERAÇÃO DA LINHA 03F2 TFD - TEF.|prop
+836689|2020-08-24 12:57:32|Parada do software de controle da planta para upgrade completo de versão. Durante o período a telessupervisão com o ONS ficará indisponível.|prop
+836726|2020-08-24 14:47:09|Indisponibilidade dos Aerogeradores 14 ao 21 da LD 03, para realização da manobra de fechamento do disjuntor da Switchgear do WTG21.|prop
+836718|2020-08-24 14:36:30|Implantação da BD 462a do SAGE.|prop
+836744|2020-08-24 15:02:40|FALHA DE COMUNICAÇÃO COM OS MEDIDORES SIMEAS E MODULO CUBE-20 DOS GRUPOS GERADORES GGE-CF 1 E 2.|prop
+836766|2020-08-24 15:49:31|Manutenção preventiva BAY de conexão, abertura tampas driescher e cubículos. Ao final da intervenção será sincronizada a usina para realização de termografia.|prop
+836850|2020-08-25 08:57:31|Instalar recurso Intelicon WEB no servidor de gravação secundário (gravador B) do COSR-SE|prop
+836851|2020-08-25 09:01:14|Instalar recurso Intelicon WEB no servidor de gravação principal (gravador A) do COSR-SE|prop
+836852|2020-08-25 09:01:15|Realização de testes de suprimentos de cargas nos edifícios Júlio Soares e Aureliano Chaves.|prop
+836901|2020-08-25 10:44:16|MANUTENÇÃO NO SISTEMA DE SUPERVISÃO, COMANDO E CONTROLE DO CENTRO DE OPERAÇÃO (OEORM) E DAS SUBESTAÇÕES DA ÁREA MARANHÃO E TOCANTINS.|prop
+836916|2020-08-25 11:13:37|Lavagem em carga dos isoladores dos equipamentos do pátio 230kV do conjunto eólico Praia Formosa.|prop
+836932|2020-08-25 11:53:40|Atualização da base de dados do SASE para supervisão do COELAB e organização dos documentos do SASE.|prop
+836936|2020-08-25 12:07:18|Manutenção corretiva no Distribuidor Geral Ótico(DGO) da SE GRA2.|prop
+836980|2020-08-25 14:57:30|ATIVAÇÃO CIRCUITOS DE SUPERVISÃO A REDE RSS SATELITE  TELEFONICA ENTRE GM-LECHUGA-AM. DURAÇÃO 20 MINUTOS. 2-LIGAR CABO UTP DE REDE DA REDE RSS TELEFONICA SATELITE AO ROTEADOR RSS SEGUAMÁ PORTA Nº00, CIRCUITO DIREÇÃO LECHUGA-AM. DURAÇÃO:01:00H 3-AGUARDAR A REDE RSS SATELITE ENTRE GUAMÁ E LECHUGA-AM ENTRAR EM OPERAÇÃO NORMAL.  INFORMO QUE A ATIVAÇÃO DESTE CANAL DE SUPERVISÃO SATELITAL SE TORNA URGENTE DEVIDO CONDIÇÃO CONTRATUAL DA VIVO  TELEFONICA COM A ELETRONORTE.|prop
+837012|2020-08-25 15:57:54|Realizar integração no SAGE N2 para implantação da ordem de Ajuste de Regulação referente ao 3º Quadrimestre 2020|prop
+837015|2020-08-25 15:59:48|GERAÇÃO DA BASE DE DADOS DO CTRS-FURNAS E DO COS-FURNAS PARA ACERTOS DA BASE DE DADOS DO SISTEMA SOL|prop
+837049|2020-08-25 17:10:36|Verificar e sanar falha em cabo subterrâneo no circuito 2  Sanar ponto quente no circuito 3 (ponto quente 98ºC - Fase -C).|prop
+837234|2020-08-26 15:28:20|DORBP - INTEGRACAO TJMM  EQUATOR 05B2 IGT Acessantes JMM  Cymi, EQUATORIAL e contratadas, com o acompanhamento da CHESF,  realizarão a integração das LT  04N2  04N3 e LT 05L6  05L7, respectivamente, à topologia da proteção diferencial do barramento 05B2 da SE IGT.|prop
+837242|2020-08-26 15:51:45|TRANSFERÊNCIA DAS CARGAS DE PIT E SSH DE NBA PARA PTU AFIM DE LIBERAR BARRAMENTO DE 69KV DA SE PIT|prop
+837349|2020-08-27 10:45:20|LAVAGEM EM CARÁTER ENERGIZADO DE TODO BARRAMENTO 69KV E EQUIPAMENTOS ASSOCIADOS DA SE PPG  BAY CHESF.|prop
+837411|2020-08-27 14:21:19|Realizar atualização dos dois servidores Sysmanger da Plataforma de Voz Operativa Unify.|prop
+837398|2020-08-27 12:39:59|SUBSTITUIÇÃO DOS SUPORTES METÁLICOS, DAS CHAVES SECCIONADORAS SEMI-PANTOGRÁFICAS DA SUBESTAÇÃO ALEGRIA|prop
+837446|2020-08-27 15:17:56|INTERVENÇÃO COM LIBERAÇÃO DA LINHA 03F2 TFD - TEF.|prop
+837509|2020-08-27 18:15:03|MANUTENÇÃO MECÂNICA PREVENTIVA BIENAL DO GRUPO GERADOR DIESEL DE EMERGÊNCIA.|prop
+837603|2020-08-28 10:02:30|MANUTENÇÃO PREVENTIVA ANUAL NO SISTEMA DE SUPERVISÃO E CONTROLE DA LTT NA SE EMBORCAÇÃO. MANUTENÇÃO PREVENTIVA ANUAL NO SISTEMA DE SUPERVISÃO (MicroScada).|prop
+837618|2020-08-28 10:28:30|Efetuar correções no sistema de controle da SEDRO.|prop
+837633|2020-08-28 11:09:55|Realizar reset nas remotas UCD1-QPC4-7Y (DJ52160 - SC 29-159 - SC 29-161) e QPC3 BTF-E ( DJ 52-121 - SC 29-120 - SC 29-122)|prop
+837692|2020-08-28 14:00:55|OBRAS - Ampliação  ReA  Aneel 5834  2016 Implantação e testes dos novos pontos do CTO BC1 138 kV na Automação.|prop
+837711|2020-08-28 15:00:32|Bloqueio da 43F.|prop
+837761|2020-08-28 16:39:20|Manutenção preventiva anual e atualização da Base de Dados do SAGE nas estações de operação EOP-1 e EOP-2 da UHE MGP.|prop
+837772|2020-08-28 16:56:26|ATUALIZAÇÃO DO SERVIDOR DE DISTRIBUIÇÃO DOS DADOS PMU DA CELEO REDES BRASIL.|prop
+837780|2020-08-28 17:11:07|Inspeção minuciosa e termográfica com escalada em carga nas estruturas 79 a 91 da linha de transmissão 04M1 Praia Formosa  Massapê II.|prop
+837826|2020-08-28 21:36:18|INSPECIONAR E SANAR FALHA DE COMUNICAÇÃO DA USINA EÓLICA CACIMBAS.|prop
+837840|2020-08-29 10:55:35|O controle de potência ativa total da planta não responde.|prop
+837973|2020-08-31 11:53:07|Equipe DORFP realizar manutenção corretiva nas unidades de controle e nas fibras do sistema digital com a finalidade de normalizar a supervisão do TR 04T3 na SE  PCD.|prop
+838013|2020-08-31 14:19:52|IMPEDIMENTO OPERATIVO DAS COMPORTAS DE SEGMENTO N.º 1 E 2 DO VERTEDOURO DE SUPERFÍCIE, COMO CONDIÇÃO DE SEGURANÇA, PARA POSSIBILITAR A INSPEÇÃO E LIMPEZA NAS GRADES DA UG-1 COM AUXILIO DE MERGULHADORES.|prop
+838029|2020-08-31 14:39:47|Montagem eletromecânica e implantação das estruturas na rede de média tensão.|prop
+838089|2020-08-31 18:36:28|Atualização da base de dados do SSC SAGE do COT, para corrigir limite de distribuição de pontos.|prop
+832897|2020-08-01 08:37:24|DESLIGAMENTO INVOLUNTÁRIO DA UNIDADE GERADORA DEVIDO ATUAÇÃO DA PROTEÇÃO RELÉ PARADA POR DEFEITO ELÉTRICO 86E1 E 86E2.|oper
+832899|2020-08-01 10:26:45|SERÁ REALIZADO MANUTENÇÃO CORRETIVA NO TRANSFORMADOR 2, APÓS DESLIGAMENTO AUTOMÁTICO O MESMO NÃO ACEITA ENERGIZAÇÃO.|oper
+832952|2020-08-02 21:42:53|Manutenção corretiva da Linha 04 - ME na UHE SAE, para sanar falha de supervisão da proteção principal (UPP).|oper
+832955|2020-08-03 00:31:55|UG  17 Grupo 03 – Hora inicial: 00:00h Final: 04:25h – Falha no sistema de lubrificação   UG  12 Grupo 02 – Hora inicial: 03:37h Final: 03:44h – Falha de queima do cilindro A2   UG  22 Grupo 04 – Hora inicial: 09:02h Final: 09:08h – Falha de queima do cilindro B5   UG  12 Grupo 02 – Hora inicial: 16:53h Final: 17:00h – Falha de queima do cilindro A2   UG  15 Grupo 03 – Hora inicial: 19:01h Final: 19:10h – Falha de queima do cilindro B6  |oper
+832981|2020-08-03 09:56:08|Manutenção corretiva eletromecânica na chave seccionadora 29-01 CTO RZS 230 kV.|oper
+833006|2020-08-03 10:38:52|Manutenção preventiva anual na turbina da unidade geradora 02.|oper
+832993|2020-08-03 10:15:24|Manutenção Preventiva Periódica nas Proteções do Disjuntor de  Seção Central 4552-8|oper
+833032|2020-08-03 11:47:58|Despressurização e abertura do compartimento para inspeção no anel coletor CS1 Inspeções gerais, reapertos de verificação CS1 Limpeza geral CS1 Fechamento e Pressurização do CS1|oper
+833042|2020-08-03 12:33:59|DESATERRAR O CUBÍCULO DE SURTOS.  ATERRAR O CUBÍCULO DE SURTOS.|oper
+833055|2020-08-03 13:51:18|Necessário redução da portência ativa para 5MW  por mais ou menos 5 minutos das UG: 10, 11 e 12 , sendo simultaneamente, Para possibilitar a posterior manutenção preventiva no banco de baterias 3B.|oper
+833045|2020-08-03 12:47:01|Testes para possibilitar a Energização do TRAFO 3 (230  69  13,8 kV - 50 MVA) na SE Anhanguera.|oper
+833062|2020-08-03 14:03:02|Substituir relé auxiliar de controle do sistema de pressurização de óleo do disjuntor 8U4.|oper
+833085|2020-08-03 15:20:46|Substituição de isoladores e ferragens oxidados ao longo das LT 04F4 GNN  SRD.|oper
+833083|2020-08-03 15:00:18|Conjunto Eólico Olho Dágua Serviços: Restrição de geração no Conjunto Eólico. Disponibilidade de 0 MW. Seccionadora 33M6-2 da SE 138 kV João Câmara 3Substituição da chave 33M6-2 que está avariada. Subestação 138kV Olho DÁgua Medição de malha de terra da Subestação Olho DÁgua. LT JC III  Olho Dágua 138kV (13M6 na SE João Câmara) Desconectar cabo guarda da LT Olho DÁgua  João Câmara 3 138KV na subestação Olho DÁgua, para possibilitar medição da malha de terra.|oper
+833086|2020-08-03 15:27:30|Realizar testes de sincronismo, sobre o novo disjuntor 15G6 PAQ com referida unidade geradora 01G6.|oper
+833104|2020-08-03 16:24:33|Inspeção minuciosa em carga com escalada da linha de transmissão - LT 03C3 Bloco Sul   João Câmara III.|oper
+833096|2020-08-03 15:57:31|Perda de supervisão dos equipamentos da SE Paranaíta (GPTE), em atendimento a solicitação da TPT, conforme MO_380-2020. Serviço: Informamos que no período citado estará sendo refeito os enlaces de Telecom e configurações dos SDHs entre a Subestação SINOP e Cláudia. Neste período também estará sendo realizada a migração do painel da BR Digital do contêiner para a nova sala de controle. cronograma: Dia 04  08 - Mobilização da BR digital, desligar equipamentos e transferência física do painel. Dia 05  08 - Conectorização, configuração e testes dos equipamentos da BR Digital. Dias 06 e 07  08 - conexão com novos equipamentos de Telecom, configuração e testes.|oper
+833136|2020-08-03 17:31:24|Alteração da Canalização das teleproteções da LT ARE-GBM 1 E 2 para possibilitar desativação de MUX antigo da Copel entre GBM e ARE|oper
+833166|2020-08-03 21:22:24|Fechamento de cavilhas de TRIP para proteção conjugada 50BF  87B dos bays de MAR C1 e C2, TUA, LIN C-1 e C-2, BCA-1, TR-2, Paralelo 1 e GBE, Referente aos Disjuntores 38224-1, 38252-14, 15, 16, 17, 19, 20, 21 e 28 no painel de Proteção de Barras.|oper
+833168|2020-08-03 22:05:05|Equipe CHESF - inspecionar e realizar limpeza nos armários da chave 35T3-8, bem como realizar testes de manobras.|oper
+833171|2020-08-03 22:37:17|Substituição Do 1TP-06 de 345 kV, fase Br 2Adequação cablagem do secundário do 1TP-06 de 345 kV, fase BR 3Adequação estruturas do 1TP-06 de 345 kV, fase Br 4Adequação pingados  cabos entre o 1TP-06 de 345 kV, fase Br e Barras 4 e 3B de 345 kV 5Substituição da caixa de interligação do 1TP-06 de 345 kV, fase Br|oper
+833184|2020-08-04 08:59:56|Realizar complementação de gás SF6 na fase   C   do disjuntor INDJ7-02 da SE Itacaiúnas.|oper
+833189|2020-08-04 09:29:15|Restrição de potencia da UG1 para acesso da equipe de mergulho realizar inspeções nas comportas ensecadeira da descarga dágua da UG2.|oper
+833200|2020-08-04 10:20:44|Manutenção preventiva no disjuntor 5134 da SE Águas Lindas.|oper
+833214|2020-08-04 10:35:47|ISOLAÇÕES DAS SAÍDAS DE TRIP DAS UNIDADES DE SOBRECORRENTE INSTÂNTANEA E TEMPORIZADA, PARA EXECUÇÃO DO TRABALHO POR RECOMENDAÇÃO DO ONS  GAP.O, ATRAVÉS DO RELATÓRIO ONS DGL-REL-0001  2019, RECOMENDAÇÃO REC-000992  2019: EXECUÇÃO DE MODIFICAÇÕES PARA ADEQUAÇÕES DAS SEPARAÇÕES DOS TRIPS DE SOBRECORRENTE DO TRANSFORMADOR AT2B, DA LINHA DO CIRCUITO DE BLOQUEIO, PARA ATENDIMENTO DOS PROCEDIMENTOS DE REDE  PROTOCOLO DE PROTEÇÃO|oper
+833231|2020-08-04 11:16:43|EFETUAR PLANO DE INSPEÇÃO ANUAL.|oper
+833293|2020-08-04 14:37:03|Necessário redução da portência ativa para 5MW  por mais ou menos 5 minutos das UG: 10, 11 e 12 , sendo simultaneamente, Para possibilitar a posterior manutenção preventiva no banco de baterias 3B.|oper
+833296|2020-08-04 14:38:59|Necessário redução da portência ativa para 5MW  por mais ou menos 5 minutos das UG: 13, 14, 15 e 16 sendo simultaneamente, Para manutenção preventiva no banco de baterias 4B (RET 4qr 125VCC).|oper
+833239|2020-08-04 11:19:16|Manutenção corretiva nas chaves seccionadoras 605, 663, 665, 225, 265 e 253, da SE Anhanguera.|oper
+833268|2020-08-04 12:49:15|Substituição do barramento aéreo abaixo do 04BP, entre pórticos das chaves 34M5-4 e 34T2-4, à altura de 5,25 metros do solo, fim atendimento da Resolução 6258  2017 .|oper
+833323|2020-08-04 15:37:01|REALIZAR TESTE DO AUTORRESTABELECIMENTO DA UHE TUCURUÍ: TESTE SIMULTÂNEO COM AS UNIDADES  TUUGH- 01, 02, 04, 05, 07 e 08 TESTE INDIVIDUAL COM AS UNIDADES TUUGH-01, TUUGH-05 e TUUGH-07  PARTIDA DOS GRUPOS DIESEL GDES 01, 02, 03 E 04 COM A DESENERGIZAÇÃO DO CCD-10 E CCD-30:|oper
+833325|2020-08-04 15:42:04|SERVIÇOS A SEREM EXECUTADOS NA PROJ Nº 43000607495 EXECUTAR MODERNIZAÇÃO DOS REGULADORES DE VELOCIDADE E DE TENSÃO MANUTENÇÃO DISJUNTOR 13,8 KV(3A)|oper
+833346|2020-08-04 16:34:19|MANUTENÇÃO CORRETIVA NAS SECIONADORAS 1DF11  E 1DF8|oper
+833411|2020-08-05 09:38:07|Liberação da LT 04L1 (Milagres - MLG    Bom Nome - BNO) desenergizada  isolada  aterrada fim de permitir equipe CHESF  DORFM substituir TPC 84L1 fase C e corrigir vazamento no 14L1 no terminal da SE MLG..|oper
+833374|2020-08-04 18:03:19|Realizar limpeza da válvula de complementação de ar para o TQAO do sistema regulador de velocidade da unidade geradora 21.Após serviço, será necessário realizar testes na unidade geradora: sincronizada com tomada de carga em degraus para verificações   caso necessário, desligar a unidade geradora para inspeções e  ou ajustes. Durante as verificações de comportamento, poderá ser necessário a parada da unidade geradora para eventuais ajustes, e posteriormente sincronizá-la.|oper
+833388|2020-08-04 19:23:34|Manutenção preventiva da Teleproteção OPLAT da LT 440 kV JUP  TRI|oper
+833395|2020-08-05 00:14:48|Grupo	1	UG  01	Hora Inicial	00:00:00	Hora Final	01:10:00	Falha no sistema de arrefecimento do motorGrupo	4	UG  23	Hora Inicial	02:32:00	Hora Final	04:23:00	Falha no sistema de arrefecimento do motorGrupo	4	UG  24	Hora Inicial	04:30:00	Hora Final	04:45:00	Falha de comunicação PLCGrupo	4	UG  23	Hora Inicial	04:57:00	Hora Final	05:42:00	Falha no sistema de arrefecimento do motorGrupo	4	UG  23	Hora Inicial	05:54:00	Hora Final	07:47:00	Falha no sistema de arrefecimento do motorGrupo	4	UG  23	Hora Inicial	08:10:00	Hora Final	08:17:00	Falha de queima do cilindro A1Grupo	4	UG  23	Hora Inicial	08:30:00	Hora Final	09:02:00	Falha de queima do cilindro A1Grupo	4	UG  24	Hora Inicial	09:23:00	Hora Final	09:37:00	Falha de queima do cilindro A9Grupo	1	UG  02	Hora Inicial	13:54:00	Hora Final	14:35:00	Falha de queima do cilindro B9Grupo	3	UG  14	Hora Inicial	17:46:00	Hora Final	17:54:00	Falha de queima do cilindro A5Grupo	1	UG  05	Hora Inicial	19:40:00	Hora Final	21:14:00	Falha de comunicação PLC|oper
+833429|2020-08-05 10:39:57|Normalização de falhas na indicação do status (aberta  fechada) das chaves seccionadoras 531, 1051 e 1052 de 230kV, com possível manobra de abertura e fechamento destas chaves para testes.|oper
+833437|2020-08-05 10:48:38|Solicitamos passar o religamento automático da LT FAR - CAX5 230 kV para a posição tripolar.|oper
+833439|2020-08-05 10:48:38|Solicitamos passar o religamento automático da LT LGR - CAX5 230 kV para a posição tripolar.|oper
+833446|2020-08-05 11:00:05|MPP no 10529-216 MPP no 10529-220Substituir pinças do contato móvel do 10529-216 Realizar Limpeza na coluna de isoladores do 10529-220Realizar Limpeza na coluna de isoladores do 10529-216|oper
+833456|2020-08-05 11:16:12|Desligamento da LT 525kV ARE-SGD  para reposição de cabos furtados de aterramento na SE SGD cto. ARE.|oper
+833457|2020-08-05 11:19:31|Reinicialização e testes na UPDC2 do BCS SICL7-03 da subestação Silves.|oper
+833460|2020-08-05 11:23:34|Instalação de pararaio. Energização para testes, após instalação do pararaio.|oper
+833472|2020-08-05 12:03:32|Ensaios de Vibração na UG-3.|oper
+833489|2020-08-05 13:14:38|Realizar complementação de gás SF6 na fase C do disjuntor 15C2 da SE São João do Piauí.|oper
+833539|2020-08-05 15:44:05|Liberação do trafo 04T2 da SE Acaraú II - AUD desenergizado e isolado  fim de permitir equipe CHESF  DORFT realizar manutenção preventiva periódica nos seguintes equipamentos : DISJUNTORES 14T2 E 12T2   CHAVES 34T2-1, 34T2-2, 34T2-5, 34T2-6, 32T2-4, 32T2-5 E 32T2-6   PÁRA-RAIOS 74T2 E 72T2   TP 84T2   TC 94T2 E 92T2.|oper
+833552|2020-08-05 16:15:03|REDUÇÃO DE CARGA DA UNIDADE GERADORA PARA 630MW DEVIDO A PERDA DE EFICIÊNCIA DA UNIDADE.|oper
+833553|2020-08-05 16:15:52|Efetuar correção da lógica de Bloqueio Degradado (Goose) do DJ 5116 na SE LRJ.|oper
+833577|2020-08-05 17:22:08|Subst. de isoladores 05L4.|oper
+833591|2020-08-05 18:39:05|Desconexão e Retirada de cabos dos isoladores entre a chave 38229-58 e a Barra-2 (Bay BAU C2).|oper
+833619|2020-08-06 08:56:18|Manutenção Preventiva Parcial no disjuntor 52-07 Realização das atividades minimas SAM - ONS Ren 669 Os testes nas seccionadoras 29-06, 29-30 serão realizados conjuntamente com as manobras. Serão efetuados comandos de abertura e fechamento do disjuntor.|oper
+833629|2020-08-06 09:44:07|Atualização nas configurações e lógicas de proteção da LT 230kV Canoinhas    São Mateus do Sul C2, na subestação Canoinhas|oper
+833630|2020-08-06 09:50:36|Pintura e tratamento da casa de filtros e telhado da UG02.|oper
+833638|2020-08-06 10:09:04|POSSIBILITAR BY-PASS DO DJ7626, ATRAVÉS DA BR7B E DJ706, VISANDO EFETUAR MANUTENÇÃO CORRETIVA NO CIRCUITO HIDRÁULICO DO DJ7626.|oper
+833652|2020-08-06 11:23:05|Limpeza no sistema de excitação e substituição de escovas se necessário|oper
+833671|2020-08-06 12:36:25|DESLIGAR SB 500 kV VILA DO CONDE2 PA (2)  - VCBR7-02 PARA EXECUTAR A SEGUINTE ATIVIDADE:. INSPEÇÃO GERAL E ENSAIOS DE 6 ANOS NA SECCIONADORA VCSD7-06 PARA REALIZAÇÃO DO PLANO MÍNIMO DE MANUTENÇÃO.|oper
+833657|2020-08-06 11:39:45|EXECUÇÃO DE MELHORIA PREVISTA NO PMI 532  2014 RECUPERAÇÃO GERAL DA UNIDADE V DO BANCO DE REATORES DE 500kV Nº 06 DA SE IMPERATRIZ (IZRE7-06), COM SUBSTITUIÇÃO DE COMPONENTES E ACESSÓRIOS, PINTURA, INSPEÇÃO INTERNA, VEDAÇÕES ETC.|oper
+833675|2020-08-06 12:51:00|Manutenção preventiva anual na UG5 e T5.|oper
+833703|2020-08-06 14:51:56|Inspeção geral e limpeza do gerador.|oper
+833713|2020-08-06 15:25:55|Fazer testes de integração com a proteção no novo disjuntor 12T2 e com o vão de transferência 12D1. Intervenção para atender Plano de Modernização das Instalações - PMI, SGPMR nº 1872  2017.|oper
+833718|2020-08-06 15:36:33|Bloqueio da Proteção Secundária relé RAZFE de funções 21  21N devido ao desligamento acidental ocorrido hoje a 00:03|oper
+833730|2020-08-06 16:00:21|VERIFICAR E CORRIGIR FALHA A TERRA NO PAINEL DCU DA UNIDADE GERADORA|oper
+833731|2020-08-06 16:06:21|Inspeção geral e limpeza do gerador.|oper
+833743|2020-08-06 16:30:11|Inspeção geral e limpeza do gerador.|oper
+833752|2020-08-06 16:58:50|Completar pressão SF6 do disjuntor (DJ1050) fase   C   modulo 1 da SE GRA.|oper
+833795|2020-08-06 20:10:39|REALIZAR DESLIGAMENTO DOS EQUIPAMENTOS PARA ATIVIDADES PROGRAMADAS PELA ENEL GREEN POWER NO CONJUNTO EÓLICO LAGOA DOS VENTOS.|oper
+833812|2020-08-07 07:00:43|INDISPONIBILIDADE DO CIRCUITO AEG-09 (19J3) DA COLETORA DE DELTA 3.|oper
+833830|2020-08-07 09:44:29|Reposição de gás SF6  no disjuntor 37652-3 fase VM.|oper
+833836|2020-08-07 09:59:00|SUBSTITUIÇÃO DE ISOLADRES E ACESSÓRIOS AO LONGO DA LINHA|oper
+833838|2020-08-07 10:01:54|Testes de comandos simulados dos disjuntores JBDJ6-01, JBDJ6-03, JBDJ6-04, JBDJ6-02, JBDJ6-05, JBSD6-05, JBDJ6-05, JBDJ5-01, JBDB5-01 e JBDJ5-02 da SE Juba para comissionamento da integração dos equipamentos TAESA (concessão BRASNORTE) na SE Brasnorte ao Sistema de Supervisão e Controle Power5 do COC-TAESA.|oper
+833846|2020-08-07 10:16:23|Bloquear religamento automático da LT  Barreiro 1 - Pimenta 345 kV em atendimento a solicitação do agente Furnas.|oper
+833853|2020-08-07 10:31:02|Liberação do trafo 04T1 da SE Delmiro Gouvéia - DMG desenergizado  isolado fim de permitir equipe CHESF  DORFT substituir 8 radiadores.|oper
+833866|2020-08-07 11:06:03|Inspeção por partículas magnéticas nos rotores de turbina. Inspeção geral e limpeza do gerador.|oper
+833917|2020-08-07 14:04:44|Realizar reduções de geração ao patamar de 10 MW, para limpeza nas grades da tomada dágua.|oper
+833946|2020-08-07 15:43:25|Testes de telecomando real a partir do COT Regional e COS Equatorial Serão realizados comandos de abertura e fechamento do disjuntor 9384 para validação a partir do COS Equatorial.|oper
+833956|2020-08-07 16:16:56|retirada da unidade em emergência por vazamento de combustível pela caneta do cilindro A2|oper
+833951|2020-08-07 16:03:46|NÃO HÁ|oper
+833953|2020-08-07 16:07:38|Fechamento de cavilhas do estado do 352-5 para proteção de barras de 230KV. 2Lançamento e conexão de nova cablagem do bay de BOT C-3 no interior do painel de proteção de Barras e Falha de Disjuntor PDB-2 na CCL-1.|oper
+833970|2020-08-07 16:40:01|Parametrização dos relés de proteção.|oper
+833971|2020-08-07 16:40:01|Instalação física dos equipamentos da UPS (Sistema de energia de emergência)|oper
+833986|2020-08-07 17:07:37|SANAR VAZAMENTO DE ÓLEO NO AT03.|oper
+833989|2020-08-07 17:15:34|Equipes DORBP  DORBT  JPW  ESC: Solicitar desenergização da barra 09B1 e do trafo 04T1 para: i. Realização de testes de atuação da proteção relacionados a energização da entrada de linha EL09W3 e ativos associados: disjuntor 19W3 e TCs: 99W3-1 e 99W3-2, TP: 89W3   ii. Implantação de lógica no relé de proteção F1 do 19W2. iii. Conexão da cabeação da rede RMT (EL09W3) ao barramento 09B1 no cubículo A09.|oper
+833994|2020-08-07 17:24:42|Substituir o 3TC-25 fase azul  2Adequação cablagens do secundário do 3TC-25 3Adequação estruturas do 3TC-25 4Adequação pingados  cabos entre o 3TC-25 e 3PR-25 5Substituir caixa de interligação do 3TC-25.|oper
+834007|2020-08-07 18:29:25|Verificar  sanar merejamento de óleo no DJ 35352-27 fase Vm 2Realizar limpeza no indicador de nível de óleo do 1TP-27 fase Br 3Sanar defeito de abertura incompleta da chave 35329-7 fase Br|oper
+834009|2020-08-07 18:31:15|LIBERAÇÃO DA LT 04Z6 (FTZ  FZD) DESENERGIZADA  ISOLADA  ATERRADA FIM DE PERMITIR EQUIPE CHESF  DORFT REALIZAR A SUBSTITUIÇÃO DO TPC 84Z6-C DA SE-FZD.|oper
+834014|2020-08-07 19:00:06|Energização do 3TP-25 345KV SE EMG.  2Medição das grandezas elétricas nas proteções dos 3TP-25 da LT 345 kV EMG  SUL.|oper
+834019|2020-08-07 20:31:18|Substituição de isoladores cadeias de isoladores de vidro por isoladores poliméricos na LT 500 kV CID  JCT 05L4.|oper
+834029|2020-08-08 05:05:20|Atendimento Emergencial, Realizar a troca de fases do reator não manobravel RTMRRN1, substituir fase Br pela Reserva. Sera realizado aterramento temporário na SC 9560R. |oper
+834051|2020-08-08 23:52:59|Desligamento em emergência devido a falha de comutação de combustível.|oper
+834073|2020-08-09 12:10:14|Corrigir falha de injeção de combustível no cilindro B2|oper
+834084|2020-08-10 08:37:17|Recomissionamento do sistema de monitoramento de vibração da UG01.|oper
+834105|2020-08-10 10:02:04|Manutneção preventiva de 10 anos na CS1095.|oper
+834117|2020-08-10 10:29:30|Teste do sistema de monitoramento de vibração da UG02.|oper
+834133|2020-08-10 11:01:13|Manutenção preventiva nas buchas de 230kV e 69kV, Disjuntor 52-11(230kV) e 52-12(69kV) do TR-5 230  69kV, na SE Santa Maria 3. Intervenção para realização de manutenção preventiva cadastrada no Sistema de Acompanhamento de Manutenções (SAM) do ONS, em atendimento a ReN ANEEL 669  2015 e Art. 12. da ReN ANEEL 729  2016  .|oper
+834144|2020-08-10 11:29:31|Pesquisa de falha no circuito de fechamento|oper
+834140|2020-08-10 11:24:17|Testes para possibilitar a Energização do TRAFO 3 (230  69  13,8 kV - 50 MVA) na SE Anhanguera.|oper
+834159|2020-08-10 12:12:21|RECONEXÃO DOS CABOS DE INTERLIGAÇÃO DA BR601 C   SC631.|oper
+834167|2020-08-10 12:18:34|VERIFICAR CIRCUITO DE ALARME E DISPARO POR TEMPERATURA DE ÓLEO E ENROLAMENTO . ACOMPANHAMENTO E APOIO DAS VERIFICAÇÕES NOS CUBÍCULOS INDIVIDUAIS PELA DMEN.O|oper
+834168|2020-08-10 12:26:54|Substituição de cadeias de isoladores, ferragens e sistema de amortecimento, ao longo da LT 230kV Alegrete 2    UTE Uruguaiana, conforme Plano de Modernização de Instalações - PMI 2018-2021, nº SGPMR 004798  2018   Estrutura 254 (Transposição de fases).|oper
+834178|2020-08-10 13:23:45|DORTT realizar substituição de macaco hidráulico do 14T1-A  BEA, face acentuado vazamento de óleo|oper
+834197|2020-08-10 14:13:05|Lavagem de isoladores na LT500KV AUT-PED C1 e lavagem de isoladores no MG 7DJD-30|oper
+834179|2020-08-10 13:19:02|Substituição do disjuntor 15D2-CMD pela empresa contratada ABB, sobsupervisão da DORSC  DORSP.As atividades consistirão em:1    Desconexão, desmontagem e embalagem do atual disjuntor  2 - Montagem do novo disjuntor, conforme projeto aprovado pela CHESF  3 - Comissionamento do equipamento, incluindo ensaios de isolamento AC,isolamento DC das proteções e circuitos internos, registrososcilográficos, resistência de contato, pressões do sistema de gás SF6,mecanismo de operação, testes de abertura e fechamento do disjuntor.4    Integração do MPCCS: Conexão dos cabos novos, instalação de dRAs,testes de sinalização e comando no Quadro Mosaico e no SAGE N2  N3(CROS  ONS)  5 - Ao final dos trabalhos, será realizada energização do novodisjuntor.|oper
+834195|2020-08-10 14:08:37|EFETUAR ATERRAMENTO EM SUBSTITUÍÇÃO A SC6260T ACOMPANHAR MANOBRA DE ISOLAÇÃO INSPEÇÃO LIMPEZA E ESTADO CONSERVAÇÃO, INSP CABOS BAIXA TENSÃO E ATERRAMENTO, INSP PAINEL COMANDO E COMPONENTES, LUB ROLAM ART HASTES DE ACOPL (SE APLI), VERIF FUNC DOS CONT LOCAIS E OPER MANUAL, VERIF AJUSTES DAS CHAVES DE FIM DE CURSO, VERIF AJUST ALINH E SIMULT DAS FASES, VERIF FUNC RESISTÊNCIA DE AQUECIMENTO, LIMPAR ISOLAD FLANGES E COLUNA SUPORTE, LIMP LUB OU SUBST CONTATOS SE NECESSARIO SC6261, SC6265, SC6267, SC6269  INSPEÇÃO LIMPEZA E ESTADO CONSERVAÇÃO, VERIFICAR FUNCIONAMENTO COMPONENTES, REMOÇÃO CORROSÃO (QUANDO NECESSARIO), EXECUÇÃO ENSAIO RESISTENCIA DE CONTATO, EXECUÇÃO ENSAIO BUCHAS E TAP CAPACITIVO, EXECUÇÃO ENSAIO TEMPOS DE OPERAÇÃO, EXECUTAR ENSAIO FATOR POTENCIA DJ6268  RETIRAR ATERRAMENTO EM SUBSTITUIÇÃO A SC6260T.|oper
+834199|2020-08-10 14:18:07|DESLIGAR SB 500 kV VILA DO CONDE2 PA (2)  - VCBR7-02 PARA EXECUTAR A SEGUINTE ATIVIDADE:. INSPEÇÃO GERAL E ENSAIOS DE 6 ANOS NA SECCIONADORA VCSD7-12 PARA REALIZAÇÃO DO PLANO MÍNIMO DE MANUTENÇÃO.|oper
+834209|2020-08-10 14:38:00|DESLIGAR E ISOLAR A BARRA 230kV Nº 02 PMBR6-02 PARA REALIZAR: INSPEÇÃO GERAL E ENSAIOS. MANUTENÇÃO MINIMA DA CHAVE SECCIONADORA PMSB6-10 (NÃO CADASTRADA NO PAM)|oper
+834231|2020-08-10 15:25:19|SUBSTITUIÇÃO DOS POLOS DA SC639 CEME VERIFICAÇÃO DE VAZAMENTO NO TR13 FASE C  VERIFICAR VAZAMENTO DE ÓLEO NO RELE DE GAS DO TR13 FASE C  VERIFICAÇÃO DE VAZAMENTO NO TR13 NA BUCHA H0, FASE A   VERIFICAR  RECUPERAR ISOLADOR DJ9378, ISOLADOR QUEBRADO NA COLUNA PEDESTAL ANTES DO CÁRTER  VERIFICAR VAZAMENTO DE ÓLEO HIDRAULICO NO DJ638  SANAR PONTO DE SOBREAQUECIMENTO NO CONECTOR DA BUCHA X0, FASE A|oper
+834244|2020-08-10 16:05:25|INSPEÇÃO DE EROSÃO E CAVITAÇÃO NAS PÁS DO ROTOR KAPLAN DA UNIDADE GERADORA 02.|oper
+834250|2020-08-10 16:15:49|Verificação dos sensores do sistema de monitoramento de Vibração, Ensaios de faixa operativa com variação de carga em patamares de 10 em 10% da potência nominal, testes a vazio e excitada  |oper
+834280|2020-08-10 17:33:49|Substituição da Fase AZ do TR-2 de 345  88 kV pelo TR FR 345  88 kV dos TRs 1 e 2. 2Adequações de comando e controle e proteções da Fase Reserva para substituir a Fase Azul do TR-2 de 345  88 kV.  3Teste de atuação das proteções e alarmes do Transformador.  4Teste de comando do comutador de Tap. |oper
+834284|2020-08-10 17:35:05|Será realizada correção de ponto quente nas 3 fases da chave 7K2.|oper
+834291|2020-08-10 17:54:07|Medições de Níveis de TX e RX no equipamento Tom de Audio DA LT 440KV GSP  JAD e no Sistema de Telecomunicações MUX AMD II. Nota N2 - 889236 PM02 - 4236658 Medições de Níveis de TX e RX no equipamento Tom de Audio DA LT 440KV GSP  JAD e no Sistema de Telecomunicações MUX AMD II.|oper
+834295|2020-08-10 18:01:11|UNIDADE LIMITADA EM 250MW DEVIDO A PROBLEMAS NAS EMISSOES DE PARTICULADOS|oper
+834323|2020-08-10 21:51:42|Treinamento de novos técnicos de subestação na SE Bauru.  Manobras de comutação de Taps no TR-1, TR-2  e TR-5 de 440  138 kV elétrico distância, eletrico local e manual localíssimo (atraves da manivela).|oper
+834319|2020-08-10 21:40:06|Energização do CS1com partida, parada e variação de carga no sistema. Verificação dos valores oscilação do CS1  Leituras digitais e analógicas|oper
+834330|2020-08-10 22:47:04|Fechamento de cavilhas do estado do 352-6 para proteção de barras de 230KV.  2Lançamento e conexão de nova cablagem do bay do TR-5 no interior do painel de proteção de Barras e Falha de Disjuntor PDB-2 na CCL-1|oper
+834333|2020-08-11 05:45:33|Instalação de isoladores para conexão dos cabos mufla na área de 230kV. 2Conexão dos cabos mufla nas novas buchas. 3Enchimento dos terminais dos cabos mufla com óleo isolante. Testes de isolação e conexão dos cabos isolados mufla.|oper
+834341|2020-08-11 08:29:40|Desligamento 14D1 - Remanejamento 87B Durante o desligamento do 14D1, a ACESSANTE CYMI e suas subcontratadas realizarão as seguintes atividades: Com a presença da CHESF DORBP, retirar os cabos e interligações dos equipamentos de pátio do vão de transferência associados à proteção de barras antiga (painel 4UA7C)   Com a presença da CHESF DORBP, realizar a conexão dos novos cabos associados à proteção nova (4UA8) nos equipamentos de pátio   Checar a funcionalidade e circuitos de corrente após adequação de cabeação.A responsabilidade da execução do escopo acima listado é da contratada, cabendo à Chesf (DETE   DETA   DORBP) apenas o papel da fiscalização.|oper
+834349|2020-08-11 09:15:02|Inspeção para verificação de falha nos sistema de proteção do GAP do banco de capacitor serie da SE Barreiras II.|oper
+834354|2020-08-11 09:36:17|Substituição da junta de vedação da tampa de inspeção das buchas secundária X1 – X2 - fase Branca e complementar o nível de óleo isolante do reator BDRE7-06 (fases Azul, Branca e Vermelha)|oper
+834393|2020-08-11 11:43:20|Será necessário o transbordo do óleo dos radiadores existentes para o tanque conservador, retirada dos radiadores existentes e instalação dos novos radiadores e nova estrutura de suporte.|oper
+834403|2020-08-11 11:56:54|Verificações, ajustes e avaliação operacional, após manutenção.|oper
+834417|2020-08-11 12:35:52|REALIZAR MANUTENÇÃO CORRETIVA NO TC 94Z5-A DA SE SUT FACE VAZAMENTO EM DOMO DO EQUIPAMENTO.|oper
+834424|2020-08-11 13:25:40|INSPEÇÃO NO SISTEMA DE AR DE CONTROLE DA UGD|oper
+834451|2020-08-11 14:37:53|Adequação de jumper na LT 138 kV TRI  DMA fases ABV na torre de derivação 197.|oper
+834466|2020-08-11 15:02:01|Manutenção preventiva nos equipamentos de subestação referente a UG.|oper
+834490|2020-08-11 15:56:16|LT CVO-CVN-1 230 kV desligada e isolada nos extremos e barra principal 230 kV desenergizada e todos os demais circuitos operando na barra de Transferência 230kV, para possibilitar:Atividade decorrente devido SGI 20155-20 decorrente cadastrada na Verificação de ajustes, alinhamento e simultaneidade de operação das fases na chave seccionadora 29-98 CTO CVN-1 230 kV, necessitando realizar ajustes na parte ativa da chave.Atividade decorrente devido SGI 20155-20 decorrente cadastrada na Verificação da necessidade de limpeza, lubrificação ou substituição dos contatos na chave seccionadora 29-96 CTO CVN-1 230 kV, necessitando realizar ajustes nos contatos da chave.|oper
+834524|2020-08-11 17:14:59|Lavagem de isoladores na seção de barra 7B11-10 da SE Parnaíba III.|oper
+834556|2020-08-11 18:03:54|Adequação da UAC do PCG13 para aplicação da nova topologia de comunicação entre UAC e A8000 do PITGT.|oper
+834548|2020-08-11 17:52:37|efetuar medições de qualidade do Gás SF-6 nos compartimentos da blindada de 88 kV.|oper
+834570|2020-08-12 03:34:02|MANUTENÇÃO CORRETIVA NO DISJUNTOR DJ24F1SA|oper
+834572|2020-08-12 05:11:38|Investigar desarme do G3.|oper
+834592|2020-08-12 09:34:02|Manter UG2 e UG4 parada para possibilitar atividade subaquática de inspeção na soleira e vazamento nos stop logs na tomada dágua da UG3.|oper
+834593|2020-08-12 09:34:12|Verificações, ajustes e avaliação operacional, após manutenção.|oper
+834624|2020-08-12 10:49:16|Inspeção detalhada no OLTC do Transformador Conversor 2T01 fase A da SE XNG, após análise do óleo constatar elevação anormal do nível de gás acetileno.|oper
+834620|2020-08-12 10:33:26|O cliente Vallourec Soluções Tubulares S.A. (VSB) realizará manutenção preventiva no Transformador TR-2 e testes operativos de proteção e controle do Bay do TR-2, simulando atuação de proteções nos disjuntores 4P4 e 5P4 da SE Jeceaba.|oper
+834626|2020-08-12 10:50:45|MANUTENÇÃO PREVENTIVA DO SISTEMA DE COMANDO, CONTROLE E PROTEÇÃO DO DISJUNTOR 41.|oper
+834657|2020-08-12 12:12:32|Realização de testes em modo ilha da UTE Distrito bloco 03.|oper
+834713|2020-08-12 15:49:30|VERIFICAR ATUAÇÃO DE FUGA A TERRA NA ILHA DE GERAÇÃO 02, REFERENTE AS UNIDADES GERADORAS 05, 06, 07, 08 E TRANSFORMADOR ELEVADOR 02.|oper
+834709|2020-08-12 15:32:13|Serão abertas as flex-testes das proteções das linhas: LI 230 kV São Mateus do Sul - Areia e LI 230 kV São Mateus do Sul - Canoinhas 1 afim de evitar a atuação indevida por falta de tensão    Barramento Principal desenergizado     Será realizada a conexão das proteções previamente preparada pela Copel , para atuação do Disjuntor (DJ 52-13), na SE SMS   Serão desligadas as teleproteções para evitar atuação indevida, durante a realização do serviço enquanto o Barramento Principal estivel desenergizado.|oper
+834720|2020-08-12 16:20:40|Energização da LT05P1 SE SOB    SE ARI. Fechamento dos equipamentos para energização da LT.|oper
+834734|2020-08-12 16:47:08|Lançamentos e conexão de cabos de comando controle e interligação, ligação de CA e CC entre paíneis novos e os existentes (energizados). Paíneis 1QPTRA trafo terra , 1 QPPL2 LT nova venecia, 1QPPL1 LT Pinheiros, 1QPCBB TIE, 1QPCT1 8TR1 138KV, 2QPTR1 8TR1 230 KV, 2QPPL1 LI Mascarenhas, 2QPAL1 LI Mascarenhas, 2QPB TIE 230KV, 1QDC1, 1QDC2, 1QD1,1QD2, 1QD3 e 1QD4.|oper
+834742|2020-08-12 17:07:34|Verificações, reparo e limpeza do 1TP-BR-I - Fase B   2Ensaios elétrico no 1TP-BR-I - Fase B   3Coleta de óleo mineral isolante no 1TP-BR-I - Fase B.|oper
+834768|2020-08-12 18:40:18|Substituição e comissionamento das proteções principal e suplementar em ambos os terminais da LT 230kV Governador Valadares 2-Mesquita|oper
+834785|2020-08-12 21:17:37|Manutenção no mecanismo de manobra da seccionadora 9057 fase Azul do agente SPTE na subestação de Pirapora 2.|oper
+834799|2020-08-13 08:45:29|Liberação do trafo 04T1 da SE Delmiro Gouvéia - DMG desenergizado  isolado fim de permitir equipe CHESF  DORFT substituir 4 radiadores.|oper
+834818|2020-08-13 09:34:29|Inspeção no painel da válvula esférica. Inspeção geral e limpeza do gerador.|oper
+834832|2020-08-13 10:27:39|Reparo no sistema mecânico de abertura e fechamento da Seccionador 35829-92 de 345 kV.|oper
+834828|2020-08-13 10:20:14|SUBSTITUIÇÃO DO DISJUNTOR 7072 NA SE SERRA DA MESA (LT 230kV CV  SM CIRCUITO 2), EM ATENDIMENTO A MODERNIZAÇÃO PROGRAMADA DOS EQUIPAMENTOS DE CONEXÃO DAS USINAS UHCB E UHSA, EM SERRA DA MESA. NO PERÍODO SERÃO REALIZADOS AS SEGUINTES ATIVIDADES:- DESCOMISSIONAMENTO E DESMONTAGEM DO EQUIPAMENTO    MONTAGEM DO NOVO EQUIPAMENTO E ENSAIOS INICIAIS   COMISSIONAMENTO E LIBERAÇÃO FINAL.|oper
+834840|2020-08-13 10:53:21|Inspeção NR-13 da caldeira recuperadora e inspeção A da turbina a gás associada. |oper
+834848|2020-08-13 11:11:19|LAVAR ISOLADORES POLUÍDOS DAS TORRES 552, 621 E 685 DA LINHA 	LT 500 kV IMPERATRIZ    P.DUTRA C 2 MA (IZPD-LT7-02)|oper
+834892|2020-08-13 13:33:52|O Sanar falha nas conexões relé multiplicador do circuito de intertravamento do seccionador 10529-310 (LT 138 kV BAU  BAU-CP C-2) com os demais seccionadores da barra de transferência   Realizar ensaios de comando elétrico no seccionador 10529-100 (TR-3).|oper
+834896|2020-08-13 13:39:28|Manutenção Preventiva Periódica no DJ 35452-322 de 345 kV.|oper
+834902|2020-08-13 14:18:40|Serão realizados ajustes de fim de curso e correção de anomalia térmica nas chaves 6P3 e 6P5 da SE Jeceaba.|oper
+834954|2020-08-13 16:43:05|Parada da Unidade Geradora 01 da UHE Itiquira para instalação dos acopladores capacitivos nos terminais de saída do gerador, em atendimento aos testes de descargas parciais.|oper
+834963|2020-08-13 16:57:43|LIMITAÇÃO DE CARGA MÍNIMA DA FAIXA DE OPERAÇÃO DA UNIDADE 03 PARA 285 MW  EM VIRTUDE DA ELEVAÇÃO DOS NÍVEIS DE VIBRAÇÃO NO MANCAL GUIA DO GERADOR.|oper
+834992|2020-08-13 18:20:40|Necessário   UG- 01,02,03 e 04 por motivos de segurança do pessoal,  em  manobras na SE 440 KV ,  para possibilitar a  normalização da SE 440KV,  após a substituição do 3TP-24-2 pela CTEEP e após ensaios  com a UG 07 e 08  (RPE).|oper
+834995|2020-08-13 18:37:30|REALIZAR SUBSTITUIÇÃO DE RADIADORES NA UNIDADE DE AUTOTRAFO 05T1-A DA SE RCD.|oper
+834997|2020-08-13 18:56:23|VERIFICAR MOTIVO DA ATUAÇÃO DE DISCORDÂNCIA DE PÓLOS NO TUDJ7-08.|oper
+835003|2020-08-13 19:40:37|Limpeza das Grades Anti-detritos da tomada dágua da UG-1.|oper
+835012|2020-08-14 00:18:52|Realizar teste para calibração da placa de orifício da UG08.|oper
+835014|2020-08-14 00:37:21|UG  15 Grupo 03 – Hora inicial: 08:52h Final: 09:20h – Falha no sistema de arrefecimento   UG  12 Grupo 02 – Hora inicial: 09:53h Final: 10:11h – Falha no sistema de lubrificação   UG  13 Grupo 03 – Hora inicial: 13:53h Final: 14:00h – Falha de queima do cilindro A7   UG  03 Grupo 01 – Hora inicial: 14:09h Final: 14:17h – Falha de queima dos cilindros A2 e A3   UG  17 Grupo 03 – Hora inicial: 21:12h Final: 21:33h – Falha de queima do cilindro A9   UG  13 Grupo 03 – Hora inicial: 21:38h – Falha no sistema de lubrificação  |oper
+835058|2020-08-14 10:19:47|Possibilitar a Inspeção, limpeza e colocação de 01 comporta de manutenção, nos vãos 01 e 02, à jusante da UG-08 com auxílio de mergulhadores.|oper
+835071|2020-08-14 10:41:13|Verificar e sanar falha no mecanismo do acionador da fase VM.|oper
+835079|2020-08-14 10:59:03|Início da Operação em Teste da Usina Fotovoltaica Coremas III, com o comissionamento a quente das Unidades Geradoras.|oper
+835083|2020-08-14 11:11:02|Lubrificação e teste mecânico de chave seccionadora.|oper
+835098|2020-08-14 11:49:13|Manutenção Corretiva, para remanejamento de Latas Capacitivas, conforme recomendação do fabricante.|oper
+835103|2020-08-14 11:55:48|MPP Relé Sobrecorrente (50  51) - TR-AT-5B-A 2MPP Relé Sobrecorrente (50  51) - TR-AT-5B-B 3MPP Relé Sobrecorrente (50  51) - TR-AT-5B-V 4- MPP Relé Sobrecorrente (51) - TR-AT-5B - N|oper
+835116|2020-08-14 12:16:09|Liberação LT 04F1-BNB  FTZ energizada com religadores automaticos desativados em ambos terminais, fim   CHESF Permitir lançamento de cabo condutor  cabo para-raio  piloto da LT 230 kV Banabuiú    Russas II - C2.|oper
+835142|2020-08-14 13:50:13|Medição de módulo e ângulo da função 13U50BF.|oper
+835211|2020-08-14 16:14:55|Substituição de cadeias de isoladores de vidro por isoladores poliméricos na LT 500 kV CID  JCT 05L4.|oper
+835222|2020-08-14 16:53:21|NORMALIZAÇÃO DE PRESENÇA DE POLARIDADE POSITIVA NO POLO A DA BOBINA DE ABERTURA 1 DO DISJUNTOR 	DJ 230 kV TUCURUI 604 PA (TCDJ6-04)|oper
+835261|2020-08-14 19:23:30|Passivação do óleo do Transformador Elevador TR-13   2. Substituição vedação haste do Servomotor 01 e da vedação da haste e vedação da rótula do Servomotor 03   3. Substituição da conexão roscada da linha de saída da motobomba 02 do MGG   Substituição da válvula dos filtros de óleo do MGG e Substituição da vedação do registro do ponto de coleta de óleo do MGG   4. Verificação do nível de óleo do Mancal Inferior e Mancal Superior   5. Ensaios e substituição, se necessário, dos inversores |oper
+835241|2020-08-14 17:39:42|Acompanhamento da Operação do Bipolo 2 em RVO e HMC e realizar Inspeção Termográfica dos Equipamentos do Pátio DC. O horário de inicio para a operação High Mvar (HMC) ou Tensão Reduzida (RVO) fica a critério do ONS mantendo operação diária de 6 horas. O valor de consumo de reativo é a critério do ONS.|oper
+835263|2020-08-14 19:24:40|Manutenção, inspeção e limpeza no anel coletor  |oper
+835267|2020-08-14 19:28:33|Ensaios operacionais de retorno da UG-8 ao sistema, após manutenção.|oper
+835269|2020-08-14 20:12:00|VERIFICAR A CAUSA DO DESLIGAMENTO DA UNIDADE.|oper
+835291|2020-08-15 09:36:43|MANUTENÇÃO PREVENTIVA NOS CIRCUITOS DE PROTEÇÃO E CONTROLE DA LINHA.|oper
+835297|2020-08-15 12:45:40|SANAR VAZAMENTO ACENTUADO DE ÓLEO NO MCG.|oper
+835305|2020-08-15 16:55:36|Será efetuada parada da UG-04, para realizar serviço de inspeção sub-aquática no vão das comportas ensecadeiras de tomada dágua da UG02.|oper
+835320|2020-08-15 21:04:35|Substituir os 3TP-31    Adequar cablagem do secundário dos 3TP-31    Adequar estruturas dos 3TP-31    Adequar pingados  cabos aéreos para os 3TP-31    Adequar cabos de interligação entre os 3TP-31 e demais equipamentos do bay MRD C-1    Adequar cablagem no interior do painel de proteção do bay MRD C-1.|oper
+835316|2020-08-15 19:31:56|Manutenção Preventiva Periódica nas proteções do TR-9 (notas: 838186   838162   838163   835431   835426). Verificar caixa de engrenagem do TR-9 fases AZ, BR e VM. (Notas 677604   677605 e 677607)    Coletar parâmetros do Sincronizador do DJ 1652-32 (nota: 915195).  Manutenção preventiva periódica no Seccionador 1629-116-43. (nota:851044)    Manutenção preventiva periódica no Seccionador 1629-302-45. (nota:681824)    Manutenção preventiva periódica no Disjuntor 1652-32. (nota:850677)    Manutenção preventiva periódica no TR-9 fases Azul, Vermelha e Branca. (notas:681853   681851   681852)    Manutenção preventiva periódica no Seccionador 1629-110-39 (nota: 851043)  |oper
+835327|2020-08-16 00:42:39|Desligamento automático da UG51 de Maranhão III em função da explosão do Transformador de Corrente - TC 11ABC10 (fase B) do modelo CTH-550.|oper
+835344|2020-08-16 19:53:21|LIMITADA GERAÇÃO EM 250 MW,  DEVIDO AO ALTO TEOR DE PARTICULADO NA SAÍDA DA CHAMINÉ.|oper
+835372|2020-08-17 09:09:43|LT 230 IBP-LON-1 desligada para Obra conforme ReA 7384-18 Aneel: Substituição de cabo condutor ACSR DRAKE do circuito LT 230 IBP-LON-1 por cabo ACCC CÓRDOBA, com o circuito LT 230 IBP-LON-2 bloqueado para RA (bloqueios de RA com retorno diário).|oper
+835393|2020-08-17 09:52:50|Manutenção preventiva de 3 anos (RMM-SAM) no BCS - LECL7-01 de 500 kV da subestação Lechuga.|oper
+835401|2020-08-17 10:07:39|Manutenção preventiva anual UG-1. Desmontagem, Limpeza e montagem do sistema de resfriamento dos Geradores e MGG em decorrência do mexilhão dourado. Desmontagem, Limpeza e montagem dos trocadores de calor do mancal de escora. Limpeza e Substituição das Escovas do Anel Coletor. Limpeza e reaperto das conexões dos painéis da UG. Limpeza da caixa de óleo do RV para inspeção e reaperto das conexões. Ensaios operacionais.|oper
+835413|2020-08-17 11:03:20|Substituir módulo Multican do canal 1 no Regulador de Tensão devido falha na placa de saída analógica. |oper
+835465|2020-08-17 13:03:39|Corretiva no cilindro A4, que estava com desvio de temperatura, causando variação de carga no motor.|oper
+835407|2020-08-17 10:40:10|Substituição dos transformadores de corrente 1110 e 1112, modelo CTH 550, fabricante ALSTOM do Projeto ATE (Araraquara Transmissora de Energia).|oper
+835455|2020-08-17 12:20:47|Parada do Compensador Síncrono para atividade de manutenção de 8000 horas conforme previsto em manual de manutenção do fabricante, envolvendo: Troca das escovas do anel coletor com analise da condição do anel coletor por especialista e posterior limpeza do compartimento   Inversão das barras de polaridade no sistema de excitação e posterior limpeza do painel   Inspeção no estator e no rotor do compensador e posterior limpeza de acúmulos de pó de escovas e possíveis detritos   Troca do conversor de sinais RTD x 4-20mA (IFM TP 3233), com possível falha, que causou o desligamento no dia 29  05   Novos parâmetros nos relés REJ-601 dos cubículos de media tensão   Alteração de parâmetros de temperatura de alarme e trip no cubículo da excitação   Alteração de parâmetros nos reles de proteção para valores mínimos e máximos de sincronismo   Alteração de parâmetros no RDP, normatizar tempos de amostragem e corrigir pontos na matriz de atuações.|oper
+835462|2020-08-17 12:49:04|Nas SEs CPV e AR2 Viabilizar a segregação do canal de comunicação do Series V entre CPV e AR2    Instalação de conversores eletro-ópticos na IE Madeira e Eletronorte, nas SEs AR2 e CPV, visando criar um meio de acesso aos canais da IE Madeira, na Eletronorte, totalmente separado da NBTE    Efetuar testes de comunicação e validar junto ao COS.|oper
+835486|2020-08-17 14:31:55|Reset no sistema supervisório da subestação de Sobral III para subida da nova base de dados para correção de problema no automatismo do GMG do serviço auxiliar.  Será necessária a perda de supervisão de até 5 minutos.|oper
+835489|2020-08-17 14:49:34|Verificação de perda de supervisão referente ao bay ARA, 52-7.|oper
+835499|2020-08-17 15:21:35|ENERGIZAÇÃO EM TESTE DOS NOVOS BAYS DE FILTROS HARMÔNICOS E REATORES (BC-01 e BC-02) DO CONJUNTO EÓLICO ITAREMA V NA SE ITAREMA V.|oper
+835517|2020-08-17 16:27:25|Substituição dos Relés de controle no painel +2CM,  centro de motores da unidade geradora 2, e preparação do painel para futura transferência da alimentação do serviço auxiliar da usina, que hoje é externa (CEMIG), para a unidade geradora.|oper
+835519|2020-08-17 16:33:27|MODERNIZAÇÃO DA UNIDADE GERADORA N.º 1 POR MEIO DA SUBSTITUIÇÃO DO SISTEMA DE PROTEÇÃO DO GERADOR E DOS REGULADORES DE VELOCIDADE E TENSÃO   MPP2 - MANUTENÇÃO PREVENTIVA PERIÓDICA TIPO 2 NA UG   SUBSTITUIÇÃO DO SISTEMA DE VEDAÇÃO DE EIXO.|oper
+835534|2020-08-17 17:15:48|BLOQUEIO DO RELIGAMENTO AUTOMÁTICO DA LT 88KV HENRY BORDEN - BAIXADA SANTISTA C-5 E C-6 PARA POSSIBILITAR MANUTENÇÃO CORRETIVA EM LINHA VIVA PARA SUBSTITUIÇÃO DE ISOLADORES, PEÇAS, ACESSÓRIOS E PARA REMOÇÃO DE PONTOS DE AQUECIMENTO DAS LTs SEUS RAMAIS.|oper
+835555|2020-08-17 19:08:17|SUBSTITUIR  ISOLADOR POLIMÉRICO COM NÚCLEO EXPOSTO NA ESTRUTURA 7  3 DA LT 04S3 FZD  CPE. INTERVENÇÃO     ENERGIZADA E DISPONÍVEL COM RELIGAMENTO AUTOMÁTICO DESATIVADO.|oper
+835562|2020-08-17 19:28:40|ENSAIOS OPERACIONAIS NA UG-3 APÓS SUA PARADA, COMO CONDIÇÃO DE SEGURANÇA, PARA POSSIBILITAR A DESCIDA DE MERGULHADORES PARA INSPEÇÃO SUBAQUÁTICA NAS GRADES DA TOMADA DÁGUA E NAS SOLEIRAS DOS VÃOS DAS COMPORTAS DE MANUTENÇÃO (STOP LOG) À MONTANTE E JUSANTE DA UG-1, PARA SUA COLOCAÇÃO.|oper
+835563|2020-08-17 19:29:01|MANUTENÇÃO PREVENTIVA NOS EQUIPAMENTOS DOS BAYS DE 230 E 138KV DO AUTOTRANSFORMADOR DA SE LUCAS DO RIO VERDE (LCAT6-01) – PLANO MÍNIMO DE MANUTENÇÃO. eQUIPAMENTOS SOB INTERVENÇÃO: LCAT6-01, LCDJ6-02, LCSB6-04, LCDJ5-02   LCSD6-02   LCSD5-04   LCATTC5-01   LCATTC6-01   LCATTP-01 E PROTEÇÃO DO AUTOTRANSFORMADOR . O SERVIÇO NA LCSB6-04 SERÁ EXECUTADO NO DIA 06.09.2020 E DEPENDE DA LCBR6-02 DESLIGADA (SGI INTERDEPENTE).|oper
+835575|2020-08-17 22:31:38|Por conservação dos turbos compressores da unidade, será necessário realizar lavagem a cada 500 h de funcionamento. O serviço é executado com a unidade em carga de 2,5 MW por um período de 2 h. Salientamos que a falta de lavagem no período determinado pelo fabricante, 500 horas, ocasionará na indisponibilidade do equipamento, acarretada pelas seguintes consequências: Perda de potência   Elevação da temperatura dos gases de exaustão   Baixa taxa de ar na câmara de combustão   Aumento do consumo de combustível (aumento de consumo especifico).|oper
+835580|2020-08-18 00:19:35|Grupo	2	UG  12	Hora Inicial	08:25:00	Hora Final	10:59:00	Falha no Turbo Compressor   B  Grupo	3	UG  17	Hora Inicial	09:45:00	Hora Final	10:54:00	Falha de queima do cilindro  B3 Grupo	1	UG  01	Hora Inicial	12:31:00	Hora Final	12:43:00	Falha de comunicação do PLCGrupo	1	UG  01	Hora Inicial	13:19:00	Hora Final	14:28:00	Falha de comunicação do PLC|oper
+835667|2020-08-18 14:03:21|Energização do filtro AC 9BF21 da SE Estreito para realização de inspeção termográfica.|oper
+835670|2020-08-18 14:09:01|Energização do filtro AC 9BF23 da SE Estreito para realização de inspeção termográfica.|oper
+835693|2020-08-18 14:50:52|Troca do meio de transmissão sendo retirada do carrier e transferida para o sistema da COPEL.|oper
+835698|2020-08-18 15:07:46|Parada para manutenção corretiva da bomba de lubrificação da turbina.|oper
+835701|2020-08-18 15:21:43|Retirada de pendencias dos equipamentos do vão AY de 500kV conforme abaixo: Ajustes mecânico na seccionadora 7SDA-31 da SE Bacabeira.|oper
+835724|2020-08-18 16:40:34|Comissionamento da entrada dos contados de trip de falha de disjuntor do 13U4 atuando no 14U50BF|oper
+835732|2020-08-18 16:46:15|ATENDER PEDIDO DA CPFL PARA MANTER O FLUXO DO SENTIDO 138 KV PARA O 345 KV NO DEFASADOR DE PORTO COLÔMBIA SEJA AUMENTADO DE 200 MW PARA 250 MW DURANTE O PERÍODO.|oper
+835735|2020-08-18 16:53:02|ENERGIZAÇÃO DA FASE RESERVA EM SUBSTITUIÇÃO A FASE   B   DO AT55|oper
+835750|2020-08-18 17:58:40|Verificar e sanar defeito na partida da unidade geradora 5 após desarme.|oper
+835758|2020-08-18 18:16:08|Verificar desligamento automático|oper
+835765|2020-08-18 18:21:50|Realizar travamento do ventilador 5 do sistema de resfriamento do gerador da UG02.|oper
+835764|2020-08-18 18:20:08|REALIZAR MELHORIA NO SISTEMA DE MEDIÇÃO DE QUEDA LÍQUIDA DO REGULADOR DE VELOCIDADE DA UG18.|oper
+835779|2020-08-18 19:15:07|Investigar fuga terra.|oper
+835785|2020-08-18 19:50:20|Sanar anomalia de tento rompido no cabo do Secc 48629-16 fase azul   Corrigir sinalização luminosa com defeito no DJ 48652-2  Retirar azinhavre dos contatos do 3TP-2 fase branca.|oper
+835799|2020-08-19 07:21:26|Verificar e sanar anormalidade no regulador de tensão|oper
+835801|2020-08-19 07:24:30|MPP-0 nos componentes do gerador, turbina e BAY de 440kV.|oper
+835842|2020-08-19 10:25:00|MPP no 36452-1 de 345 kV 2MPP no 36429-2 de 345 kV 3MPP no 36429-4 de 345 kV 4- MPP no 36429-6 de 345 kV Sanar Vazamento de óleo hidráulico no 36452-1 de 345 kV 2Limpeza na parte interna da caixa de comando do 36452-1 de 345 kV 3Retirar Bobina de Bloqueio devido anomalia do 36452-1 de 345 kV|oper
+835874|2020-08-19 11:41:26|SUBSTITUIÇÃO DE ISOLADORES COM PINOS ALTAMENTE OXIDADOS E  OU DANIFICADOS E ACESSÓRIOS DANIFICADOS AO LONGO DA REFERIDA LINHA|oper
+835904|2020-08-19 12:34:13|Alteração de relação de TC da LT UHEPP-NPP C2 do DJ 1952-26 dos enrolamentos dedicados à proteção de linha. Será alterado relação atual de 1000:5 para 2000:5. A adequação será realizada sem o desligamento da LT.|oper
+835908|2020-08-19 12:48:34|Corretiva no sistema de alta pressão do gás natural (combustível), que rompeu causando vazamento.|oper
+835933|2020-08-19 14:15:12|ABB, sob supervisão da DORPT, substituir o disjuntor 15T7. As atividades consistirão em: O desmontagem e embalagem do atual disjuntor   montagem do novo disjuntor, conforme projeto aprovado pela CHESF   comissionamento do equipamento, incluindo ensaios de isolamento AC, isolamento DC das proteções e circuitos internos, registros oscilográficos, resistência de contato, pressões do sistema de gás SF6 e mecanismo de operação.|oper
+835943|2020-08-19 14:35:16|Serviço de instalação e comissionamento do Diverter Damper de Parnaíba V, que interliga a exaustão da turbina a gás UG32 de Maranhão IV com a futura caldeira de recuperação de Parnaíba V.|oper
+835950|2020-08-19 14:42:47|Ensaios elétricos nos disjuntores 2F4, 3F4, 8F4 e 9F4   ensaios e medições nos bancos de capacitores C1, C2, C3, C4 e filtros de harmônicas 5ª (C5) e 7ª (C7)   manobras operativo nas chaves 2F3, 4F3, 5F3, 6F3, 7F3 e 8F3.|oper
+835953|2020-08-19 14:54:32|Substituição de bucha de alta tensão (69 KV), fase H3, do Transformador 02T5 da usina Potiguar III. escopo: Drenagem parcial do óleo isolante para adequação de nível visando a realização da atividade. Desmontagem da bucha de alta tensão da fase H3 do lado de 69 KV. Instalação da nova bucha   Realização de procedimentos necessários para manutenção do nível de óleo isolante após instalação da nova bucha. Expurgo de ar do transformador após complementação do nível de óleo. Inspeção geral no transformador, observando a existência de vazamentos e instrumentos de proteção intrínseca.  Ensaio de fator de potência do isolamento AC do transformador a 2,5 kV ou 10 kV AC. Ensaio de fator de potência e capacitância da bucha a 2,5 kV ou 10 kV AC.|oper
+835972|2020-08-19 16:02:53|Conexão do circuito 13,8 kV entre os cubículos do TRAFO 2 (230  13,8 kV - 225 MVA) e do novo TRAFO 3 (230  13,8 kV - 225 MVA) da SE Carajás.|oper
+835979|2020-08-19 16:25:49|Manutenção Preventiva Programada (MPP1) da Unidade Geradora 02, conforme plano de manutenção.|oper
+835986|2020-08-19 16:31:56|EXECUTAR AJUSTES MECÂNICOS NA CHAVE LCSB6-04. EM APROVEITAMENTO DO  DESLIGAMENTO DA FUNÇÃO LCAT6-01. (SGI: 33615-20)|oper
+836012|2020-08-19 17:32:05|Escalada nas estruturas da Torre 01-01 das LTs Anhanguera - Carajás C1 e C2 para treinamento prático de Trabalho em altura.|oper
+836016|2020-08-19 17:38:13|Manutenção preventiva anual (MPP0) e retirada de pendências do sistema de automação das unidades geradoras 01 e 02 e subestação da UHE Salto. 2Ensaios finais e avaliação operacional da UG, após manutenção|oper
+836036|2020-08-19 19:05:08|Manutenção corretiva na chave seccionadora 773 da SE Xavantes.|oper
+836047|2020-08-19 20:06:40|Execução de serviços de substituição de estruturas, elevação de cruzetase substituição de cadeias de isoladores.|oper
+836066|2020-08-20 08:26:01|Melhorias na ventilação das placas de controle do sistema de excitação.|oper
+836077|2020-08-20 09:10:43|Realizar substituições dos isoladores em estado crítico de corrosão na 04C7   RELIGAMENTO AUTOMÁTICO DESATIVADO  |oper
+836098|2020-08-20 10:26:46|Lavagem dos Isoladores de todos os equipamentos do terminal da LT 230 kV CGE Pitombeira    SE Russas II (Energia dos Ventos) na SE Russas II 230kV. Efetuar o bloqueio dos religamentos automáticos referentes as instalações e equipamentos apontados nesta intervenção em acordo com o Agente Operador da SE RUSSAS II (CHESF).|oper
+836116|2020-08-20 11:09:13|T3-2  AQD INDISPONIVEL PARA O FECHAMENTO (A MESMA SÓ FECHA C  APOIO E INFRAESTRUTURA DA MANUTENÇÃO)|oper
+836146|2020-08-20 13:51:39|Cortes de eucaliptos entre os vãos 269 e 170.|oper
+836155|2020-08-20 14:17:49|Barra PT 230 da SE LON energizada e impedida  a operação para possibilitar sanar defeito na chave secc 723 que não aceita comando nem via local nem remoto via automação.|oper
+836168|2020-08-20 14:52:22|VERIFICAR  ELEVAÇÃO DE TEMPERATURA NO MANCAL DE ESCORA.|oper
+836172|2020-08-20 14:59:42|DORPT - corrigir defeito no mecanismo de acionamento da chave 35T5-8.|oper
+836189|2020-08-20 15:54:03|Pique no TF3 525  230kV para possibilitar a abertura da Seccionadora 131, e permitir a realização do serviço:   Efetuar manutenção corretiva no TC da fase B do cubículo SK02, associado ao TF3 525  230kV  .|oper
+836208|2020-08-20 16:49:34|EFETUAR CALIBRAÇÃO DO MULTIMEDIDOR MULTIFUNÇÃO SIMEAS P 74G7000 - 8AA  BB SIEMENS.|oper
+836241|2020-08-20 18:40:32|Manutenção preventiva trienal do disjuntor 1M4,|oper
+836249|2020-08-20 21:06:12|Alteração dos parâmetros do regulador de tensão e dos relés de proteção da unidade geradora 01.Após serviço, será necessário realizar testes na unidade geradora: sincronizada com tomada de carga em degraus para verificações   caso necessário, desligar a unidade geradora para inspeções e  ou ajustes. Durante as verificações de comportamento, poderá ser necessário a parada da unidade geradora para eventuais ajustes, e posteriormente sincronizá-la.|oper
+836253|2020-08-20 21:29:15|Alteração dos parâmetros do regulador de tensão e dos relés de proteção da unidade geradora 03.Após serviço, será necessário realizar testes na unidade geradora: sincronizada com tomada de carga em degraus para verificações   caso necessário, desligar a unidade geradora para inspeções e  ou ajustes. Durante as verificações de comportamento, poderá ser necessário a parada da unidade geradora para eventuais ajustes, e posteriormente sincronizá-la.|oper
+836274|2020-08-21 08:43:38|Desligamento automático da UG58 de Maranhão III em função da explosão do - TC 7T6AX (fase A).|oper
+836277|2020-08-21 08:52:51|Desligamento automático da UG51 de Maranhão III em função da explosão do TC 7T6AX (fase A).|oper
+836286|2020-08-21 09:31:58|Ensaios elétricos e Manutenção corretiva e retirada de ponto quente na chave 4K1.|oper
+836299|2020-08-21 10:02:25|SUBSTITUIR CONTROLADOR PRESYS DE MEDIÇÃO DE TEMPERATURA DO MANCAL DE ESCORA NA UG02.|oper
+836324|2020-08-21 10:37:58|Alteração dos parâmetros do regulador de tensão e dos relés de proteção da unidade geradora 11.Após serviço, será necessário realizar testes na unidade geradora: sincronizada com tomada de carga em degraus para verificações   caso necessário, desligar a unidade geradora para inspeções e  ou ajustes. Durante as verificações de comportamento, poderá ser necessário a parada da unidade geradora para eventuais ajustes, e posteriormente sincronizá-la.|oper
+836325|2020-08-21 10:40:32|Alteração dos parâmetros do regulador de tensão e dos relés de proteção da unidade geradora 12.Após serviço, será necessário realizar testes na unidade geradora: sincronizada com tomada de carga em degraus para verificações   caso necessário, desligar a unidade geradora para inspeções e  ou ajustes. Durante as verificações de comportamento, poderá ser necessário a parada da unidade geradora para eventuais ajustes, e posteriormente sincronizá-la.|oper
+836358|2020-08-21 11:57:10|Alteração dos parâmetros do regulador de tensão e dos relés de proteção da unidade geradora 01.Após serviço, será necessário realizar testes na unidade geradora: sincronizada com tomada de carga em degraus para verificações   caso necessário, desligar a unidade geradora para inspeções e  ou ajustes. Durante as verificações de comportamento, poderá ser necessário a parada da unidade geradora para eventuais ajustes, e posteriormente sincronizá-la.|oper
+836382|2020-08-21 13:51:57|Manutenção corretiva na TG-17.|oper
+836369|2020-08-21 12:51:19|Comutação entre asbombas GP20 para GP10 (bombas 1 e 2) do CWC (sistema de resfriamento da conversora) da Conversora do Polo 1 para medições no inversor da bomba GP10.|oper
+836383|2020-08-21 13:51:46|Realizar Melhoria no isolamento da LT aplicando poliméricos na estrutura ancoragem 36  1.|oper
+836386|2020-08-21 14:16:31|Manutenção corretiva no Sistema de Combustível da UGD-05 da UTE TBQ.|oper
+836410|2020-08-21 15:10:39|No cubículo 2 de 13,8kV da SE AR2-IEM. Manutenção preventiva 4 anos cubículo 15kV CB2, conforme PM.SE.CSA. 012 e manutenção preventiva 05 anos transformador TSA2, TSA4, TSA6 conforme PM.SE.TSA. 014.|oper
+836426|2020-08-21 15:42:30|PARADA DAS UGS 02 E 04 PARA POSSIBILITAR MERGULHO E INSPEÇÃO NAS SOLEIRAS DE MONTANTE DA UG03.|oper
+836460|2020-08-21 17:17:47|SERÁ REALIZADA A ATIVIDADE DE MONTAGEM DA INFRA-ESTRUTURA ELETROMECÂNICA PARA SISTEMA DE DESCARGAS PARCIAIS E FLUXO MAGNÉTICO.|oper
+836463|2020-08-21 17:28:24|Passagem, preparação e subida de cabos novos nos painéis da CTEEP referentes a troca de proteção do TF1.|oper
+836478|2020-08-21 18:08:51|Testes funcionais do sistema de proteção, controle e supervisão do painel Q4PT1.|oper
+836480|2020-08-21 18:03:45|Inspeção preventiva nos transformadores e no sistema de excitação, sistema de frenagem e levantamento, anéis coletores e tomada dágua da UG2.|oper
+836485|2020-08-21 18:12:25|Unidade Geradora 04 Ensaios com a unidade geradora fora do sistema: ensaio de sincronismo da U4 com a barra morta (Barra B). Barra 2 ou B - desligada do sistema, para testes da UG4 em barra morta.|oper
+836486|2020-08-21 18:17:41|Configuração do setor de 230 kV da SE Nova Porto Primavera para possibilitar a primeira energização do autotransformador 9AT01 desta subestação, SGI 26.759-20.|oper
+836499|2020-08-21 20:05:44|Limpeza reaperto no relé de proteção do disjuntor 12T4 localizado no bay de conexão Bom Jesus da Lapa|oper
+836504|2020-08-21 21:39:57|MPP nas Fases BR e VM do TR-2 de 345  88 kV 2Ensaios Elétricos nas Buchas do TR-2 de 345  88 kV Sanar Marejamento de óleo isolante na Fase BR do TR-2 de 345  88 kV|oper
+836509|2020-08-21 22:18:06|Injeção de óleo mineral isolante no RE-2 fase A-B-V de 345 kV.|oper
+836547|2020-08-22 19:01:19|Acompanhar travessia sobre a LT 500KV Bom Jesus da Lapa II  Igaporã III (TAESA), pela LT 500kV Bom Jesus da Lapa II  Gentio do Ouro II (ETB), em atendimento ao contrato de Concessão nº 11  2016-ANEEL.|oper
+836551|2020-08-22 19:34:53|Acompanhar travessia sobre a LT 500KV Bom Jesus da Lapa II  Igaporã III (TAESA), pela LT 500kV Bom Jesus da Lapa II  Gentio do Ouro II (ETB), em atendimento ao contrato de Concessão nº 11  2016-ANEEL.|oper
+836565|2020-08-23 09:48:52|completar o nível de Gás SF-6 da Fase AZ  do Disjuntor 35752-7, CAV-4.|oper
+836568|2020-08-23 10:25:29|Unidades disponíveis para operação como Gerador com restrição de geração, devido a perda de carga na grade acima de 2,0 metros. Restrição até a realização da limpeza de grade.|oper
+836581|2020-08-23 14:29:25|Abertura do DJ 152 de Campo Belo para possibilitar manutenção corretiva no barramento do circuito do DJ 192 SALTO 2 que abriu às 10h08min, conforme o SGI 034.622-20|oper
+836586|2020-08-23 16:50:30|Saída intempestiva 19C1  FSASC  - Equipe de campo iniciando inspeções. relacionado o parque de são Cristóvão 11,41% 26 M.W|oper
+836588|2020-08-23 19:05:37|Desligamento automático devido a falha na válvula de gás combustível.|oper
+836591|2020-08-23 21:01:32|Verificar e sanar causa do desligamento automático da UG-02.|oper
+836596|2020-08-23 23:04:17|Reposição de óleo isolante no TR-5 fase azul 2Sanar sobreaquecimento de  85,48°C na bucha X1 do TR-5, fase branca 3Sanar sobreaquecimento de  90,38°C na bucha X1 do TR-5, fase vermelha|oper
+836599|2020-08-23 23:47:02|Verificar e sanar anormalidade no sistema digital de supervisão de fluxo e pressão dos mancais do gerador|oper
+836679|2020-08-24 11:51:25|Inspeção de vazamento de gás SF6 e substituição do componente avariado no disjuntor 7DJE-20 (FASE B) da SE-PBT|oper
+836622|2020-08-24 09:10:09|Para segurança do pessoal, em manobras na SE 440KV ILS:Após ocorrência de explosão do TC da UG-04 no dia 31  10  19, por orientação da engenharia de manutenção, visando evitar deterioração da isolação dos TC SE 440kV, devido manobras de abertura e fechamento das seccionadoras, e garantir a segurança das equipes de O&M, quando de liberações onde há necessidade de bloquear e desbloquear comando das seccionadoras da UG em serviço, as UGs adjacentes deverão ser desligadas do sistema sem abertura das respectivas seccionadoras. Desligamento necessário para possibilitar entrada do operador no bay da UG-03 para bloqueio das seccionadoras.|oper
+836743|2020-08-24 14:57:56|MANUTENÇÃO PREVENTIVA NOS EQUIPAMENTOS DO BANCO FILTRO BFZK26  RETIRADA DE VEGETAÇÃO NA ÁREA INTERNA DO BFZK26|oper
+836692|2020-08-24 13:16:15|Para segurança do pessoal, em manobras na SE 440KV ILS:Após ocorrência de explosão do TC da UG-04 no dia 31  10  19, por orientação da engenharia de manutenção, visando evitar deterioração da isolação dos TC SE 440kV, devido manobras de abertura e fechamento das seccionadoras, e garantir a segurança das equipes de O&M, quando de liberações onde há necessidade de bloquear e desbloquear comando das seccionadoras da UG em serviço, as UGs adjacentes deverão ser desligadas do sistema sem abertura das respectivas seccionadoras. Desligamento necessário para possibilitar entrada do operador no bay da UG-03 para desbloqueio das seccionadoras.|oper
+836727|2020-08-24 14:47:52|IMPLANTAR SISTEMA DE PARTIDA LENTA E MELHORIA NA SUPERVISÃO DE PARTIDA DA UG.   TESTES E VERIFICAÇÕES NO RV PARA SANAR ANORMLIDADE REFERENTE A OSCILAÇOES DE PONTENCIA NA UG. (ATENDENDO NOTA 10602424)   INSTALAR E TESTAR TRANSFORMADOR PRINCIPAL DA FASE A DA UG03 (N302231).   INSTALAR E TESTAR TRANSFORMADOR PRINCIPAL DA FASE B DA UG03 (N302367).   DESCONEXÃO E RECONEXÃO DOS BARRAMENTOS FLEXÍVEIS (PINGADOS) DO LADO DE 500KV DA UG03 AO SECCIONADOR SC931.|oper
+836757|2020-08-24 15:27:58|Intervenção TLE, fim substituir isoladores e ferragens oxidadas ao longo da LT cadastrada.|oper
+836764|2020-08-24 15:47:54|Liberação do 01H2- da SE Sobral II - SBD desenergizado e aterrado, fim equipe DORFT-SE substituição e balanceamento de capacitores e reposição de peças danificadas no 01H2+SBD|oper
+836781|2020-08-24 16:46:42|LIBERAÇÃO DAS BARRAS 04B1 E 04B2 DA SE AQD ENERGIZADAS COM RELIGADORES AUTOMÁTICOS DESATIVADOS, FIM EQUIPE CHESF REALIZAR CORREÇÃO DE PENDENCIA DOS PULOS CONECTADOS NA BARRA04B2  AQD RELIGADOS DURANTE AS ATIVIDADES DA DETE DO DIA 23  08  20.|oper
+836783|2020-08-24 16:47:25|MPP nas proteções principal e alternada.|oper
+836828|2020-08-24 20:16:18|Coleta e análise de óleo isolante dos TCs das Fases BR e AZ referente o 36024-1 de 345 kV.|oper
+836832|2020-08-24 22:10:05|NORMALIZAR A ESCADA QUE DÁ ACESSO A PLATAFORMA DA COMPENSAÇÃO SÉRIE 2 FASE   B   EM SUA POSIÇÃO CORRETA E VERIFICAR O PORQUE DO MECANISMO DE TRAVAMENTO DA ESCADA NÃO TER FUNCIONADO.|oper
+836860|2020-08-25 09:26:33|DESLIGAR LINHA PPRP-LI6-01 PARA REALIZAR MANUTENÇÃO PREVENTIVA (6 ANOS)  NOS TCs, TPs, DISJUNTOR E CHAVES SECCIONADORAS, RPSD6-21, RPSD6 - 22, RPSY6 -10, RPSR6 -06, RPSR6 -07 E RPCA6 - 08.|oper
+836880|2020-08-25 09:58:57|Liberação do trafo 04T2 da SE Acaraú II - AUD desenergizado e isolado  fim de permitir equipe CHESF  DORFT realizar correção de ponto quente no conector chapa-cabo, lado barramento 02BP, fase A, da chave 32T2-4 da SE-AUD.|oper
+836884|2020-08-25 10:06:11|SUBSTITUIR TRANSFORMADOR DE CORRENTE DA FASE B DO DISJUNTOR LDDJ7-09.|oper
+836903|2020-08-25 10:51:55|Teste na proteção 50BF no setor de 69 kV da SE ANHANGUERA.|oper
+836918|2020-08-25 11:18:28|DORPT - desconectar o TPI 82BP-1, fases A e C.|oper
+836926|2020-08-25 11:33:51|Energização do TRAFO 6 (230  138  13,8 kV - 225 MVA) da SE Anhanguera 230 kV.|oper
+836945|2020-08-25 13:33:40|DJ 1012 da SE ARA-2 desligado para realizar preenchimento de gás SF6 nos pólos A e V do disjuntor 1012. A baixa pressão foi detectada durante leitura do contador de operação. Pólo A - 0,98MPa - na temperatura de 28°C   Pólo V - 0,94MPa - na temperatura de 28°C.|oper
+836957|2020-08-25 14:20:01|Realizar preparativos com trabalhos ao potencial para possibilitar reconexão do 82BP  CCD.|oper
+836967|2020-08-25 14:35:55|Troca das buchas dos pinos de articulação da parte ativa dos polos A ,B e C da chave secionadora 797.|oper
+836971|2020-08-25 14:39:37|Manutenção corretiva no comando da chave seccionadora 7739 da SE Anhanguera.|oper
+836974|2020-08-25 14:49:23|Manutenção corretiva no comando da chave seccionadora 747 da SE Xavantes.|oper
+836991|2020-08-25 15:18:46|MANUTENÇÃO PREVENTIVA DO SISTEMA DE COMANDO, CONTROLE E PROTEÇÃO DO DISJUNTOR 17.|oper
+836996|2020-08-25 15:24:02|Comutar Bombas de Circulação do óleo dos Mancais do Gerador e Turbina das Unidades Geradoras 1, 2 e 3,  para rodízio de equipamentos redundantes.|oper
+837000|2020-08-25 15:34:52|Liberação da  LT 04L1 (Milagres - MLG    Bom Nome - BNO) desenergizada  isolada    fim de permitir equipe CHESF  DORFM realizar correção de vazamento de óleo hidráulico pelo dispositivo de verdadeira imagem do disjuntor 14L1 SE MLG.|oper
+837005|2020-08-25 15:45:04|Inspeção visual com escalada nas estruturas e limpeza de faixa de servidão da LT 230 kV CARAJÁS - PALMEIRAS C1.|oper
+837009|2020-08-25 15:54:37|Inspeção visual com escalada nas estruturas da LT 230 kV ANHANGUERA - BANDEIRANTES C2.|oper
+837013|2020-08-25 15:58:26|Liberação da LT 04C8-AQD  BNB energizada com religadores automaticos desativados em ambos terminais, Fim possibilitar a energização da LT 04F3-AQD  FTZ na sua configuração final, conforme SI 11210  20H, será necessário a desativação do religador automático da LT 04C8-AQD  BNB, visto que serão realizados serviços em torres que abrigam a LT 04C8 e 04F3.|oper
+837033|2020-08-25 16:29:44|DORRT REALIZAR CONEXÃO DO SECCIONADOR 34T3-2B DO LINK DO DISJUTOR 14T3-B.|oper
+837024|2020-08-25 16:16:08|Manutenção preventiva a cada seis anos no banco de reatores RE-5 da SE Assis. Manutenção preventiva a cada seis anos no disjuntor 4552-59 da SE Assis. Manutenção preventiva a cada seis anos na chave seccionadora 4529-392 da SE Assis. Substituição de termoresistência PT100 no reator localizado na fase A do banco de reatores RE-5 da SE Assis.|oper
+837042|2020-08-25 16:52:02|Manutenção preventiva periódica 29-96 em regime energizado.|oper
+837083|2020-08-25 23:23:34|INSPEÇÃO DE EROSÃO E CAVITAÇÃO NAS PÁS DO ROTOR KAPLAN DA UNIDADE GERADORA 04.|oper
+837086|2020-08-26 04:30:21|Efetuar inspeção nos pinos de paleta da UG 1|oper
+837096|2020-08-26 08:15:30|A empresa transmissora Baiana realizará travessia da linha de transmissão em construção: LT 500kV – Bom Jesus da Lapa II    Gentio do Ouro II sobre a LT 04F6 BOM JESUS DA LAPA II - IGAPORÃ II - 230 kV, cruzamento se dará entre as torres 1  4 e 2  1. Leilão ANEEL nº 13  2015, Lote E.|oper
+837109|2020-08-26 09:21:45|MPP nos SC 36729-20, 28 e 48 de 230 kV. 2MPP nos 36752-4 e 6 de 230 kV. 3MPP no DJ 36752-19 de 88 kV.
+837112|2020-08-26 09:44:10|Liberação da LT  04S2 SBD  CPE  energizada com religadores automaticos desativados em ambos terminais, fim: eNGEVALE SUBSTITUIR GRAMPOS DE SUSPENSÃO DO CABO CONDUTOR COM CORROSÃO PESADA NAS ESTRUTURAS 140  2, 148  1. COM RISCO DE ROMPIMENTO DA ALÇA DO GRAMPO E O CABO CONDUTOR VIR AO SOLO.|oper
+837124|2020-08-26 09:58:43|Ensaios de Termografia nas conexões do geradores, quandros (CMs) e nos transformadores elevadores. |oper
+837117|2020-08-26 09:49:58|Manter a operação do Trafo 3 pelo TIE DJ 762  após o término da execução do (SGI Nº 32.248-20), para permitir executar os seguintes serviços no bay do trafo 3: Demolir e retirar 3 bases e suportes de TCs, entre eixos “4-5   E1-F”    Instalação do Pré-moldado para o Secionador 245 kV, tripolar, tipo AVR-B, abertura semipantográfica   Instalar e regular 01 (um) Secionador 245 kV, tripolar, tipo AVR-B, abertura semipantográfica    Interligar cabos do Secionador 245 kV, tripolar, tipo AVR-B, abertura semipantográfica    Testes comissionamento.  Retirada dos Transformadores de Corrente (TCs) associados ao Disuntor (DJ 772)   Instalação da nova Chave Seccionadora (CS 773)   conexões eletromecânicas entre equipamentos.|oper
+837120|2020-08-26 09:54:18|Serviço de mergulho para inspeção da comporta de enchimento do túnel, para viabilizar o serviço descrito no FSAR-H 1124-2020, que descreve as condições para a desmontagem do servomotor na plataforma existente na estrutura da barragem.|oper
+837128|2020-08-26 10:16:03|Reparo em sistemas de serviço de ar comprimido e água.|oper
+837134|2020-08-26 10:42:25|Reparo de anomalia térmica na ØA, ØB e ØC do TC da LTA 20|oper
+837151|2020-08-26 11:30:40|Inspeção visual com escalada nas estruturas e limpeza de faixa de servidão da LT 230 kV FIRMINÓPOLIS - PALMEIRAS C1.|oper
+837155|2020-08-26 11:30:59|MANOBRAS DOS DJ8056 E DJ8066 PARA NORMALIZAÇÃO DA LIGEBB ATENDENDO AI-SAMARCO 001 E 002  2020|oper
+837192|2020-08-26 13:40:17|Realizar complementação de gás SF6|oper
+837182|2020-08-26 12:34:13|Alteração dos parâmetros do regulador de tensão e dos relés de proteção da unidade geradora 33.Após serviço, será necessário realizar testes na unidade geradora: sincronizada com tomada de carga em degraus para verificações   caso necessário, desligar a unidade geradora para inspeções e  ou ajustes. Durante as verificações de comportamento, poderá ser necessário a parada da unidade geradora para eventuais ajustes, e posteriormente sincronizá-la.|oper
+837194|2020-08-26 13:39:14|Montagem do Novo 35652-1 de 230 kV   2Adequar estruturas do Novo 35652-1 de 230 kV   3Adequações, testes e comissionamento do Novo 35652-1 de 230 kV. 4- Adequações e Preparações das Bases de Sustentação para Instalação do Novo 35652-1  |oper
+837195|2020-08-26 13:39:25|Verificações e reparo de vazamento de óleo mineral isolante no TR-1 de 345  88 kV.|oper
+837202|2020-08-26 14:15:09|DORRT REALIZAR TRATAMENTO ANTICORROSIVO EM COLUNAS DE ISOLADORES E AJUSTES NO MECANISMO DE ACIONAMENTO DO SECIONADOR 34T3-2A.|oper
+837207|2020-08-26 14:26:29|Inspeção termográfica das CS da SE NSR. Realização de inspeção termográfica nas CS 871 (LT NSR  SCH2 C2)    883 (LT NSR  SCH2 C1).|oper
+837208|2020-08-26 14:23:25|Ensaios de Termografia nas conexões dos geradores, quandros (CMs) e nos transformadores elevadores. |oper
+837213|2020-08-26 14:24:34|Ensaios de Termografia nas conexões do geradores, quandros (CMs) e nos transformadores elevadores. |oper
+837210|2020-08-26 14:23:49|SIEMENS - Realizar a substituição do 14C4, incluso toda a infra-estrutura e lançamento de cabos necessários. O Isolação do disjuntor 14C4   Preparação para desmontagem do disjuntor 14C4   Desmontagem do disjuntor existente    Montagem do disjuntor novo fornecido pela SIEMENS    Comissionamento do equipamento novo    Disponibilização para energização do equipamento novo.|oper
+837256|2020-08-26 16:56:36|Substituir o disjuntor 52-1, do módulo de 230kV do Grupo 1, na UHE Passo Real devido a grande vazamento de gás SF6, nos pólos B e C.|oper
+837260|2020-08-26 17:08:33|Manutenção das escovas dos anéis coletores do sistema excitação do Grupo 1, da UHE Passo Real.|oper
+837319|2020-08-27 09:52:59|Desligamento da LT 04C4 PFE  CGD, por questão de segurança, conforme solicitado pela acessante BRE, para permitir a execução da etapa final do seccionamento da LT 04F8 PFE  CTM para a SE Lagoa do Carro (a torre 40  1 é de circuito Duplo e possui, além do circuito 04F8, a LT 04C4).|oper
+837304|2020-08-27 09:06:13|Substituição do relé das proteção primárias da UG6 (Painel R-43 e R-44). Acesso aos painéis R-33 e R34. Interligação de cabos, conexão, ensaios ponto a ponto analógico, entradas digitais e saídas digitais (MAC-SE - Painel da UAC ABB e RACK DIO). Testes de atuação da proteção com caixa Omicrom. Ensaios ponto a ponto entrada e saída digital e analógico (MAC-SE - Painel da UAC ABB e RACK DIO). ensaios de Atuação da Proteção Primária (Disparo Simulado). Proteções: 87G - 86E, 87U - 86T - 86E, 40 - 86N, 32R - 5A.|oper
+837325|2020-08-27 10:04:12|Verificar e corrigir falha no sistema de proteção P1 do banco de capacitores série 9BCPRG5 e no sistema de proteção P2 do banco de capacitores série 9BCPRG6 da SE Paranatinga.  Será realizado atividade em um sistema do banco de capacitores de cada vez.|oper
+837328|2020-08-27 10:06:38|Realizar substituição dos cabos de controle que interligam o painel comum aos cubículos individuais das três fases do disjuntor MBDJ7-07 da SE Marabá.|oper
+837333|2020-08-27 10:17:37|Verificar atuação de proteção de pressão diferencial da caixa de vedação.|oper
+837344|2020-08-27 10:37:02|Lavagem de isoladores da SE Cataventos de Acaraú I: será realizada lavagem na barra 230KV e barra de 34,5KV, em todos os isoladores dos equipamentos associados à essas barras, tais como: transformador, disjuntores e chaves seccionadoras. Nota: Durante a lavagem,  existe o risco de desligamento automático de equipamentos.|oper
+837354|2020-08-27 10:42:10|Ensaios de Termografia nas conexões dos geradores, quandros (CMs) e nos transformadores elevadores. |oper
+837363|2020-08-27 10:56:39|Reinicialização do equipe de automação, UAC,da Linha curta da UG, pois uma placa de entrada analogica, de tensão  corrente, travou|oper
+837377|2020-08-27 11:31:09|INSPECIONAR SISTEMA DE INJEÇÃO DO MOTOR|oper
+837428|2020-08-27 14:41:05|Substituir os relés de comando RO e RC das Chaves seccionadoras CS 1063, 1065, 1067, 1067T da SE SSA.|oper
+837461|2020-08-27 15:54:00|SUPRESSÃO DE EUCALIPTOS NA LATERAL DA FAIXA DA LT 345KV FURNAS - PIMENTA 1|oper
+837463|2020-08-27 15:56:17|MANUTENÇÃO CORRETIVA NA SC673 ATENDENDO NOTA DE MANUTENÇÃO 10583627.|oper
+837474|2020-08-27 16:18:05|Substituição do disjuntor 15D3-CMD pela empresa contratada ABB, sobsupervisão da DORSC  DORSP.As atividades consistirão em:1    Desconexão, desmontagem e embalagem do atual disjuntor  2 - Montagem do novo disjuntor, conforme projeto aprovado pela CHESF  3 - Com a desconexão  conexão dos tubos de interligação do disjuntor comas chaves seccionadoras será necessário manobras de abertura efechamento da 35D3-1 e 35D3-2. E nesse momento será necessário aretirada do aterramento temporário.4 - Comissionamento do equipamento, incluindo ensaios de isolamento AC,isolamento DC das proteções e circuitos internos, registrososcilográficos, resistência de contato, pressões do sistema de gás SF6,mecanismo de operação, testes de abertura e fechamento do disjuntor.5    Integração do MPCCS: Conexão dos cabos novos, instalação de dRAs,testes de sinalização e comando no Quadro Mosaico e no SAGE N2  N3(CROS  ONS)  6 - Ao final dos trabalhos, será realizada energização do novodisjuntor.|oper
+837476|2020-08-27 16:30:15|COLETA DE DADOS DO SISTEMA DE DESCARGAS PARCIAIS DA UG 01 DA UHSA, PARA CUMPRIMENTO DO PLANO DE MANUTENÇÃO PREDITIVA DOS SISTEMAS.|oper
+837496|2020-08-27 17:28:03|Verificar e substituir da chave fim de curso do cami da Chave Seccionadora 34P2-2 e realizar testes de abertura e fechamento para validação do fim de curso.|oper
+837505|2020-08-27 17:57:29|Realizar análises e verificações das redes Profibus DP, utilizando ferramenta de monitoramento e diagnóstico de rede de comunicação PROFIBUS (Profitrace)|oper
+837524|2020-08-27 18:54:36|Substituição do 6852-19 pelo 6824-2 para possibilitar treinamento de Profissional Credenciado da Instalação - PCI - Excelência na Operação Delegada.|oper
+837526|2020-08-27 18:54:36|Substituição de cadeias de isoladores danificadas ao longo da LT 440 kV EMG  JAD. 2Manutenção corretiva ao longo da LT 440 kV EMG  JAD.|oper
+837545|2020-08-27 20:02:27|DORSA-LT - Realizar substituição de isoladores e ferragens oxidadas aolongo da LT.|oper
+837563|2020-08-28 07:44:52|Substituir relé auxiliar S2742 no painel do TR-2 230  69  13,8kV da SE Santa Maria 3, devido ao mesmo estar avariado e por isso sinalizar bloqueio geral de SF6 do DJ 52-4 do módulo do TR-2 230kV na Unidade Terminal Remota (UTR).|oper
+837574|2020-08-28 08:44:07|Manutenção programada de transformador. Realização de limpeza, inspeção, reapertos e testes estáticos.|oper
+837593|2020-08-28 09:44:49|EFETUAR ENSAIOS DINÂMICOS DO REGULADOR DE VELOCIDADE E REGULADOR DE TENSÃO DA UG-05 - FREQUÊNCIA 4 ANOS.|oper
+837599|2020-08-28 09:55:24|SERÁ REALIZADA INSPEÇÃO ATRAVÉS DE END  LP NAS JUNTAS DO ARO CÂMARA DA UNIDADE GERADORA 11.|oper
+837608|2020-08-28 10:09:45|Pré montagem dos TPCs de 500 kV, 8UTPC pra atender à substituição do Trafo T4.|oper
+837624|2020-08-28 10:42:37|Indisponibilidade do religamento automático do terminal 14C4  MRR, durante BY-PASS do disjuntor através do SGI 00.035.262-20.|oper
+837626|2020-08-28 10:49:49|Manutenções preventivas proteções do TR 1 230  88 kV MGI.|oper
+837632|2020-08-28 11:07:25|ETAPA 1 - REALIZAR TESTE SIMULTÂNEO DE BLACK START NAS UNIDADES GERADORAS 04 E 06 DA UH SALTO OSÓRIO. eTAPA 2 - REALIZAR TESTE SIMULTÂNEO DE BLACK START NAS UNIDADES GERADORAS 01, 02 E 03 DA UH SALTO OSÓRIO.|oper
+837644|2020-08-28 11:31:28|ACOMPANHAR COMISSIONAMENTO E TESTES FUNCIONAIS DO PNL PAT2P E PAT2A (PAINEIS DE PROTEÇÃO E CONTROLE DO TR02).  ALTERAÇÕES FÍSICAS DO PAINEL E TESTES FUNCIONAIS - PNL PAT2P E PAT2A|oper
+837691|2020-08-28 13:58:05|MANUTENÇÃO PREVENTIVA PERIÓDICA GERAL NO AUTOTRANSFORMADOR 230  138  13,8 KV PIAT6-03 (SISTEMA DE ACOMPANHAMENTO DA MANUTENÇÃO) DA SE PARECIS.|oper
+837717|2020-08-28 15:13:52|EMBANDOLAMENTO, NIVELAMENTO, GRAMPEAÇÃO E COMISSIONAMENTO DE CABO OPGW NA LINHA FURNAS - ITUTINGA CIRCUITO 2|oper
+837719|2020-08-28 15:10:43|RECONEXÃO DO BARRAMENTO ENTRE A LTSMGU1 E A SECCIONADORA 9565S DO NOVO BCS DA LTSMGU1  EXECUTAR CABLAGEM DE INTERFACE ENTRE OS PAINEIS DA LTSMGU1 E OS PAINEIS DO BCS DA LTSMGU1|oper
+837722|2020-08-28 15:25:35|EMBANDOLAMENTO, LANÇAMENTO, NIVELAMENTO, GRAMPEAÇÃO E COMISSIONAMENTO DE CABO OPGW NA LINHA FURNAS - ITUTINGA CIRCUITO 2|oper
+837757|2020-08-28 16:33:53|Realizar MP 04T1    12T1 - Decorrente.Atividades no 04T1 Verificação da existência de vazamentos de óleo isolante Verificação do funcionamento dos circuitos do relé de gás, do relé de fluxo e da válvula de alívio de pressão do tanque principal Inspeção do estado geral de conservação: limpeza, pintura e corrosão nas partes metálicas Verificação da comutação sob carga na função manual e automática  Verificação do nível do óleo do compartimento do comutador Verificação do adequado funcionamento das bolsas e membranas do conservador Verificação do aterramento do tanque principal Verificação do estado de conservação das vedações dos painéis ensaios de fator de potência e de capacitância das buchas com derivação capacitiva. Verificação do estado de saturação do material secante utilizado na  preservação do óleo isolante Verificação do funcionamento dos ventiladores e bombas do sistema de  resfriamento Inspeção da caixa de acionamento motorizado do comutador Verificação dos indicadores de nível do óleo isolante e dos indicadores de temperatura|oper
+837775|2020-08-28 17:02:37|Isolar bay do transformador PVTF6-03 para realizar cumprimento de Plano mínimo de manutenção no mesmo e equipamentos associados, incluindo o Comutador sob carga.|oper
+837794|2020-08-28 18:12:27|Manutenção do comutador de taps do transformador elevador TR 11.101 (01T1) da UG01.|oper
+837791|2020-08-28 18:00:18|INSTALAÇÃO DO NOVO PLC DE SUPERVISÃO NA 01G2 UXG.|oper
+837818|2020-08-28 20:31:40|DORSA-LT - Contrato com a Lar Construtora Empreendimentos LTDA para:Reisolamento da LT 05L5 OLDCMDW2.Elemento PEP LT.6116.01.01.01|oper
+837824|2020-08-28 20:58:07|Implantação e testes de aceitação em campo de adequações e melhorias nas redundâncias dos canais dos Reguladores de Tensão UNITROL F da Unidade geradora 02 - UHE ITAPEBI|oper
+837868|2020-08-30 09:08:48|Indisponiblidade 04M2 RCD  RIB devido a intervenção do 04B2-1  RCD.|oper
+837881|2020-08-30 22:26:10|Verificar  sanar a causa do disjuntor 13,8 kV RPDJ2-05 (disjuntor do Banco de Capacitores RPBC2-02) não aceitou comando de fechamento, dia 30  08  2020 às 21h49.|oper
+837899|2020-08-31 09:19:57|Intervenção para realização de atividades dos Requisitos Mínimos de Manutenção - Conforme ReN 0669-2015 ANEEL. Manutenção preventiva parcial no disjuntor 52-115, e seccionadoras 29-113 e 29-114.|oper
+837914|2020-08-31 10:08:16|LT 525 BTA-STTB-1 desligada para realizar adequações na proteção do reator 90Mvar   500kV do terminal da SE Itatiba conforme solicitação do ONS através da CARTA ONS 0021  DPL  EG  2020.|oper
+837921|2020-08-31 10:24:35|Inspeção na parte primária do TC 95T2-3  para investigação de vazamento de óleo.|oper
+837928|2020-08-31 10:28:04|Parametrização e testes da proteção de barras, no painel QPC6 da SE FHA, associados à integração da LT 230 kV Siderópolis 2    Forquilhinha.|oper
+837995|2020-08-31 13:13:00|Ensaios Elétricos nas Buchas do TR-7 de 230  88 kV. 2Sanar Marejamento de óleo isolante em vários pontos da Parte superior do TRRG-7 de 88  27,5 kV. 3Sanar Marejamento de óleo isolante em vários pontos da Parte superior da Fase AZ do TR-7 de 230  88 kV.|oper
+838009|2020-08-31 13:54:29|Energização do CS3 com partida, parada e variação de carga no sistema. Verificação dos valores oscilação do CS3 Leituras digitais e analógicas|oper
+838057|2020-08-31 16:14:07|Manutenção preventiva anual nos equipamentos de entrada de linha de 50 Hz Garabi 2.|oper
+838069|2020-08-31 17:09:16|Manutenção corretiva rele multiplicador de estado fechado da seccionadora 529-158.|oper
+838079|2020-08-31 17:35:06|ENSAIOS OPERACIONAIS NA UG-3 APÓS SUA PARADA, COMO CONDIÇÃO DE SEGURANÇA, PARA POSSIBILITAR A INSPEÇÃO E LIMPEZA NAS GRADES DA TOMADA DÁGUA DA UG-1, COM AUXÍLIO DE MERGULHADORES.|oper
