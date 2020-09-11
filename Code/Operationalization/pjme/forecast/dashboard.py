@@ -25,18 +25,18 @@ def make_dash_table(df):
     """ Return a dash definition of an HTML table for a Pandas dataframe """
     table = []
     html_row = []
-    html_row.append(html.Td(["Ano"]))
-    html_row.append(html.Td(["Dados Históricos"]))
-    html_row.append(html.Td(["Previsão"]))
-    html_row.append(html.Td(["Erro(MW)"]))
-    html_row.append(html.Td(["Erro(%)"]))
-    table.append((html.Tr(html_row)))
+    html_row.append(html.Td(["Dia"],style = {"border": "1px solid black"}))
+    html_row.append(html.Td(["Dados Históricos"],style = {"border": "1px solid black"}))
+    html_row.append(html.Td(["Previsão"],style = {"border": "1px solid black"}))
+    html_row.append(html.Td(["Erro(MW)"],style = {"border": "1px solid black"}))
+    html_row.append(html.Td(["Erro(%)"],style = {"border": "1px solid black"}))
+    table.append((html.Tr(html_row, style = {"border": "1px solid black"})))
 
 
     for index, row in df.iterrows():
         html_row = []
         for i in range(len(row)):
-            html_row.append(html.Td([row[i]]))
+            html_row.append(html.Td([row[i]],style = {"border": "1px solid black"}))
         table.append(html.Tr(html_row))
     return table
 
@@ -163,7 +163,7 @@ def update_dash():
                     html.H6(
                         ["Volume Anual"], className="subtitle padded"
                     ),
-                    html.Table(make_dash_table(day_data)),
+                    html.Table(make_dash_table(day_data), style = {"border": "1px solid black", "border-collapse": "collapse"}),
                 ],
                     className="six columns",
                 ),
