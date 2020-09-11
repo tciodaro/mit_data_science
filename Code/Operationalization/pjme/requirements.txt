@@ -141,3 +141,5 @@ Werkzeug==1.0.1
 whitenoise==5.0
 zipp==3.1.0
 zope.interface==5.1.0
+patsy==0.5.1 
+statsmodels==0.12.0
