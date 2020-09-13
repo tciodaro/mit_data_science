@@ -32,6 +32,9 @@ class treinoteste(models.Model):
     pct_predicao = models.CharField(max_length=5, null=True)
     din_calculo = models.DateTimeField(null=True)  
 
+    def __str__(self):
+        return self.id
+
 
 class predicao(models.Model):
     
@@ -42,6 +45,9 @@ class predicao(models.Model):
     tip_predicao = models.CharField(max_length=5,null=True)
     pct_predicao = models.CharField(max_length=5, null=True)
 
+    def __str__(self):
+        return self.id
+
 
 class estatistica(models.Model):
     
@@ -49,6 +55,7 @@ class estatistica(models.Model):
     din_execucao = models.DateTimeField(null=True)       
     dsc_predicao = models.CharField(max_length=20,null=True)
     qtd_registro = models.IntegerField(null=True)
+    tip_legenda =  models.CharField(max_length=20,null=True)
    
     def __str__(self):
         return self.id
