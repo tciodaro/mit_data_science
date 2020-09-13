@@ -10,24 +10,48 @@ class Migration(migrations.Migration):
     dependencies = [
     ]
 
-    operations = [
+    operations = [       
         migrations.CreateModel(
-            name='InsumoSin',
+            name='DadosEstatistica',
             fields=[
-                ('id', models.CharField(max_length=30, primary_key=True, serialize=False)),
-                ('din_solicitacao', models.DateTimeField(null=True)),
-                ('dsc_manutencao', models.TextField()),
-                ('tip_supervisao', models.CharField(choices=[('SIM', 'Supervisionado'), ('NAO', 'Sem Supervisao'), ('NDA', 'Nao Avaliado')], default='NDA', max_length=3)),
-                ('pct_supervisao', models.CharField(max_length=10, null=True)),
+                ('id', models.AutoField(primary_key=True, serialize=False)),
                 ('din_execucao', models.DateTimeField(null=True)),
+                ('dsc_predicao', models.CharField(max_length=20, null=True)),
+                ('qtd_registro', models.IntegerField()),
             ],
         ),
         migrations.CreateModel(
-            name='ResultadoSin',
+            name='DadosPredicao',
             fields=[
-                ('num_dia', models.IntegerField(primary_key=True, serialize=False)),
-                ('tip_supervisao', models.CharField(max_length=3)),
-                ('num_quantidade', models.IntegerField()),
+                ('id_sin', models.CharField(max_length=30, primary_key=True, serialize=False)),
+                ('dsc_texto', models.TextField(null=True)),
+                ('tip_supervisao', models.CharField(max_length=5, null=True)),
+                ('din_execucao', models.DateTimeField(null=True)),
+                ('tip_evento', models.CharField(max_length=5, null=True)),
+                ('tip_predicao', models.CharField(max_length=5, null=True)),
+                ('pct_predicao', models.CharField(max_length=10, null=True)),
+            ],
+        ),
+        migrations.CreateModel(
+            name='DadosRetreino',
+            fields=[
+                ('id', models.AutoField(primary_key=True, serialize=False)),
+                ('id_sin', models.CharField(max_length=30, null=True)),
+                ('dsc_texto', models.TextField(null=True)),
+                ('tip_supervisao', models.CharField(max_length=5, null=True)),
+                ('din_execucao', models.DateTimeField(null=True)),
+                ('tip_evento', models.CharField(max_length=5, null=True)),
+                ('tip_predicao', models.CharField(max_length=5, null=True)),
+                ('pct_predicao', models.CharField(max_length=10, null=True)),
+            ],
+        ),
+        migrations.CreateModel(
+            name='DadosColeta',
+            fields=[
+                ('id', models.CharField(max_length=30, primary_key=True, serialize=False)),
+                ('din_evento', models.DateTimeField(null=True)),
+                ('dsc_manutencao', models.TextField()),
+                ('tip_evento', models.CharField(max_length=5, null=True)),
             ],
         ),
     ]

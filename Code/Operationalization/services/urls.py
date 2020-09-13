@@ -2,13 +2,13 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from applications.views import DadosColetaViewSet, DadosRetreinoViewSet, DadosPredicaoViewSet, DadosEstatisticaViewSet, Dashboard
+from applications.views import coletaViewSet, estatisticaViewSet, predicaoViewSet
 from . import dashboard
 
 router = routers.DefaultRouter()
-router.register(r'dadoscoleta', DadosColetaViewSet, basename='dadoscoleta')
-router.register(r'dadosretreino', DadosRetreinoViewSet, basename='dadosretreino')
-router.register(r'dadospredicao', DadosPredicaoViewSet, basename='dadospredicao')
-router.register(r'dadosestatistica', DadosEstatisticaViewSet, basename='dadosestatistica')
+router.register(r'coleta', coletaViewSet, basename='coleta')
+router.register(r'predicao', predicaoViewSet, basename='predicao')
+router.register(r'estatistica', estatisticaViewSet, basename='estatistica')
 
 
 urlpatterns = [
