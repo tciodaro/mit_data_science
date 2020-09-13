@@ -11,6 +11,10 @@ import dash_table
 
 app = DjangoDash('DashboardSIN')   # replaces dash.Dash
 
+# ==============================================
+# GRAFICO 1 - BARRAS
+# ==============================================
+
 # Recupera os dados do relatório
 df_relatorio = pd.DataFrame(estatistica.objects.all().values())
 
@@ -37,10 +41,9 @@ fig.update_layout(
 
 
 
-# Faz o setup da tabela dos registros
-
-# Recupera os dados dos registros do dia
-dat_inicio = datetime.strptime('01/08/2020', '%d/%m/%Y')
+# ==============================================
+# GRAFICO 2 - TABELA
+# ==============================================
 
 # Filtra dataframe para a data específica
 df_insumosin = pd.DataFrame(predicao.objects.values('id','dsc_texto','tip_supervisao','din_execucao','tip_predicao','pct_predicao','val_realpredicao'))
@@ -61,9 +64,22 @@ renome_coluna = {'id':"Identificador"
 
 df_insumosin.rename(columns = renome_coluna, inplace = True)
 
-
-
 df_insumosin['index'] = range(1, len(df_insumosin) + 1)
+
+# ==============================================
+# GRAFICO 3 - PIZZA
+# ==============================================
+
+df_previsao = pd.DataFrame(predicao.objects.values('tip_supervisao','tip_predicao','pct_predicao','val_realpredicao'))
+
+fig_2  = px.bar(df_previsao, y='val_realpredicao', x='tip_supervisao',
+             title='Grafico Predições Já validadas')
+
+
+
+# ==============================================
+# PAGINA PRINCIPAl
+# ==============================================
 
 PAGE_SIZE = 10
 
@@ -71,13 +87,27 @@ app.layout = html.Div(
     children=[
                 html.H1(children='Dashboard Operacional - Supervisão da Manutenção de Equipamentos'),
 
-                html.Div([
+                html.Div(
+                    [
                                 dcc.Graph(
                                 id='relatorio-graph',
                                 figure=fig,
                                 responsive=True
                         )
                 ]),
+
+                html.H2(children='Lista de Predições Validadas pelos Clientes')  
+                ,
+                html.Div([
+                                dcc.Graph(
+                                id='relatorio-graph2',
+                                figure=fig_2,
+                                responsive=True)
+                ])
+                ,
+
+                html.H2(children='Lista de Predições Realizadas')  
+                ,
                 dash_table.DataTable(
                                     id='datatable-paging',
                                     columns=[
@@ -87,6 +117,7 @@ app.layout = html.Div(
                                     page_size=PAGE_SIZE,
                                     page_action='custom'
                                 )
+                
              ]
 )
 
