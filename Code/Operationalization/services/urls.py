@@ -1,8 +1,7 @@
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from applications.views import DadosColetaViewSet, DadosRetreinoViewSet, DadosPredicaoViewSet, DadosEstatisticaViewSet, Dashboard
-from applications.views import coletaViewSet, estatisticaViewSet, predicaoViewSet
+from applications.views import coletaViewSet, estatisticaViewSet, predicaoViewSet, Dashboard
 from . import dashboard
 
 router = routers.DefaultRouter()

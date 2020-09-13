@@ -43,7 +43,7 @@ fig.update_layout(
 dat_inicio = datetime.strptime('01/08/2020', '%d/%m/%Y')
 
 # Filtra dataframe para a data específica
-df_insumosin = pd.DataFrame(predicao.objects.values('id','dsc_texto','tip_supervisao','din_execucao','tip_predicao','pct_predicao'))
+df_insumosin = pd.DataFrame(predicao.objects.values('id','dsc_texto','tip_supervisao','din_execucao','tip_predicao','pct_predicao','val_realpredicao'))
 
 # Ajusta textos das colunas
 df_insumosin['dsc_texto'] = df_insumosin['dsc_texto'].str.slice(0, 50) + '...'
@@ -52,10 +52,11 @@ df_insumosin['dsc_texto'] = df_insumosin['dsc_texto'].str.slice(0, 50) + '...'
 #Renomeando as colunas
 renome_coluna = {'id':"Identificador"
                 ,'dsc_texto':'Texto'                
-                ,'tip_supervisao': "Supervisao"
+                ,'tip_supervisao': "Supervisao-Predição"
                 ,'din_execucao':'Data da Previsão'
                 ,'tip_predicao':'Previsão'
                 ,'pct_predicao':'% Acerto'
+                ,'val_realpredicao': 'Supervisão-Validada'
                 }
 
 df_insumosin.rename(columns = renome_coluna, inplace = True)

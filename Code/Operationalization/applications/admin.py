@@ -1,6 +1,6 @@
 from django.contrib import admin
-from .models import DadosColeta
+from .models import coleta
 
 
 # Registro modelo DadoColeta fica disponível na página da administração
-admin.site.register(DadosColeta)
+admin.site.register(coleta)

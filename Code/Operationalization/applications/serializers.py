@@ -1,5 +1,4 @@
 from rest_framework import serializers
-from .models import  DadosColeta, DadosRetreino, DadosPredicao, DadosEstatistica
 from .models import  coleta, treinoteste, predicao, estatistica
 from datetime import date
 
@@ -23,7 +22,7 @@ class predicaoSerializer(serializers.ModelSerializer):
       
     class Meta:
         model = predicao        
-        fields = ['id','dsc_texto','tip_supervisao','din_execucao','tip_legenda','tip_predicao','pct_predicao']
+        fields = ['id','dsc_texto','tip_supervisao','din_execucao','tip_predicao','pct_predicao','val_realpredicao']
 
 
 class estatisticaSerializer(serializers.ModelSerializer):
@@ -33,35 +32,3 @@ class estatisticaSerializer(serializers.ModelSerializer):
         fields = ['id','din_execucao','dsc_predicao','qtd_registro']
 
 
-
-
-
-class DadosColetaSerializer(serializers.ModelSerializer):
-  
-    class Meta:
-        model = DadosColeta        
-        fields = ['id','din_evento','dsc_manutencao','tip_evento']
-
-
-class DadosRetreinoSerializer(serializers.ModelSerializer):
-      
-    class Meta:
-        model = DadosRetreino        
-        fields = ['id_sin','dsc_texto','tip_supervisao','din_execucao','tip_evento','tip_predicao','pct_predicao']        
-
-
-class DadosPredicaoSerializer(serializers.ModelSerializer):
-      
-    class Meta:
-        model = DadosPredicao        
-        fields = ['id_sin','dsc_texto','tip_supervisao','din_execucao','tip_evento','tip_predicao','pct_predicao']     
-
-
-class DadosEstatisticaSerializer(serializers.ModelSerializer):
-      
-    class Meta:
-        model = DadosEstatistica        
-        fields = ['din_execucao','dsc_predicao','qtd_registro']     
-
-
-        

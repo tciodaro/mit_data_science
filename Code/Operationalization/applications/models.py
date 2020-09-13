@@ -30,7 +30,8 @@ class treinoteste(models.Model):
     tip_legenda  = models.CharField(max_length=10,null=True)        
     tip_predicao = models.CharField(max_length=5,null=True)
     pct_predicao = models.CharField(max_length=5, null=True)
-    din_calculo = models.DateTimeField(null=True)  
+    din_calculo = models.DateTimeField(null=True) 
+    
 
     def __str__(self):
         return self.id
@@ -44,6 +45,7 @@ class predicao(models.Model):
     din_execucao = models.DateTimeField(null=True)  
     tip_predicao = models.CharField(max_length=5,null=True)
     pct_predicao = models.CharField(max_length=5, null=True)
+    val_realpredicao = models.CharField(max_length=5,null=True)
 
     def __str__(self):
         return self.id
