@@ -10,22 +10,35 @@ Os links utilizados foram:
 # Yellow Taxi
 
 urls = ["https://data.cityofnewyork.us/resource/t29m-gskq.json", #2018
+
         "https://data.cityofnewyork.us/resource/biws-g3hs.json", #2017
+	
         "https://data.cityofnewyork.us/resource/uacg-pexx.json", #2016
+	
         "https://data.cityofnewyork.us/resource/2yzn-sicd.json", #2015
+	
         "https://data.cityofnewyork.us/resource/gkne-dk5s.json", #2014
+	
         "https://data.cityofnewyork.us/resource/t7ny-aygi.json", #2013
+	
         "https://data.cityofnewyork.us/resource/kerk-3eby.json", #2012
+	
         "https://data.cityofnewyork.us/resource/uwyp-dntv.json"  #2011
 ]
 
 # Green Taxi
 urls = ["https://data.cityofnewyork.us/resource/5gj9-2kzx.json", #2019
+
         "https://data.cityofnewyork.us/resource/w7fs-fd9i.json", #2018
+	
         "https://data.cityofnewyork.us/resource/5gj9-2kzx.json", #2017
+	
         "https://data.cityofnewyork.us/resource/hvrh-b6nb.json", #2016
+	
         "https://data.cityofnewyork.us/resource/gi8d-wdg5.json", #2015
+	
         "https://data.cityofnewyork.us/resource/2np7-5jsg.json", #2014
+	
         "https://data.cityofnewyork.us/resource/ghpb-fpea.json", #2013
 ]
 
