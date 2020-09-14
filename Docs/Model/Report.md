@@ -39,4 +39,4 @@ Distância Manhattan: |x1 – x2| + |y1 – y2|.
 
 
 A escolha do modelo ficou a cargo do GradientBoost que obteve um RMSE de 2.5, um nota boa para esse projeto.
-Será incorporado o INDEX a variável idTaxi e a criação da feature estimated_fare com o valor da previsão da tarifa para exportação dos resultados para visualzição via API Rest.
+Será incorporado uma variável idTaxi com junção de valores de latitude e ano e a criação da feature estimated_fare com o valor da previsão da tarifa para exportação dos resultados para visualzição via API Rest.
