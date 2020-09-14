@@ -7,9 +7,9 @@ Esse relatório das bases de dados do projeto.
 ## Bases de dados
 
 
-| Nome Dataset | Origem   | Destino  | Script |
-| ---:| ---: | ---: | ---: | -----: |
-BPREG_CSVdelimited.csv|Empresa Contratante|Pasta Data/Raw|
+|Nome Dataset|Origem|Destino|Script|
+| ---:| ---: | ---: | ---: |
+BPREG_CSVdelimited.csv|Empresa Contratante|Pasta Data/Raw||
 Arquivos .zip|Site [inlabs](https://inlabs.in.gov.br/acessar.php)|Pasta Data/Raw|[1-AquisicaoDadosAPI.ipynb](./Code/Operationalization/applicatons/1-AquisicaoDadosAPI.ipynb)
 Arquivos .xml|Pasta Data/Processed|Base SQLlite|[2-PreparacaoDadosAPI.ipynb](./Code/Operationalization/applicatons/2-PreparacaoDadosAPI.ipynb)
 base_total|Preparação de dados após (EDA) análise exploratória de dados|Modelagem|[DataAnalysysExplorations.ipynb](./Code/Operationalization/applicatons/DataAnalysysExplorations.ipynb)
