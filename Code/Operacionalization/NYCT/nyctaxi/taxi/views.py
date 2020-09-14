@@ -9,8 +9,8 @@ from taxi.serializers import *
 from taxi import dashboard
 
 import pandas as pd
+from nyctaxi.settings import TAXI_MODEL_WORKDIR
 
-PROJECT_FOLDER = 'C:/Users/Paulo/NYC-Taxi'
 
 # Create your views here.
 
@@ -20,14 +20,14 @@ def dashboard_home(requests):
 
 class TaxiViewSet(viewsets.ModelViewSet):
     """
-    API endpoint that allows countries to be viewed or edited.
+    API endpoint that allows Taxi to be viewed or edited.
     """
     queryset = Taxi.objects.all()
     serializer_class = TaxiSerializer
 
 class TaxiAPIView(APIView):
     """
-    API endpoint that allows wines to be viewed or edited.
+    API endpoint that allows Taxi to be viewed or edited.
     """
     def get(self, request):
         serializer = TaxiSerializer(Taxi.objects.all(), many=True)
@@ -35,7 +35,7 @@ class TaxiAPIView(APIView):
 
 
     def post(self, request, format=None):
-        data = dict([(k,float(v[0]) if isinstance(v, list) else float(v))
+        data = dict([(k,float(v[0]) if isinstance(v, list) else (v))
                      for k,v in request.data.items()
                     ])
 
@@ -52,7 +52,7 @@ class getDatabase(APIView):
   """
   def get(self, request):
       # Read database from pipeline_training
-      data_proc_file = PROJECT_FOLDER + '/Data/Modeling/dev_results.jbl'
+      data_proc_file = TAXI_MODEL_WORKDIR + '/Data/Modeling/dev_results.jbl'
       data = pd.read_parquet(data_proc_file)
       data = data.copy()
 

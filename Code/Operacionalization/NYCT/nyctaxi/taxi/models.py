@@ -6,7 +6,7 @@ from taxi import globalTrainResults
 
 class Taxi(models.Model):
     id=models.AutoField(primary_key=True)
-    idTaxi = models.IntegerField(default=0, null=False)
+    idTaxi = models.CharField(default=0, null=False, max_length=50)
     dropoff_latitude =  models.FloatField(default=0, null=False)
     dropoff_longitude =  models.FloatField(default=0, null=False)
     passenger_count =  models.IntegerField(default=0, null=False)
