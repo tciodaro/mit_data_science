@@ -15,8 +15,8 @@ import urllib.request
 import numpy as np
 
 
-dev_data = 'C:/Users/cammy/OneDrive/MIT IA/git/projeto_dogs/dogs_brand/Data/Modeling/dev_results.jbl'
-classes_file = 'C:/Users/cammy/OneDrive/MIT IA/git/projeto_dogs/dogs_brand/Data/Modeling/classes.jbl'
+dev_data = 'C:/Users/cammy/OneDrive/MIT IA/git/mit_data_science/Data/Modeling/dev_results.jbl'
+classes_file = 'C:/Users/cammy/OneDrive/MIT IA/git/mit_data_science/Data/Modeling/classes.jbl'
 
 baseurl = 'https://dog.ceo/api/'
 randomappend = '/images/random/'
@@ -29,6 +29,7 @@ classes = pandas.read_parquet(classes_file)
 # Training data
 data = pandas.read_parquet(dev_data)
 
+
 # Read operation data
 # ALERTA: COMENTAR ANTES DE FAZER python manage.py migrate.
 # DESCOMENTAR DEPOIS PARA FUNCIONAR CORRETAMENTE
@@ -36,11 +37,29 @@ pictures_list = models.Pictures.objects
 pictures_data = serializers.PicturesSerializer(pictures_list, many=True)
 pictures_table = pandas.DataFrame(pictures_data.data)
 
+hist_data1 = [pictures_table['estimated_score1'].values, data.estimated_score1.values]
+hist_data2 = [pictures_table['estimated_score2'].values, data.estimated_score2.values]
+hist_data3 = [pictures_table['estimated_score3'].values, data.estimated_score3.values]
+figs = []
+figs.append(ff.create_distplot(hist_data1, ['Base Produção', 'Treinamento'],show_hist=False))
+figs.append(ff.create_distplot(hist_data2, ['Base Produção', 'Treinamento'],show_hist=False))
+figs.append(ff.create_distplot(hist_data3, ['Base Produção', 'Treinamento'],show_hist=False))
+
+
 app = DjangoDash(
     "DogsDashboard",
     meta_tags=[{"name": "viewport", "content": "width=device-width"}],
     # external_stylesheets=external_stylesheets
 )
+
+
+@app.callback(
+    Output(component_id='score-dist', component_property='figure'),
+    [Input(component_id='class-fig-dropdown', component_property='value')]
+)
+def update_score_graph(selected_class):
+    i = classes[classes['raças']==selected_class].index.values[0]
+    return figs[i]
 
 @app.callback([
     dash.dependencies.Output('image', 'src'),
@@ -92,9 +111,10 @@ def update_dash():
     hist_data1 = [pictures_table['estimated_score1'].values, data.estimated_score1.values]
     hist_data2 = [pictures_table['estimated_score2'].values, data.estimated_score2.values]
     hist_data3 = [pictures_table['estimated_score3'].values, data.estimated_score3.values]
-    fig_dist1 = ff.create_distplot(hist_data1, ['Base Produção', 'Treinamento'],show_hist=False)
-    fig_dist2 = ff.create_distplot(hist_data2, ['Base Produção', 'Treinamento'],show_hist=False)
-    fig_dist3 = ff.create_distplot(hist_data3, ['Base Produção', 'Treinamento'],show_hist=False)
+    figs = []
+    figs.append(ff.create_distplot(hist_data1, ['Base Produção', 'Treinamento'],show_hist=False))
+    figs.append(ff.create_distplot(hist_data2, ['Base Produção', 'Treinamento'],show_hist=False))
+    figs.append(ff.create_distplot(hist_data3, ['Base Produção', 'Treinamento'],show_hist=False))
     ntop = 10
 
     app.layout = html.Div([
@@ -106,20 +126,13 @@ def update_dash():
 
         html.Div([
             html.H2('Distribuição do score das raças'),
-            html.H3(classes.values[0]),
-            dcc.Graph(
-                id='score-dist',
-                figure=fig_dist1
+            dcc.Dropdown(
+                id='class-fig-dropdown',
+                options=[{'label': i[0], 'value': i[0]}  for i in classes.values],
+            value=classes.values[0][0]
             ),
-            html.H3(classes.values[1]),
             dcc.Graph(
-                id='score-dist2',
-                figure=fig_dist2
-            ),
-            html.H3(classes.values[2]),
-            dcc.Graph(
-                id='score-dist3',
-                figure=fig_dist3
+                id='score-dist'
             )
         ], className="six columns"),
 
