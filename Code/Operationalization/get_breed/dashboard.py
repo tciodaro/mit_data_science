@@ -96,7 +96,7 @@ def on_click(n_clicks, value):
 
     picture_obj = requests.post(posturl, json=payload).json()
 
-    return breedimage, value, picture_obj['classification'], picture_obj['estimated_score1'], picture_obj['estimated_score2'], picture_obj['estimated_score2']
+    return breedimage, value, picture_obj['classification'], picture_obj['estimated_score1'], picture_obj['estimated_score2'], picture_obj['estimated_score3']
 
 
 def update_dash():
