@@ -27,7 +27,15 @@ Já termos como nome de meses, grande, gerais, e elétricas parecem ser mais fre
 
 Os resultados da normalização mostraram que a distribuição das features de cada palavra tem uma calda menos longa que o distribuição da contagem das palavras.
 
-O valor médio das features normalizadas por TfIdf diferem quando calculado para os comentários de cada classe. Pode-se observar que algumas palavras que não eram frequentes, como *tries* possuem uma diferença considerável no seu valor médio quando calculado para as classes.
+![](valormediotfidf.png)
+
+O valor médio das features normalizadas por TfIdf diferem quando calculado para os comentários de cada classe. Pode-se observar que algumas palavras que não eram frequentes, como *operação comercial* possuem uma diferença considerável no seu valor médio quando calculado para as classes.
+
+![](nuvemtfidf.png)
+
+Abaixo apresentamos o gráfico de proporção por classe de interesse para o tfidf médio.
+
+![](proptfidf.png)
 
 ## Modelagem
 
